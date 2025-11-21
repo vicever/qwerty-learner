@@ -1,5 +1,5 @@
 <div align=center>
-  <img src="https://github.com/Kaiyiwing/qwerty-learner/blob/master/src/assets/logo.svg"/>
+  <img src="https://github.com/vicever/qwerty-learner/blob/master/src/assets/logo.svg"/>
 </div>
 
 <h1 align="center">
@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Kaiyiwing/qwerty-learner/blob/master/LICENSE">
+  <a href="https://github.com/vicever/qwerty-learner/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/KaiyiWing/qwerty-learner" alt="License">
   </a>
   <a>
@@ -39,7 +39,7 @@ We have deployed QWERTY Learner on many platforms. You can try QWERTY Learner in
 QWERTY Learner also has a Visual Studio Code plugin. With a single click and you will be able to practice anytime.
 
 - Plugin: [VSCode Plugin Market](https://marketplace.visualstudio.com/items?itemName=Kaiyi.qwerty-learner)
-- Project: [GitHub](https://github.com/Kaiyiwing/qwerty-learner-vscode)
+- Project: [GitHub](https://github.com/vicever/qwerty-learner-vscode)
 
 ## ✨ Design Goals
 
@@ -54,7 +54,7 @@ QWERTY Learner is very useful for people who are going to take computer-based En
 QWERTY Learner is also helpful for developers. It has built-in dictionaries of words and phrases which are common in code and documentations. We believe these dictionaries will improve developers’ typing speed. Besides, It also has built-in API dictionaries of many languages, which helps developers quickly familiarize with common APIs. More and more APIs are coming soon.
 
 <div align="center">
-  <img src="https://github.com/Kaiyiwing/qwerty-learner/blob/master/docs/coder.png"/>
+  <img src="https://github.com/vicever/qwerty-learner/blob/master/docs/coder.png"/>
 </div>
 
 [mm]: https://en.wikipedia.org/wiki/Muscle_memory
@@ -78,7 +78,7 @@ While typing, QWERTY Learner shows the [IPA][ipa] of current word and reads the 
 After people finish a chapter, QWERTY Learner will ask if people are willing to dictate the chapter. This is intended to consolidate words learned in the chapter.
 
 <div align=center>
-  <img src="https://github.com/Kaiyiwing/qwerty-learner/blob/master/docs/phonetic.jpeg"/>
+  <img src="https://github.com/vicever/qwerty-learner/blob/master/docs/phonetic.jpeg"/>
 </div>
 
 ### Speed and Accuracy
@@ -86,7 +86,7 @@ After people finish a chapter, QWERTY Learner will ask if people are willing to 
 QWERTY Learner counts how many strokes people have typed and shows the speed and accuracy in real time. By doing so, people can acknowledge how much they have improved.
 
 <div align=center>
-  <img src="https://github.com/Kaiyiwing/qwerty-learner/blob/master/docs/dictation.png"/>
+  <img src="https://github.com/vicever/qwerty-learner/blob/master/docs/dictation.png"/>
 </div>
 
 ## 🏆 Honors
@@ -124,9 +124,9 @@ There are also many other unlisted vocabularies. If you need more vocabularies, 
 - Linux Command. Thanks to [@Riddler](https://github.com/vhxubo).
 - C# List API. Thanks to [@nidbCN](https://github.com/nidbCN).
 
-If you want to contribute your own API thesaurus, please have a look at [issue #40](https://github.com/Kaiyiwing/qwerty-learner/issues/40) and [PR #67][67] in order to learn how to contribute.
+If you want to contribute your own API thesaurus, please have a look at [issue #40](https://github.com/vicever/qwerty-learner/issues/40) and [PR #67][67] in order to learn how to contribute.
 
-[67]: https://github.com/Kaiyiwing/qwerty-learner/pull/67
+[67]: https://github.com/vicever/qwerty-learner/pull/67
 
 ## 🎙 Suggestions
 
@@ -136,7 +136,7 @@ The current progress and future plans are described in [this issue][issue-42]. T
 
 If you like the idea of QWERTY Learner, please feel free to submit PRs. We would be grateful for your contributions.
 
-[issue-42]: https://github.com/Kaiyiwing/qwerty-learner/issues/42
+[issue-42]: https://github.com/vicever/qwerty-learner/issues/42
 
 ## 🏄‍♂️ Contribution Guidelines
 
@@ -152,13 +152,13 @@ After all, thanks for your contribution! 🎉
 
 Currently, QWERTY Learner is mainly maintained by three people in their spare time. In the future, we hope to purchase a separate domain and host an backend server for data synchronization. Therefore, if you like QWERTY Learner, please consider donation. This will definitely motivate us on the way of making QWERTY Learner better!
 
-<img src="https://github.com/Kaiyiwing/qwerty-learner/blob/master/docs/alipay.png" width="200px"/>
+<img src="https://github.com/vicever/qwerty-learner/blob/master/docs/alipay.png" width="200px"/>
 
 Note: we only accept donation from Alipay at present.
 
 ## 👨‍💻 Contributors
 
-<a href="https://github.com/Kaiyiwing/qwerty-learner/graphs/contributors">
+<a href="https://github.com/vicever/qwerty-learner/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Kaiyiwing/qwerty-learner" />
 </a>
 
