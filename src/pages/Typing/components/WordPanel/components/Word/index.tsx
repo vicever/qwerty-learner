@@ -1,6 +1,7 @@
 import type { WordUpdateAction } from '../InputHandler'
 import InputHandler from '../InputHandler'
 import Letter from './Letter'
+import type { LetterState } from './Letter'
 import Notation from './Notation'
 import { TipAlert } from './TipAlert'
 import style from './index.module.css'
@@ -77,14 +78,32 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
         case 'add':
           if (wordState.hasWrong) return
 
+          // Auto-skip spaces: if the next expected character is a space, fill it automatically
+          let currentInput = wordState.inputWord
+          while (currentInput.length < wordState.displayWord.length && wordState.displayWord[currentInput.length] === EXPLICIT_SPACE) {
+            currentInput = currentInput + EXPLICIT_SPACE
+          }
+
           if (updateAction.value === ' ') {
-            updateAction.event.preventDefault()
-            setWordState((state) => {
-              state.inputWord = state.inputWord + EXPLICIT_SPACE
-            })
+            // User pressed space - since we auto-skip spaces, this is redundant
+            // If the current position still needs a space (shouldn't happen due to auto-skip), fill it
+            if (currentInput.length < wordState.displayWord.length && wordState.displayWord[currentInput.length] === EXPLICIT_SPACE) {
+              updateAction.event.preventDefault()
+              const withSpace = currentInput + EXPLICIT_SPACE
+              // Also auto-skip any spaces after this one
+              let finalInput = withSpace
+              while (finalInput.length < wordState.displayWord.length && wordState.displayWord[finalInput.length] === EXPLICIT_SPACE) {
+                finalInput = finalInput + EXPLICIT_SPACE
+              }
+              setWordState((state) => {
+                state.inputWord = finalInput
+              })
+            }
+            // Otherwise, ignore the space key press (user doesn't need to type spaces)
           } else {
             setWordState((state) => {
-              state.inputWord = state.inputWord + updateAction.value
+              // First set any auto-skipped spaces, then add the typed character
+              state.inputWord = currentInput + updateAction.value
             })
           }
           break
@@ -93,7 +112,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
           console.warn('unknown update type', updateAction)
       }
     },
-    [wordState.hasWrong, setWordState],
+    [wordState.hasWrong, wordState.inputWord, wordState.displayWord, setWordState],
   )
 
   const handleHoverWord = useCallback((checked: boolean) => {
@@ -168,68 +187,83 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
   useEffect(() => {
     const inputLength = wordState.inputWord.length
     /**
-     * TODO: 当用户输入错误时，会报错
-     * Cannot update a component (`App`) while rendering a different component (`WordComponent`). To locate the bad setState() call inside `WordComponent`, follow the stack trace as described in https://reactjs.org/link/setstate-in-render
-     * 目前不影响生产环境，猜测是因为开发环境下 react 会两次调用 useEffect 从而展示了这个 warning
-     * 但这终究是一个 bug，需要修复
+     * 新逻辑：输入过程中不逐字母判断对错，全部输入完后一次性显示结果
      */
     if (wordState.hasWrong || inputLength === 0 || wordState.displayWord.length === 0) {
       return
     }
 
-    const inputChar = wordState.inputWord[inputLength - 1]
-    const correctChar = wordState.displayWord[inputLength - 1]
-    let isEqual = false
-    if (inputChar != undefined && correctChar != undefined) {
-      isEqual = isIgnoreCase ? inputChar.toLowerCase() === correctChar.toLowerCase() : inputChar === correctChar
-    }
+    if (inputLength >= wordState.displayWord.length) {
+      // All characters entered - now evaluate the entire word at once
+      const inputWord = wordState.inputWord
+      const displayWord = wordState.displayWord
+      let allCorrect = true
+      const newLetterStates: LetterState[] = []
+      const mistakes: Record<number, string[]> = {}
 
-    if (isEqual) {
-      // 输入正确时
+      for (let i = 0; i < displayWord.length; i++) {
+        const inputChar = inputWord[i]
+        const correctChar = displayWord[i]
+        const isEqual =
+          inputChar != undefined && correctChar != undefined
+            ? isIgnoreCase
+              ? inputChar.toLowerCase() === correctChar.toLowerCase()
+              : inputChar === correctChar
+            : false
+
+        if (isEqual) {
+          newLetterStates.push('correct')
+        } else {
+          newLetterStates.push('wrong')
+          allCorrect = false
+          if (inputChar != undefined) {
+            mistakes[i] = [inputChar]
+          }
+        }
+      }
+
       setWordState((state) => {
+        state.letterStates = newLetterStates
+        state.correctCount = displayWord.length - Object.keys(mistakes).length
         state.letterTimeArray.push(Date.now())
-        state.correctCount += 1
       })
 
-      if (inputLength >= wordState.displayWord.length) {
-        // 完成输入时
+      if (allCorrect) {
+        // 完全正确
+        playHintSound()
         setWordState((state) => {
-          state.letterStates[inputLength - 1] = 'correct'
           state.isFinished = true
           state.endTime = getUtcStringForMixpanel()
         })
-        playHintSound()
+        dispatch({ type: TypingStateActionType.REPORT_CORRECT_WORD })
       } else {
+        // 有错误 - 显示结果后延迟重置
+        playBeepSound()
         setWordState((state) => {
-          state.letterStates[inputLength - 1] = 'correct'
+          state.hasWrong = true
+          state.hasMadeInputWrong = true
+          state.wrongCount += 1
+          state.letterMistake = { ...state.letterMistake, ...mistakes }
+
+          const currentState = JSON.parse(JSON.stringify(state))
+          dispatch({ type: TypingStateActionType.REPORT_WRONG_WORD, payload: { letterMistake: currentState.letterMistake } })
         })
-        playKeySound()
-      }
 
-      dispatch({ type: TypingStateActionType.REPORT_CORRECT_WORD })
-    } else {
-      // 出错时
-      playBeepSound()
-      setWordState((state) => {
-        state.letterStates[inputLength - 1] = 'wrong'
-        state.hasWrong = true
-        state.hasMadeInputWrong = true
-        state.wrongCount += 1
-        state.letterTimeArray = []
-
-        if (state.letterMistake[inputLength - 1]) {
-          state.letterMistake[inputLength - 1].push(inputChar)
-        } else {
-          state.letterMistake[inputLength - 1] = [inputChar]
+        if (currentChapter === 0 && state.chapterData.index === 0 && wordState.wrongCount >= 3) {
+          setShowTipAlert(true)
         }
-
-        const currentState = JSON.parse(JSON.stringify(state))
-        dispatch({ type: TypingStateActionType.REPORT_WRONG_WORD, payload: { letterMistake: currentState.letterMistake } })
-      })
-
-      if (currentChapter === 0 && state.chapterData.index === 0 && wordState.wrongCount >= 3) {
-        setShowTipAlert(true)
       }
+    } else {
+      // Still typing - just mark auto-filled spaces as correct, don't judge letters yet
+      setWordState((state) => {
+        for (let i = 0; i < inputLength; i++) {
+          if (state.displayWord[i] === EXPLICIT_SPACE && state.letterStates[i] === 'normal') {
+            state.letterStates[i] = 'correct'
+          }
+        }
+      })
+      playKeySound()
+      dispatch({ type: TypingStateActionType.REPORT_CORRECT_WORD })
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [wordState.inputWord])
@@ -242,7 +276,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
           state.letterStates = new Array(state.letterStates.length).fill('normal')
           state.hasWrong = false
         })
-      }, 300)
+      }, 1500)
 
       return () => {
         clearTimeout(timer)

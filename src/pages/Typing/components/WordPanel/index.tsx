@@ -148,6 +148,15 @@ export default function WordPanel() {
     return isShowTranslation || state.isTransVisible
   }, [isShowTranslation, state.isTransVisible])
 
+  const wordCountHint = useMemo(() => {
+    if (!currentWord) return ''
+    const wordCount = currentWord.name.trim().split(/\s+/).length
+    if (wordCount > 1) {
+      return `(${wordCount}词)`
+    }
+    return ''
+  }, [currentWord])
+
   return (
     <div className="container flex h-full w-full flex-col items-center justify-center">
       <div className="container flex h-24 w-full shrink-0 grow-0 justify-between px-12 pt-10">
@@ -174,7 +183,7 @@ export default function WordPanel() {
               <WordComponent word={currentWord} onFinish={onFinish} key={wordComponentKey} />
               {phoneticConfig.isOpen && <Phonetic word={currentWord} />}
               <Translation
-                trans={currentWord.trans.join('；')}
+                trans={currentWord.trans.join('；') + (wordCountHint ? ' ' + wordCountHint : '')}
                 showTrans={shouldShowTranslation}
                 onMouseEnter={() => handleShowTranslation(true)}
                 onMouseLeave={() => handleShowTranslation(false)}

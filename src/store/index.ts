@@ -67,7 +67,7 @@ export const pronunciationIsOpenAtom = atom((get) => get(pronunciationConfigAtom
 export const pronunciationIsTransReadAtom = atom((get) => get(pronunciationConfigAtom).isTransRead)
 
 export const randomConfigAtom = atomForConfig('randomConfig', {
-  isOpen: false,
+  isOpen: true,
 })
 
 export const isShowPrevAndNextWordAtom = atomWithStorage('isShowPrevAndNextWord', true)
@@ -103,7 +103,7 @@ export const infoPanelStateAtom = atom<InfoPanelState>({
 })
 
 export const wordDictationConfigAtom = atomForConfig('wordDictationConfig', {
-  isOpen: false,
+  isOpen: true,
   type: 'hideAll' as WordDictationType,
   openBy: 'auto' as WordDictationOpenBy,
 })
