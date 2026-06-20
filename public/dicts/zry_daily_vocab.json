@@ -49,6 +49,12 @@
         ]
     },
     {
+        "name": "a cloud of dust",
+        "trans": [
+            "一片灰尘"
+        ]
+    },
+    {
         "name": "a commitment",
         "trans": [
             "肩负着承诺所带来的责任"
@@ -115,7 +121,7 @@
         ]
     },
     {
-        "name": "a detailed profile of sb",
+        "name": "a detailed profile of sb.",
         "trans": [
             "某人的详细资料/介绍"
         ]
@@ -147,12 +153,7 @@
     {
         "name": "a false start",
         "trans": [
-            "一个错误的开端"
-        ]
-    },
-    {
-        "name": "a false start)",
-        "trans": [
+            "一个错误的开端",
             "开始(发展到成功)"
         ]
     },
@@ -211,6 +212,12 @@
         ]
     },
     {
+        "name": "a generous amount of space",
+        "trans": [
+            "空间很大"
+        ]
+    },
+    {
         "name": "a generous mind",
         "trans": [
             "宽广的胸怀"
@@ -256,6 +263,12 @@
         "name": "a hybrid car",
         "trans": [
             "混合动力汽车"
+        ]
+    },
+    {
+        "name": "a large variety of",
+        "trans": [
+            "各种各样的"
         ]
     },
     {
@@ -361,6 +374,12 @@
         ]
     },
     {
+        "name": "a species threatened with extinction",
+        "trans": [
+            "一个濒危物种"
+        ]
+    },
+    {
         "name": "a staple food in meals",
         "trans": [
             "膳食中的主食"
@@ -388,6 +407,12 @@
         "name": "a tremendous amount of experience",
         "trans": [
             "大量的经验"
+        ]
+    },
+    {
+        "name": "a tremendous explosion/pressure",
+        "trans": [
+            "巨大的爆炸声/压力"
         ]
     },
     {
@@ -441,7 +466,7 @@
     {
         "name": "abacus",
         "trans": [
-            "n.珠算",
+            "n. 珠算",
             "算盘"
         ]
     },
@@ -532,7 +557,7 @@
     {
         "name": "academics",
         "trans": [
-            "n.学术水平/知识"
+            "n. 学术水平/知识"
         ]
     },
     {
@@ -662,7 +687,6 @@
     {
         "name": "adapt",
         "trans": [
-            "v.",
             "改编/写"
         ]
     },
@@ -713,15 +737,15 @@
         ]
     },
     {
-        "name": "advance the cause",
+        "name": "advance",
         "trans": [
-            "推动/促进事业"
+            "v./n. 前进"
         ]
     },
     {
-        "name": "advance v./n",
+        "name": "advance the cause",
         "trans": [
-            "前进"
+            "推动/促进事业"
         ]
     },
     {
@@ -823,7 +847,7 @@
         ]
     },
     {
-        "name": "agricultural adj. agricultural community",
+        "name": "agricultural community",
         "trans": [
             "农村公社"
         ]
@@ -831,7 +855,8 @@
     {
         "name": "agriculture",
         "trans": [
-            "n.农业"
+            "n. 农业",
+            "n. 农业"
         ]
     },
     {
@@ -853,12 +878,6 @@
         "trans": [
             "n. 走廊",
             "过道"
-        ]
-    },
-    {
-        "name": "alarm",
-        "trans": [
-            "v./n."
         ]
     },
     {
@@ -900,7 +919,7 @@
     {
         "name": "allow sb. to do",
         "trans": [
-            "本意：允许某人做某事 引申义：使某人能够做某事="
+            "本意：允许某人做某事 引申义：使某人能够做某事"
         ]
     },
     {
@@ -918,7 +937,6 @@
     {
         "name": "alternative",
         "trans": [
-            "n./",
             "替代物",
             "可替代的"
         ]
@@ -1030,7 +1048,6 @@
     {
         "name": "anchor",
         "trans": [
-            "n./v.",
             "(抛/下)锚",
             "顶梁柱"
         ]
@@ -1073,25 +1090,13 @@
         ]
     },
     {
-        "name": "apparent adj. for no apparent reason",
-        "trans": [
-            "莫名其妙地"
-        ]
-    },
-    {
         "name": "apparently",
         "trans": [
             "adv. 显而易见地"
         ]
     },
     {
-        "name": "appeal",
-        "trans": [
-            "v./"
-        ]
-    },
-    {
-        "name": "appeal for/to sb. to do sth",
+        "name": "appeal for/to sb. to do sth.",
         "trans": [
             "呼吁某人做某事"
         ]
@@ -1103,13 +1108,13 @@
         ]
     },
     {
-        "name": "appeal to sb",
+        "name": "appeal to sb.",
         "trans": [
             "吸引某人"
         ]
     },
     {
-        "name": "appeal to sb. to do/for sth",
+        "name": "appeal to sb. to do/for sth.",
         "trans": [
             "呼吁某人做某事",
             "上诉"
@@ -1137,6 +1142,18 @@
         ]
     },
     {
+        "name": "apply",
+        "trans": [
+            "v. 申请"
+        ]
+    },
+    {
+        "name": "apply for",
+        "trans": [
+            "申请"
+        ]
+    },
+    {
         "name": "apply to",
         "trans": [
             "适用于"
@@ -1146,12 +1163,6 @@
         "name": "apply to......for",
         "trans": [
             "向......申请......"
-        ]
-    },
-    {
-        "name": "apply v. applicant n. apply for",
-        "trans": [
-            "申请"
         ]
     },
     {
@@ -1182,7 +1193,7 @@
         ]
     },
     {
-        "name": "approach sb",
+        "name": "approach sb.",
         "trans": [
             "接/走近某人"
         ]
@@ -1213,7 +1224,7 @@
         ]
     },
     {
-        "name": "archaeological adj. archaeologist",
+        "name": "archaeologist",
         "trans": [
             "n. 考古学家"
         ]
@@ -1225,7 +1236,7 @@
         ]
     },
     {
-        "name": "arouse feelings of guilt in sb",
+        "name": "arouse feelings of guilt in sb.",
         "trans": [
             "使某人产生内疚感"
         ]
@@ -1241,14 +1252,13 @@
         "trans": [
             "n. 文章/论文",
             "冠词",
-            "物品/件(="
+            "物品/件"
         ]
     },
     {
         "name": "artifact",
         "trans": [
-            "n.",
-            "历史文物="
+            "历史文物"
         ]
     },
     {
@@ -1316,7 +1326,7 @@
         ]
     },
     {
-        "name": "assure sb. of sth",
+        "name": "assure sb. of sth.",
         "trans": [
             "向某人保证某事"
         ]
@@ -1383,7 +1393,7 @@
     {
         "name": "at the cost of",
         "trans": [
-            "以......为代价=",
+            "以......为代价",
             "不惜一切代价"
         ]
     },
@@ -1402,7 +1412,7 @@
     {
         "name": "attain success",
         "trans": [
-            "取/获得成功="
+            "取/获得成功"
         ]
     },
     {
@@ -1459,7 +1469,6 @@
     {
         "name": "average",
         "trans": [
-            "adj. /",
             "普通/平常/中等的"
         ]
     },
@@ -1479,7 +1488,7 @@
         "name": "aviation",
         "trans": [
             "n. 航空/飞机制造业",
-            "n. 航空相对应)"
+            "n. 航空相对应"
         ]
     },
     {
@@ -1505,7 +1514,7 @@
         "name": "back and forth",
         "trans": [
             "来回/往返",
-            "反反复复="
+            "反反复复"
         ]
     },
     {
@@ -1517,7 +1526,6 @@
     {
         "name": "bait",
         "trans": [
-            "n./",
             "中圈套"
         ]
     },
@@ -1525,27 +1533,27 @@
         "name": "barrier",
         "trans": [
             "n. 障碍/隔阂",
-            "屏障/阻碍物=",
+            "屏障/阻碍物",
             "道闸/关卡"
         ]
     },
     {
         "name": "battleground",
         "trans": [
-            "n. 战/沙场="
+            "n. 战/沙场"
         ]
     },
     {
         "name": "be accountable to",
         "trans": [
-            "对......负责="
+            "对......负责"
         ]
     },
     {
         "name": "be addicted to",
         "trans": [
             "对.....上瘾",
-            "沉溺于......="
+            "沉溺于......"
         ]
     },
     {
@@ -1568,9 +1576,15 @@
         ]
     },
     {
+        "name": "be beneficial to",
+        "trans": [
+            "对......有益"
+        ]
+    },
+    {
         "name": "be better armed",
         "trans": [
-            "装备更精良="
+            "装备更精良"
         ]
     },
     {
@@ -1613,7 +1627,8 @@
     {
         "name": "be dependent on",
         "trans": [
-            "依赖="
+            "依赖",
+            "反义词组："
         ]
     },
     {
@@ -1643,7 +1658,7 @@
         ]
     },
     {
-        "name": "be employed in doing sth",
+        "name": "be employed in doing sth.",
         "trans": [
             "忙于做某事"
         ]
@@ -1689,7 +1704,7 @@
         ]
     },
     {
-        "name": "be generous with sth./in doing sth",
+        "name": "be generous with sth./in doing sth.",
         "trans": [
             "在......方面慷慨大方"
         ]
@@ -1697,7 +1712,7 @@
     {
         "name": "be held accountable for",
         "trans": [
-            "对......负责="
+            "对......负责"
         ]
     },
     {
@@ -1759,7 +1774,7 @@
         "name": "be made public",
         "trans": [
             "公之于众",
-            "公开="
+            "公开"
         ]
     },
     {
@@ -1784,6 +1799,12 @@
         "name": "be obsessed with",
         "trans": [
             "痴迷于"
+        ]
+    },
+    {
+        "name": "be of benefit to",
+        "trans": [
+            "对......有益"
         ]
     },
     {
@@ -1849,6 +1870,13 @@
         ]
     },
     {
+        "name": "be proud of",
+        "trans": [
+            "对......感到自豪",
+            "以......为傲"
+        ]
+    },
+    {
         "name": "be put to use",
         "trans": [
             "投入使用"
@@ -1869,13 +1897,12 @@
     {
         "name": "be respectful of",
         "trans": [
-            "尊重="
+            "尊重"
         ]
     },
     {
         "name": "be responsible for",
         "trans": [
-            "=",
             "承担责任"
         ]
     },
@@ -1883,7 +1910,7 @@
         "name": "be seated",
         "trans": [
             "就座",
-            "坐下="
+            "坐下"
         ]
     },
     {
@@ -1928,7 +1955,7 @@
         ]
     },
     {
-        "name": "be tied to sth",
+        "name": "be tied to sth.",
         "trans": [
             "与某事绑定/联系在一块儿 to是介词"
         ]
@@ -1937,7 +1964,7 @@
         "name": "be to blame",
         "trans": [
             "应该受到责备/承担责任",
-            "是......的罪魁祸首/始作俑者="
+            "是......的罪魁祸首/始作俑者"
         ]
     },
     {
@@ -1974,19 +2001,19 @@
     {
         "name": "beneficial",
         "trans": [
-            "adj.有益/利的"
+            "adj. 有益/利的"
+        ]
+    },
+    {
+        "name": "benefit",
+        "trans": [
+            "对......有益"
         ]
     },
     {
         "name": "benefit from",
         "trans": [
             "从......中获益"
-        ]
-    },
-    {
-        "name": "benefit v./n. benefit=be of benefit to=be beneficial to",
-        "trans": [
-            "对......有益"
         ]
     },
     {
@@ -2004,7 +2031,7 @@
         ]
     },
     {
-        "name": "betrayal n. betrayer",
+        "name": "betrayer",
         "trans": [
             "n. 背叛者"
         ]
@@ -2030,7 +2057,15 @@
         ]
     },
     {
-        "name": "blame sb. for sth.=blame sth. on sb",
+        "name": "blame sb. for sth.",
+        "trans": [
+            "归咎于某人；因某事责备某人",
+            "是罪魁祸首/始作俑者",
+            "归咎于某人/因某事责怪某人"
+        ]
+    },
+    {
+        "name": "blame sth. on sb.",
         "trans": [
             "归咎于某人；因某事责备某人",
             "是罪魁祸首/始作俑者",
@@ -2050,7 +2085,7 @@
         "trans": [
             "融入",
             "混合 有时也说",
-            "混/融/加入/适应="
+            "混/融/加入/适应"
         ]
     },
     {
@@ -2071,11 +2106,11 @@
     {
         "name": "bloodshed",
         "trans": [
-            "n. 流血事件/伤亡)"
+            "n. 流血事件/伤亡"
         ]
     },
     {
-        "name": "blow off sb",
+        "name": "blow off sb.",
         "trans": [
             "不理睬",
             "终止与某人的关系。"
@@ -2154,7 +2189,7 @@
     {
         "name": "break down",
         "trans": [
-            "崩溃/破防(此意接近于",
+            "崩溃/破防此意接近于",
             "坍塌",
             "分解"
         ]
@@ -2227,6 +2262,12 @@
         ]
     },
     {
+        "name": "by comparison",
+        "trans": [
+            "相比之下"
+        ]
+    },
+    {
         "name": "by design",
         "trans": [
             "有意为之",
@@ -2245,7 +2286,7 @@
     {
         "name": "by no means",
         "trans": [
-            "绝不="
+            "绝不"
         ]
     },
     {
@@ -2305,7 +2346,7 @@
         ]
     },
     {
-        "name": "cannot afford to offend sb",
+        "name": "cannot afford to offend sb.",
         "trans": [
             "不敢得罪某人"
         ]
@@ -2346,7 +2387,6 @@
     {
         "name": "carcass",
         "trans": [
-            "n.",
             "死尸"
         ]
     },
@@ -2396,12 +2436,6 @@
         ]
     },
     {
-        "name": "catalyst",
-        "trans": [
-            "n./"
-        ]
-    },
-    {
         "name": "catch up to",
         "trans": [
             "追上",
@@ -2416,7 +2450,7 @@
         ]
     },
     {
-        "name": "celebration n. celebrity",
+        "name": "celebrity",
         "trans": [
             "n. 名人"
         ]
@@ -2462,6 +2496,12 @@
         ]
     },
     {
+        "name": "chief editor",
+        "trans": [
+            "主编"
+        ]
+    },
+    {
         "name": "chief executive officer",
         "trans": [
             "首席执行官"
@@ -2488,7 +2528,7 @@
     {
         "name": "chop off",
         "trans": [
-            "砍掉/断="
+            "砍掉/断"
         ]
     },
     {
@@ -2569,7 +2609,7 @@
         ]
     },
     {
-        "name": "close in on sb",
+        "name": "close in on sb.",
         "trans": [
             "向某人逼近/包围"
         ]
@@ -2595,12 +2635,6 @@
         ]
     },
     {
-        "name": "co-author",
-        "trans": [
-            "v./n."
-        ]
-    },
-    {
         "name": "coal mine",
         "trans": [
             "煤矿"
@@ -2614,9 +2648,15 @@
         ]
     },
     {
+        "name": "cognise/cognize",
+        "trans": [
+            "v. 对比一下："
+        ]
+    },
+    {
         "name": "cognition",
         "trans": [
-            "n.认知",
+            "n. 认知",
             "觉察到"
         ]
     },
@@ -2624,12 +2664,6 @@
         "name": "cognitive",
         "trans": [
             "adj. 认知的"
-        ]
-    },
-    {
-        "name": "cognitive adj. cognise/cognize",
-        "trans": [
-            "v. 对比一下："
         ]
     },
     {
@@ -2701,7 +2735,7 @@
         "name": "come to an end",
         "trans": [
             "告终",
-            "结束="
+            "结束"
         ]
     },
     {
@@ -2758,13 +2792,7 @@
     {
         "name": "commercial",
         "trans": [
-            "adj. 商业的/"
-        ]
-    },
-    {
-        "name": "commercial adj. agriculture",
-        "trans": [
-            "n. 农业"
+            "adj. 商业的"
         ]
     },
     {
@@ -2820,15 +2848,15 @@
         ]
     },
     {
-        "name": "communicate with sb",
+        "name": "communicate sth. to sb.",
         "trans": [
-            "与某人交流"
+            "向某人传达某事"
         ]
     },
     {
-        "name": "communication n. communicate v. communicate sth. to sb",
+        "name": "communicate with sb.",
         "trans": [
-            "向某人传达某事"
+            "与某人交流"
         ]
     },
     {
@@ -2853,12 +2881,6 @@
         ]
     },
     {
-        "name": "compare A with/to B) comparison n. by comparison",
-        "trans": [
-            "相比之下="
-        ]
-    },
-    {
         "name": "compared with males",
         "trans": [
             "相比于男性"
@@ -2871,11 +2893,11 @@
         ]
     },
     {
-        "name": "complete v./adj",
+        "name": "complete",
         "trans": [
-            "完成",
-            "结束",
-            "使完整"
+            "v./adj. 完成",
+            "v./adj. 结束",
+            "v./adj. 使完整"
         ]
     },
     {
@@ -2899,9 +2921,9 @@
         ]
     },
     {
-        "name": "conceal sth. from sb",
+        "name": "conceal sth. from sb.",
         "trans": [
-            "对某人隐瞒某事="
+            "对某人隐瞒某事"
         ]
     },
     {
@@ -2933,7 +2955,6 @@
     {
         "name": "conservationist",
         "trans": [
-            "n.",
             "保守党的",
             "保守派/党"
         ]
@@ -3096,7 +3117,7 @@
         ]
     },
     {
-        "name": "cost sb. sth",
+        "name": "cost sb. sth.",
         "trans": [
             "注意该词动词后跟双宾语的用法 还有，"
         ]
@@ -3111,7 +3132,7 @@
     {
         "name": "count",
         "trans": [
-            "v. 重要=",
+            "v. 重要",
             "v. 数数"
         ]
     },
@@ -3122,11 +3143,11 @@
         ]
     },
     {
-        "name": "count on sb",
+        "name": "count on sb.",
         "trans": [
             "指望",
             "依赖",
-            "重要="
+            "重要"
         ]
     },
     {
@@ -3259,7 +3280,6 @@
     {
         "name": "current",
         "trans": [
-            "adj./",
             "通用/流行的",
             "水/电/气流"
         ]
@@ -3347,7 +3367,7 @@
         "name": "dazzling",
         "trans": [
             "adj. 令人赞叹/叹为观止的",
-            "眩/炫目/耀眼的="
+            "眩/炫目/耀眼的"
         ]
     },
     {
@@ -3378,7 +3398,7 @@
     {
         "name": "dedicate",
         "trans": [
-            "v.奉献",
+            "v. 奉献",
             "多用作"
         ]
     },
@@ -3389,7 +3409,7 @@
         ]
     },
     {
-        "name": "dedicate sth. to doing sth",
+        "name": "dedicate sth. to doing sth.",
         "trans": [
             "把时间等贡献在做某事上"
         ]
@@ -3441,7 +3461,7 @@
         ]
     },
     {
-        "name": "demand sth. of/from sb",
+        "name": "demand sth. of/from sb.",
         "trans": [
             "要求某人成为....../作出解释等"
         ]
@@ -3454,12 +3474,6 @@
         ]
     },
     {
-        "name": "dependent adj. be dependent on",
-        "trans": [
-            "反义词组："
-        ]
-    },
-    {
         "name": "depression",
         "trans": [
             "n. 抑郁(症)",
@@ -3468,7 +3482,7 @@
         ]
     },
     {
-        "name": "deprive sb. of sth",
+        "name": "deprive sb. of sth.",
         "trans": [
             "剥夺某人某物"
         ]
@@ -3524,7 +3538,7 @@
         "trans": [
             "prep. 即使",
             "尽管",
-            "虽然="
+            "虽然"
         ]
     },
     {
@@ -3620,7 +3634,7 @@
         "name": "die out",
         "trans": [
             "消失",
-            "灭绝="
+            "灭绝"
         ]
     },
     {
@@ -3642,7 +3656,7 @@
         ]
     },
     {
-        "name": "diligence) the entertainment industry",
+        "name": "diligence the entertainment industry",
         "trans": [
             "娱乐业"
         ]
@@ -3654,11 +3668,17 @@
         ]
     },
     {
+        "name": "disaster relief",
+        "trans": [
+            "救灾物资"
+        ]
+    },
+    {
         "name": "disclose",
         "trans": [
             "v. 透/泄露",
             "揭示/发",
-            "公开操纵="
+            "公开操纵"
         ]
     },
     {
@@ -3745,15 +3765,15 @@
         ]
     },
     {
-        "name": "document one's experiences",
+        "name": "document",
         "trans": [
-            "记录某人经历"
+            "v./n. 记录/记载"
         ]
     },
     {
-        "name": "document v./n",
+        "name": "document one's experiences",
         "trans": [
-            "记录/记载"
+            "记录某人经历"
         ]
     },
     {
@@ -3808,9 +3828,15 @@
         ]
     },
     {
-        "name": "dominate v. dominance n. dominating",
+        "name": "dominating",
         "trans": [
             "adj. 有影响力的"
+        ]
+    },
+    {
+        "name": "Don't drink or smoke to excess",
+        "trans": [
+            "勿过度饮酒或抽烟"
         ]
     },
     {
@@ -3822,13 +3848,7 @@
     {
         "name": "downsides and upsides",
         "trans": [
-            "优缺点="
-        ]
-    },
-    {
-        "name": "drain",
-        "trans": [
-            "n./"
+            "优缺点"
         ]
     },
     {
@@ -3840,7 +3860,7 @@
     {
         "name": "drain the dishes",
         "trans": [
-            "沥干(盘子的"
+            "沥干盘子的"
         ]
     },
     {
@@ -3906,12 +3926,6 @@
         ]
     },
     {
-        "name": "dust n. a cloud of dust",
-        "trans": [
-            "一片灰尘"
-        ]
-    },
-    {
         "name": "dust storm",
         "trans": [
             "尘暴"
@@ -3946,7 +3960,7 @@
         ]
     },
     {
-        "name": "ecologic adj. ecologist",
+        "name": "ecologist",
         "trans": [
             "n. 生态学家/者"
         ]
@@ -3983,12 +3997,6 @@
         ]
     },
     {
-        "name": "edition n. edit v. editorial adj./n",
-        "trans": [
-            "编辑/社论的"
-        ]
-    },
-    {
         "name": "editor",
         "trans": [
             "n. 编辑(指人)",
@@ -3997,9 +4005,15 @@
         ]
     },
     {
-        "name": "editor-in-chief=chief editor",
+        "name": "editor-in-chief",
         "trans": [
             "主编"
+        ]
+    },
+    {
+        "name": "editorial",
+        "trans": [
+            "adj./n. 编辑/社论的"
         ]
     },
     {
@@ -4015,6 +4029,12 @@
             "n. 柔韧性",
             "弹性/弹力 近义词",
             "柔韧/弹性 二者的"
+        ]
+    },
+    {
+        "name": "elasticity inflexible",
+        "trans": [
+            "adj. 缺乏弹性的"
         ]
     },
     {
@@ -4063,7 +4083,7 @@
         ]
     },
     {
-        "name": "emotional adj. emotion",
+        "name": "emotion",
         "trans": [
             "n. 情绪"
         ]
@@ -4104,12 +4124,6 @@
         "trans": [
             "与......有同感",
             "感同身受"
-        ]
-    },
-    {
-        "name": "emphasis n. put/lay/place emphasis on",
-        "trans": [
-            "强调"
         ]
     },
     {
@@ -4168,6 +4182,12 @@
         ]
     },
     {
+        "name": "end up doing",
+        "trans": [
+            "最终......"
+        ]
+    },
+    {
         "name": "endure constant pain",
         "trans": [
             "忍受持续痛苦"
@@ -4181,7 +4201,7 @@
         ]
     },
     {
-        "name": "energy n. energize",
+        "name": "energize",
         "trans": [
             "v. 供给......能量"
         ]
@@ -4211,7 +4231,7 @@
     {
         "name": "engaging",
         "trans": [
-            "adj. 吸引/迷人的="
+            "adj. 吸引/迷人的"
         ]
     },
     {
@@ -4241,7 +4261,7 @@
         ]
     },
     {
-        "name": "entertain sb. with=treat sb. to",
+        "name": "entertain sb. with",
         "trans": [
             "用......款待某人"
         ]
@@ -4258,12 +4278,7 @@
         "name": "entertaining",
         "trans": [
             "adj. 使人愉快的",
-            "娱乐性/有趣的"
-        ]
-    },
-    {
-        "name": "entertainment n. entertaining",
-        "trans": [
+            "娱乐性/有趣的",
             "adj. 娱乐性/令人愉快的"
         ]
     },
@@ -4277,7 +4292,7 @@
         "name": "enthusiasm",
         "trans": [
             "n. 热情/热忱",
-            "热衷的事物="
+            "热衷的事物"
         ]
     },
     {
@@ -4296,15 +4311,9 @@
     {
         "name": "epic",
         "trans": [
-            "n./",
             "惊人之举/壮举",
-            "艰苦卓绝的"
-        ]
-    },
-    {
-        "name": "epic adj./n",
-        "trans": [
-            "史诗般的"
+            "艰苦卓绝的",
+            "adj./n. 史诗般的"
         ]
     },
     {
@@ -4316,7 +4325,7 @@
     {
         "name": "equipment",
         "trans": [
-            "n. 设备/器材(永单，类似词汇还有：",
+            "n. 设备/器材永单，类似词汇还有：",
             "设备"
         ]
     },
@@ -4347,7 +4356,7 @@
         ]
     },
     {
-        "name": "evolution n. evolutionary adj. evolutionary theory",
+        "name": "evolutionary theory",
         "trans": [
             "进化论"
         ]
@@ -4357,6 +4366,12 @@
         "trans": [
             "v. 进化",
             "演化/变"
+        ]
+    },
+    {
+        "name": "exaggeration",
+        "trans": [
+            "反义词汇："
         ]
     },
     {
@@ -4370,12 +4385,6 @@
         "trans": [
             "n./v. 摘录",
             "节选"
-        ]
-    },
-    {
-        "name": "excess n. Don't drink or smoke to excess",
-        "trans": [
-            "勿过度饮酒或抽烟"
         ]
     },
     {
@@ -4398,12 +4407,6 @@
         ]
     },
     {
-        "name": "execute v. executor",
-        "trans": [
-            "n. 执行人"
-        ]
-    },
-    {
         "name": "executive",
         "trans": [
             "adj. 行政/有执行权的"
@@ -4422,6 +4425,12 @@
         ]
     },
     {
+        "name": "executor",
+        "trans": [
+            "n. 执行人"
+        ]
+    },
+    {
         "name": "exercise-a-holic",
         "trans": [
             "运动狂热者"
@@ -4430,13 +4439,12 @@
     {
         "name": "exhaust",
         "trans": [
-            "n.",
             "排气管(装置) vt. 使精疲力尽/疲惫不堪",
             "耗尽"
         ]
     },
     {
-        "name": "exhaustion n. exhausted",
+        "name": "exhausted",
         "trans": [
             "adj. 累坏了"
         ]
@@ -4462,7 +4470,6 @@
     {
         "name": "expert",
         "trans": [
-            "n./",
             "能手",
             "专家/专业的"
         ]
@@ -4476,7 +4483,7 @@
     {
         "name": "explode",
         "trans": [
-            "勃然大怒)"
+            "勃然大怒"
         ]
     },
     {
@@ -4488,21 +4495,21 @@
         ]
     },
     {
-        "name": "extension n. extend",
+        "name": "extend",
         "trans": [
             "v. 扩大"
-        ]
-    },
-    {
-        "name": "extensive adj. extensive damage",
-        "trans": [
-            "巨大损失"
         ]
     },
     {
         "name": "extensive care",
         "trans": [
             "全面护理"
+        ]
+    },
+    {
+        "name": "extensive damage",
+        "trans": [
+            "巨大损失"
         ]
     },
     {
@@ -4514,7 +4521,7 @@
     {
         "name": "extensive reading",
         "trans": [
-            "泛读("
+            "泛读"
         ]
     },
     {
@@ -4538,12 +4545,6 @@
         ]
     },
     {
-        "name": "extermination n. terminator",
-        "trans": [
-            "n. 终结者"
-        ]
-    },
-    {
         "name": "exterminator n",
         "trans": [
             "灭虫师/专家",
@@ -4559,13 +4560,19 @@
         ]
     },
     {
-        "name": "fail in sth",
+        "name": "fail",
+        "trans": [
+            "v. 未能做到某事"
+        ]
+    },
+    {
+        "name": "fail in sth.",
         "trans": [
             "在某事上失败"
         ]
     },
     {
-        "name": "fail v. fail to do sth",
+        "name": "fail to do sth.",
         "trans": [
             "未能做到某事"
         ]
@@ -4647,7 +4654,6 @@
     {
         "name": "fancy",
         "trans": [
-            "v./",
             "倾慕(某人)",
             "表示震惊"
         ]
@@ -4704,12 +4710,6 @@
         ]
     },
     {
-        "name": "fatigue",
-        "trans": [
-            "n."
-        ]
-    },
-    {
         "name": "fault",
         "trans": [
             "n. 过错/失",
@@ -4720,9 +4720,14 @@
     {
         "name": "favor",
         "trans": [
-            "v./",
             "有利于",
             "支持"
+        ]
+    },
+    {
+        "name": "favour",
+        "trans": [
+            "青睐/喜欢/偏爱"
         ]
     },
     {
@@ -4734,7 +4739,6 @@
     {
         "name": "feature",
         "trans": [
-            "v./n.",
             "特写",
             "专题节目"
         ]
@@ -4762,7 +4766,7 @@
     {
         "name": "feel cut off from the adult world",
         "trans": [
-            "感觉与成年人世界隔绝了 过去分词作表语表被动=",
+            "感觉与成年人世界隔绝了 过去分词作表语表被动",
             "还可以有更多的例子："
         ]
     },
@@ -4779,7 +4783,7 @@
         ]
     },
     {
-        "name": "feel obliged to do sth",
+        "name": "feel obliged to do sth.",
         "trans": [
             "感到有义务做某事",
             "责任/职责"
@@ -4865,7 +4869,6 @@
     {
         "name": "fit",
         "trans": [
-            "v./",
             "安装",
             "健康的 动词",
             "与"
@@ -4880,7 +4883,7 @@
     {
         "name": "fit in",
         "trans": [
-            "融入="
+            "融入"
         ]
     },
     {
@@ -4908,7 +4911,7 @@
         ]
     },
     {
-        "name": "flame sb",
+        "name": "flame sb.",
         "trans": [
             "怒怼某人"
         ]
@@ -4929,12 +4932,6 @@
         "name": "flexibility",
         "trans": [
             "n. 灵活性"
-        ]
-    },
-    {
-        "name": "flexibility n.=elasticity inflexible",
-        "trans": [
-            "adj. 缺乏弹性的"
         ]
     },
     {
@@ -4970,7 +4967,7 @@
     {
         "name": "flood in",
         "trans": [
-            "涌入="
+            "涌入"
         ]
     },
     {
@@ -5007,7 +5004,7 @@
     {
         "name": "focus on",
         "trans": [
-            "聚焦于="
+            "聚焦于"
         ]
     },
     {
@@ -5074,6 +5071,12 @@
         ]
     },
     {
+        "name": "for no apparent reason",
+        "trans": [
+            "莫名其妙地"
+        ]
+    },
+    {
         "name": "for one thing",
         "trans": [
             "首先，一则"
@@ -5088,7 +5091,7 @@
     {
         "name": "force one’s way through",
         "trans": [
-            "强行突破/进入="
+            "强行突破/进入"
         ]
     },
     {
@@ -5101,7 +5104,13 @@
     {
         "name": "foreseeable",
         "trans": [
-            "adj. 可预知/预料/预见的="
+            "adj. 可预知/预料/预见的"
+        ]
+    },
+    {
+        "name": "foresight",
+        "trans": [
+            "n. 先见之明"
         ]
     },
     {
@@ -5185,7 +5194,7 @@
         ]
     },
     {
-        "name": "fund v./n. fund health care projects",
+        "name": "fund health care projects",
         "trans": [
             "资助医疗保健项目"
         ]
@@ -5212,13 +5221,7 @@
         ]
     },
     {
-        "name": "gamble",
-        "trans": [
-            "n./"
-        ]
-    },
-    {
-        "name": "gamble on doing sth",
+        "name": "gamble on doing sth.",
         "trans": [
             "碰运气/冒......的风险"
         ]
@@ -5248,12 +5251,6 @@
         "name": "generosity",
         "trans": [
             "n. 慷慨/大方"
-        ]
-    },
-    {
-        "name": "generous adj. a generous amount of space",
-        "trans": [
-            "空间很大"
         ]
     },
     {
@@ -5332,7 +5329,7 @@
         ]
     },
     {
-        "name": "get to do sth",
+        "name": "get to do sth.",
         "trans": [
             "有机会做某事"
         ]
@@ -5344,19 +5341,19 @@
         ]
     },
     {
-        "name": "give a rare glimpse into sth",
+        "name": "give a rare glimpse into sth.",
         "trans": [
             "提供对某事物难得的观察视角"
         ]
     },
     {
-        "name": "give new insight into sth",
+        "name": "give new insight into sth.",
         "trans": [
             "对某事有新的见解/理解"
         ]
     },
     {
-        "name": "give power to sb",
+        "name": "give power to sb.",
         "trans": [
             "赋予某人权力",
             "授权"
@@ -5368,12 +5365,6 @@
             "承认某人的努力或成就",
             "赞扬/认可",
             "归功于某人"
-        ]
-    },
-    {
-        "name": "global",
-        "trans": [
-            "adj."
         ]
     },
     {
@@ -5411,7 +5402,7 @@
         ]
     },
     {
-        "name": "go down) the road less travelled",
+        "name": "go down the road less travelled",
         "trans": [
             "的意思"
         ]
@@ -5472,7 +5463,7 @@
     {
         "name": "had meant to do",
         "trans": [
-            "本打算做某事="
+            "本打算做某事"
         ]
     },
     {
@@ -5497,7 +5488,6 @@
     {
         "name": "hang",
         "trans": [
-            "v./",
             "绞死/上吊"
         ]
     },
@@ -5528,7 +5518,7 @@
     {
         "name": "harmony",
         "trans": [
-            "n.和谐/融洽",
+            "n. 和谐/融洽",
             "协调",
             "和声(一种演唱方式)"
         ]
@@ -5550,7 +5540,6 @@
     {
         "name": "haunt",
         "trans": [
-            "v.",
             "萦绕在脑际/难以忘却",
             "困扰/缠绕"
         ]
@@ -5577,7 +5566,13 @@
     {
         "name": "have a respect for",
         "trans": [
-            "尊/敬重="
+            "尊/敬重"
+        ]
+    },
+    {
+        "name": "have influence on sb.",
+        "trans": [
+            "对某人有影响"
         ]
     },
     {
@@ -5589,7 +5584,7 @@
     {
         "name": "have purpose",
         "trans": [
-            "有意义="
+            "有意义"
         ]
     },
     {
@@ -5619,15 +5614,15 @@
         ]
     },
     {
-        "name": "hazard analysis",
+        "name": "hazard",
         "trans": [
-            "危害分析"
+            "n./v. 危害/危险"
         ]
     },
     {
-        "name": "hazard n./v",
+        "name": "hazard analysis",
         "trans": [
-            "危害/危险"
+            "危害分析"
         ]
     },
     {
@@ -5695,6 +5690,12 @@
         ]
     },
     {
+        "name": "heritable",
+        "trans": [
+            "adj. 可继承的"
+        ]
+    },
+    {
         "name": "heritage",
         "trans": [
             "n. 遗产",
@@ -5735,7 +5736,7 @@
         ]
     },
     {
-        "name": "hit the pause button on sth",
+        "name": "hit the pause button on sth.",
         "trans": [
             "暂停某事",
             "按下暂停键"
@@ -5784,7 +5785,7 @@
         ]
     },
     {
-        "name": "humidify v. humidifier",
+        "name": "humidifier",
         "trans": [
             "n. 加湿器"
         ]
@@ -5809,12 +5810,6 @@
         ]
     },
     {
-        "name": "hurt v./n. You're hurting me",
-        "trans": [
-            "你弄疼我了/"
-        ]
-    },
-    {
         "name": "hybrid",
         "trans": [
             "n. 杂交植物/动物",
@@ -5830,7 +5825,6 @@
     {
         "name": "ideal",
         "trans": [
-            "n./",
             "完美之人/物"
         ]
     },
@@ -5868,12 +5862,6 @@
         ]
     },
     {
-        "name": "ignorant",
-        "trans": [
-            "adj."
-        ]
-    },
-    {
         "name": "ignore",
         "trans": [
             "v. 忽略/无视/不理会",
@@ -5892,6 +5880,12 @@
         "name": "illusion",
         "trans": [
             "n. 幻想"
+        ]
+    },
+    {
+        "name": "immature",
+        "trans": [
+            "adj. 不成熟的"
         ]
     },
     {
@@ -5947,7 +5941,7 @@
     {
         "name": "impulse",
         "trans": [
-            "n. 冲动/心血来潮/一时兴起=",
+            "n. 冲动/心血来潮/一时兴起",
             "脉冲"
         ]
     },
@@ -6087,7 +6081,7 @@
         ]
     },
     {
-        "name": "in the long term=run",
+        "name": "in the long term",
         "trans": [
             "长期"
         ]
@@ -6100,7 +6094,7 @@
         ]
     },
     {
-        "name": "in the world=on earth",
+        "name": "in the world",
         "trans": [
             "究竟"
         ]
@@ -6160,7 +6154,7 @@
     {
         "name": "indifferent",
         "trans": [
-            "adj.漠不关心/不感兴趣/漠然的"
+            "adj. 漠不关心/不感兴趣/漠然的"
         ]
     },
     {
@@ -6212,14 +6206,14 @@
         "trans": [
             "n. 工/行业",
             "生产制造",
-            "勤奋(=",
+            "勤奋",
             "n. 工业"
         ]
     },
     {
         "name": "inevitable",
         "trans": [
-            "adj. 不可避免/必然发生的="
+            "adj. 不可避免/必然发生的"
         ]
     },
     {
@@ -6231,28 +6225,21 @@
     {
         "name": "infant",
         "trans": [
-            "n./",
             "学童",
             "供婴幼儿用的"
         ]
     },
     {
-        "name": "inferior adj./n. superiority",
+        "name": "influence",
         "trans": [
-            "n. 优越(性)"
+            "v./n. 影响",
+            "v./n. 左右(某人决策等)"
         ]
     },
     {
-        "name": "influence sb.=have influence on sb",
+        "name": "influence sb.",
         "trans": [
             "对某人有影响"
-        ]
-    },
-    {
-        "name": "influence v./n",
-        "trans": [
-            "影响",
-            "左右(某人决策等)"
         ]
     },
     {
@@ -6268,14 +6255,9 @@
         ]
     },
     {
-        "name": "inform v. information n. informative adj. informant",
-        "trans": [
-            "n. 信息提供者"
-        ]
-    },
-    {
         "name": "informant",
         "trans": [
+            "n. 信息提供者",
             "n. 线人",
             "告密者",
             "提供消息者"
@@ -6308,7 +6290,7 @@
         ]
     },
     {
-        "name": "inheritance n. inheritable=heritable",
+        "name": "inheritable",
         "trans": [
             "adj. 可继承的"
         ]
@@ -6323,7 +6305,7 @@
     {
         "name": "inheritress",
         "trans": [
-            "n. 女继承人)"
+            "n. 女继承人"
         ]
     },
     {
@@ -6397,7 +6379,7 @@
     {
         "name": "intensive reading",
         "trans": [
-            "则是“精读”)"
+            "则是“精读”"
         ]
     },
     {
@@ -6430,7 +6412,7 @@
         ]
     },
     {
-        "name": "intrude v. intruder",
+        "name": "intruder",
         "trans": [
             "n. 闯入者"
         ]
@@ -6457,7 +6439,7 @@
     {
         "name": "invest",
         "trans": [
-            "v. 投资(+"
+            "v. 投资+"
         ]
     },
     {
@@ -6469,15 +6451,9 @@
     {
         "name": "iron",
         "trans": [
-            "v./n.  铁(器)",
+            "v./n. 铁(器)",
             "熨斗",
             "烫/熨"
-        ]
-    },
-    {
-        "name": "irritable adj. mood",
-        "trans": [
-            "n. 语气"
         ]
     },
     {
@@ -6551,12 +6527,6 @@
         ]
     },
     {
-        "name": "journal n. keep a diary",
-        "trans": [
-            "记日记"
-        ]
-    },
-    {
         "name": "journalism",
         "trans": [
             "n. 新闻业/新闻工作"
@@ -6587,6 +6557,12 @@
         "name": "keep ...... alive",
         "trans": [
             "保持活力"
+        ]
+    },
+    {
+        "name": "keep a diary",
+        "trans": [
+            "记日记"
         ]
     },
     {
@@ -6711,7 +6687,7 @@
     {
         "name": "legacy",
         "trans": [
-            "n. 遗产=",
+            "n. 遗产",
             "遗赠物",
             "后遗症/遗留问题"
         ]
@@ -6810,7 +6786,7 @@
         ]
     },
     {
-        "name": "lift the ban on sth",
+        "name": "lift the ban on sth.",
         "trans": [
             "解除对......的禁令"
         ]
@@ -6968,7 +6944,6 @@
     {
         "name": "major",
         "trans": [
-            "v./",
             "重大的",
             "主修"
         ]
@@ -7018,7 +6993,7 @@
         ]
     },
     {
-        "name": "make heavy demands on sb",
+        "name": "make heavy demands on sb.",
         "trans": [
             "对某人提出苛刻的要求"
         ]
@@ -7059,7 +7034,8 @@
         "name": "make sense",
         "trans": [
             "有意义",
-            "合理/有道理/讲得通"
+            "合理/有道理/讲得通",
+            "有道理/讲得通"
         ]
     },
     {
@@ -7092,7 +7068,6 @@
     {
         "name": "maneuver",
         "trans": [
-            "v./n.",
             "策略",
             "手段/花招/伎俩"
         ]
@@ -7120,15 +7095,15 @@
         ]
     },
     {
-        "name": "mathematic adj. mathematics",
-        "trans": [
-            "n. 数学="
-        ]
-    },
-    {
         "name": "mathematician n",
         "trans": [
             "数学家"
+        ]
+    },
+    {
+        "name": "mathematics",
+        "trans": [
+            "n. 数学"
         ]
     },
     {
@@ -7146,14 +7121,7 @@
     {
         "name": "mature",
         "trans": [
-            "adj./",
             "变得明智/有判断力"
-        ]
-    },
-    {
-        "name": "maturity n. immature",
-        "trans": [
-            "adj. 不成熟的"
         ]
     },
     {
@@ -7165,7 +7133,7 @@
         ]
     },
     {
-        "name": "may/might have offended sb",
+        "name": "may/might have offended sb.",
         "trans": [
             "可能得罪了某人"
         ]
@@ -7225,7 +7193,7 @@
         "name": "merely",
         "trans": [
             "adv. 仅仅",
-            "只不过="
+            "只不过"
         ]
     },
     {
@@ -7310,6 +7278,12 @@
         ]
     },
     {
+        "name": "misperceive",
+        "trans": [
+            "v. 误解"
+        ]
+    },
+    {
         "name": "mistake A for B",
         "trans": [
             "将A错当成/误以为B 有时也简化成"
@@ -7324,6 +7298,12 @@
         ]
     },
     {
+        "name": "mood",
+        "trans": [
+            "n. 语气"
+        ]
+    },
+    {
         "name": "moody",
         "trans": [
             "adj. 情绪多变/喜怒无常的",
@@ -7334,7 +7314,6 @@
     {
         "name": "moral",
         "trans": [
-            "adj.",
             "品行端正的",
             "品行"
         ]
@@ -7390,7 +7369,7 @@
         ]
     },
     {
-        "name": "mourn v. mourner",
+        "name": "mourner",
         "trans": [
             "n. 哀悼者/吊唁者"
         ]
@@ -7436,35 +7415,9 @@
         ]
     },
     {
-        "name": "n./adj",
-        "trans": [
-            "适合",
-            "主要的"
-        ]
-    },
-    {
-        "name": "n./adj.=panic",
-        "trans": [
-            "惊慌失措"
-        ]
-    },
-    {
-        "name": "n./v",
-        "trans": [
-            "平均(数)/均值",
-            "展/显示"
-        ]
-    },
-    {
-        "name": "n.=favour",
-        "trans": [
-            "青睐/喜欢/偏爱"
-        ]
-    },
-    {
         "name": "naive",
         "trans": [
-            "相对)"
+            "相对"
         ]
     },
     {
@@ -7490,7 +7443,7 @@
     {
         "name": "navigation",
         "trans": [
-            "n. 与("
+            "n. 与"
         ]
     },
     {
@@ -7500,15 +7453,15 @@
         ]
     },
     {
-        "name": "neglect one's duty",
+        "name": "neglect",
         "trans": [
-            "渎职/玩忽职守"
+            "v./n. 疏忽"
         ]
     },
     {
-        "name": "neglect v./n",
+        "name": "neglect one's duty",
         "trans": [
-            "疏忽"
+            "渎职/玩忽职守"
         ]
     },
     {
@@ -7640,9 +7593,8 @@
     {
         "name": "objective",
         "trans": [
-            "n./",
             "客观/就事论事/不带个人感情的 反义词汇",
-            "adj. 客观的(作名词时="
+            "adj. 客观的作名词时"
         ]
     },
     {
@@ -7672,12 +7624,6 @@
         ]
     },
     {
-        "name": "occasional adj. on an occasional basis",
-        "trans": [
-            "偶尔/临时"
-        ]
-    },
-    {
         "name": "occurrence",
         "trans": [
             "n. 发生(的事情)",
@@ -7699,7 +7645,7 @@
         ]
     },
     {
-        "name": "of sth",
+        "name": "of sth.",
         "trans": [
             "理解/弄懂某事"
         ]
@@ -7713,7 +7659,7 @@
     {
         "name": "on a daily basis",
         "trans": [
-            "每天="
+            "每天"
         ]
     },
     {
@@ -7729,7 +7675,13 @@
         "trans": [
             "定期地",
             "经常",
-            "常态化="
+            "常态化"
+        ]
+    },
+    {
+        "name": "on an occasional basis",
+        "trans": [
+            "偶尔/临时"
         ]
     },
     {
@@ -7745,9 +7697,15 @@
         ]
     },
     {
+        "name": "on earth",
+        "trans": [
+            "究竟"
+        ]
+    },
+    {
         "name": "on every count",
         "trans": [
-            "在每一方面="
+            "在每一方面"
         ]
     },
     {
@@ -7792,7 +7750,7 @@
     {
         "name": "on special occasions",
         "trans": [
-            "在(某些)特殊场合="
+            "在(某些)特殊场合"
         ]
     },
     {
@@ -7830,8 +7788,8 @@
         "name": "opponent",
         "trans": [
             "n. 对手",
-            "竞争者=",
-            "反对者="
+            "竞争者",
+            "反对者"
         ]
     },
     {
@@ -7844,7 +7802,7 @@
         "name": "oppress",
         "trans": [
             "v. 压迫/制",
-            "使窒息/压抑(接近"
+            "使窒息/压抑接近"
         ]
     },
     {
@@ -7873,6 +7831,12 @@
         ]
     },
     {
+        "name": "or wizard",
+        "trans": [
+            "n. 巫师"
+        ]
+    },
+    {
         "name": "orient",
         "trans": [
             "v. 朝向"
@@ -7891,12 +7855,7 @@
         "trans": [
             "n. 起源/源头",
             "血统/出身",
-            "原创物/原版"
-        ]
-    },
-    {
-        "name": "original adj. origin",
-        "trans": [
+            "原创物/原版",
             "n. 与"
         ]
     },
@@ -7971,12 +7930,6 @@
         ]
     },
     {
-        "name": "over time",
-        "trans": [
-            "="
-        ]
-    },
-    {
         "name": "overachiever",
         "trans": [
             "n. 高成就者/优秀/特优生"
@@ -7985,7 +7938,6 @@
     {
         "name": "overall",
         "trans": [
-            "adj./",
             "总的",
             "全面的/地"
         ]
@@ -8038,14 +7990,8 @@
         "name": "overstate",
         "trans": [
             "v. 夸大/张",
-            "言过其实=",
+            "言过其实",
             "避重就轻地说"
-        ]
-    },
-    {
-        "name": "overstatement n.=exaggeration",
-        "trans": [
-            "反义词汇："
         ]
     },
     {
@@ -8055,7 +8001,7 @@
         ]
     },
     {
-        "name": "p.l.) ruins",
+        "name": "p.l. ruins",
         "trans": [
             "往往指遗迹 另外课上总结的"
         ]
@@ -8082,6 +8028,12 @@
         ]
     },
     {
+        "name": "panic",
+        "trans": [
+            "惊慌失措"
+        ]
+    },
+    {
         "name": "panic disorder",
         "trans": [
             "恐慌症"
@@ -8090,7 +8042,6 @@
     {
         "name": "panick",
         "trans": [
-            "v./",
             "恐慌"
         ]
     },
@@ -8105,7 +8056,7 @@
     {
         "name": "paralyze",
         "trans": [
-            "v.使麻痹/瘫痪="
+            "v. 使麻痹/瘫痪"
         ]
     },
     {
@@ -8165,7 +8116,6 @@
     {
         "name": "peak",
         "trans": [
-            "n./",
             "高/巅峰",
             "最尖端"
         ]
@@ -8201,15 +8151,8 @@
         ]
     },
     {
-        "name": "perceptive adj. perception n. misperceive",
-        "trans": [
-            "v. 误解"
-        ]
-    },
-    {
         "name": "persistent",
         "trans": [
-            "adj.",
             "adj. 反复出现的"
         ]
     },
@@ -8220,9 +8163,9 @@
         ]
     },
     {
-        "name": "personal profile v.(",
+        "name": "personal profile",
         "trans": [
-            "中断后)继续"
+            "v. 中断后继续"
         ]
     },
     {
@@ -8312,16 +8255,16 @@
         ]
     },
     {
-        "name": "photograph v./n. photographic",
-        "trans": [
-            "adj. 摄影/照片的"
-        ]
-    },
-    {
         "name": "photographer",
         "trans": [
             "n. 摄影师",
             "能详细记录的"
+        ]
+    },
+    {
+        "name": "photographic",
+        "trans": [
+            "adj. 摄影/照片的"
         ]
     },
     {
@@ -8370,7 +8313,7 @@
     {
         "name": "pilgrim",
         "trans": [
-            "n.朝圣/朝觐者",
+            "n. 朝圣/朝觐者",
             "香客"
         ]
     },
@@ -8387,9 +8330,9 @@
         ]
     },
     {
-        "name": "plug v./n",
+        "name": "plug",
         "trans": [
-            "插头/座"
+            "v./n. 插头/座"
         ]
     },
     {
@@ -8526,21 +8469,15 @@
         ]
     },
     {
-        "name": "predictable foresee v. foresight",
-        "trans": [
-            "n. 先见之明"
-        ]
-    },
-    {
-        "name": "prediction n. predictor",
-        "trans": [
-            "n. 预言者/预报器"
-        ]
-    },
-    {
         "name": "predictive",
         "trans": [
             "adj. 预言性的"
+        ]
+    },
+    {
+        "name": "predictor",
+        "trans": [
+            "n. 预言者/预报器"
         ]
     },
     {
@@ -8566,7 +8503,6 @@
     {
         "name": "present",
         "trans": [
-            "adj./",
             "把…交给/颁发/授予",
             "现/存在的(前定)/出席的(后定~ at) 现在"
         ]
@@ -8577,12 +8513,6 @@
             "v. 保护/留",
             "维护",
             "保/维持"
-        ]
-    },
-    {
-        "name": "preserve conservation n. support conservation projects",
-        "trans": [
-            "支持保护项目"
         ]
     },
     {
@@ -8606,7 +8536,6 @@
     {
         "name": "principal",
         "trans": [
-            "n./",
             "主角/主要演员等",
             "最重要/主要的"
         ]
@@ -8712,7 +8641,6 @@
     {
         "name": "prove",
         "trans": [
-            "v. He",
             "一般只考主动用法不靠被动哦",
             "用法)("
         ]
@@ -8740,7 +8668,7 @@
         ]
     },
     {
-        "name": "provincial adj. provincial capital",
+        "name": "provincial capital",
         "trans": [
             "省会"
         ]
@@ -8749,19 +8677,19 @@
         "name": "pseudo",
         "trans": [
             "adj. 伪/假的",
-            "冒充/仿真的="
+            "冒充/仿真的"
         ]
     },
     {
         "name": "puberty",
         "trans": [
-            "n. 青春/发育期="
+            "n. 青春/发育期"
         ]
     },
     {
         "name": "pull on the clothes",
         "trans": [
-            "穿上衣服="
+            "穿上衣服"
         ]
     },
     {
@@ -8780,6 +8708,12 @@
         "name": "put the company in a very vulnerable position",
         "trans": [
             "使得这家公司岌岌可危"
+        ]
+    },
+    {
+        "name": "put/lay/place emphasis on",
+        "trans": [
+            "强调"
         ]
     },
     {
@@ -8893,15 +8827,15 @@
         ]
     },
     {
-        "name": "rates(",
+        "name": "rates",
         "trans": [
-            "率)"
+            "率"
         ]
     },
     {
-        "name": "rational adj. ration n./v",
+        "name": "ration",
         "trans": [
-            "配给量"
+            "n./v. 配给量"
         ]
     },
     {
@@ -8922,12 +8856,6 @@
         "trans": [
             "原(材)料",
             "生料"
-        ]
-    },
-    {
-        "name": "reassure",
-        "trans": [
-            "v."
         ]
     },
     {
@@ -8970,13 +8898,19 @@
         "name": "recreation",
         "trans": [
             "n. 娱乐(方式)",
-            "放松/消遣(方式)="
+            "放松/消遣(方式)"
         ]
     },
     {
         "name": "recruit",
         "trans": [
             "v 招募/收"
+        ]
+    },
+    {
+        "name": "recurrence",
+        "trans": [
+            "n. 循环/再现"
         ]
     },
     {
@@ -9052,13 +8986,7 @@
         ]
     },
     {
-        "name": "relief n. disaster relief",
-        "trans": [
-            "救灾物资"
-        ]
-    },
-    {
-        "name": "relieve sb. of sth",
+        "name": "relieve sb. of sth.",
         "trans": [
             "别忘了of该介词有“使某人失去......之意”"
         ]
@@ -9088,12 +9016,6 @@
             "n. 残羹冷炙",
             "遗体",
             "动植物残骸"
-        ]
-    },
-    {
-        "name": "repeated adj. recur v. recurrence",
-        "trans": [
-            "n. 循环/再现"
         ]
     },
     {
@@ -9317,9 +9239,14 @@
     {
         "name": "roundabout",
         "trans": [
-            "n./",
             "环岛",
             "旋转平台"
+        ]
+    },
+    {
+        "name": "run",
+        "trans": [
+            "长期"
         ]
     },
     {
@@ -9343,7 +9270,7 @@
         ]
     },
     {
-        "name": "s eyes are fixed on sth",
+        "name": "s eyes are fixed on sth.",
         "trans": [
             "某人盯着某物看 去掉be动词则是非谓语形式。"
         ]
@@ -9441,12 +9368,6 @@
         ]
     },
     {
-        "name": "scary",
-        "trans": [
-            "v./"
-        ]
-    },
-    {
         "name": "scenic flight",
         "trans": [
             "风景/观光航班",
@@ -9480,7 +9401,7 @@
         ]
     },
     {
-        "name": "search s.p./sb. for sth./sb",
+        "name": "search s.p./sb. for sth./sb.",
         "trans": [
             "在某地或某人身上搜寻某物或某人 再如:"
         ]
@@ -9519,18 +9440,6 @@
         "name": "sell for a huge amount of money",
         "trans": [
             "卖了一大笔钱"
-        ]
-    },
-    {
-        "name": "sell v. The book sells well",
-        "trans": [
-            "这本书很畅销/卖起来很好(卖) 注意属于主代被用法/现象 再如："
-        ]
-    },
-    {
-        "name": "sense n. make sense",
-        "trans": [
-            "有道理/讲得通"
         ]
     },
     {
@@ -9662,7 +9571,7 @@
     {
         "name": "shake up",
         "trans": [
-            "这里="
+            "这里"
         ]
     },
     {
@@ -9732,7 +9641,7 @@
     {
         "name": "shed blood",
         "trans": [
-            "流血("
+            "流血"
         ]
     },
     {
@@ -9829,7 +9738,7 @@
     {
         "name": "simple",
         "trans": [
-            "相对)"
+            "相对"
         ]
     },
     {
@@ -9865,7 +9774,7 @@
         ]
     },
     {
-        "name": "slender(",
+        "name": "slender",
         "trans": [
             "优雅瘦"
         ]
@@ -9880,7 +9789,7 @@
         "name": "slim",
         "trans": [
             "adj. 微薄/不足的",
-            "苗条/纤细的(健康瘦)=",
+            "苗条/纤细的(健康瘦)",
             "而"
         ]
     },
@@ -9909,9 +9818,9 @@
         ]
     },
     {
-        "name": "slip v./n",
+        "name": "slip",
         "trans": [
-            "滑倒"
+            "v./n. 滑倒"
         ]
     },
     {
@@ -9956,7 +9865,7 @@
         ]
     },
     {
-        "name": "social phobia=socio-phobia",
+        "name": "social phobia",
         "trans": [
             "社会"
         ]
@@ -9965,6 +9874,12 @@
         "name": "social status",
         "trans": [
             "社会地位"
+        ]
+    },
+    {
+        "name": "socio-phobia",
+        "trans": [
+            "社会"
         ]
     },
     {
@@ -9989,15 +9904,9 @@
     {
         "name": "sophisticated",
         "trans": [
-            "adj. 复杂/精密的(与",
-            "见多识广/老练/成/见过世面的(与",
+            "adj. 复杂/精密的与",
+            "见多识广/老练/成/见过世面的与",
             "有鉴赏力/识货/懂行的"
-        ]
-    },
-    {
-        "name": "sorcerer n. or wizard",
-        "trans": [
-            "n. 巫师"
         ]
     },
     {
@@ -10013,7 +9922,7 @@
         ]
     },
     {
-        "name": "speak ill of sb",
+        "name": "speak ill of sb.",
         "trans": [
             "说某人坏话"
         ]
@@ -10171,7 +10080,7 @@
         ]
     },
     {
-        "name": "Sth. is available to sb",
+        "name": "Sth. is available to sb.",
         "trans": [
             "某物可供某人使用 如："
         ]
@@ -10290,7 +10199,7 @@
     {
         "name": "subheading",
         "trans": [
-            "n. 副标题="
+            "n. 副标题"
         ]
     },
     {
@@ -10415,7 +10324,7 @@
         "trans": [
             "v. 用法再次小节：",
             "若其后跟从句则要遵循",
-            "2. 坚持说/认为 不遵循)",
+            "2. 坚持说/认为 不遵循",
             "解释为“建议”时若其后跟动词则只能跟动名词："
         ]
     },
@@ -10428,15 +10337,26 @@
     {
         "name": "superior",
         "trans": [
-            "n./",
             "级别或职位更高的",
             "上司/上级"
+        ]
+    },
+    {
+        "name": "superiority",
+        "trans": [
+            "n. 优越(性)"
         ]
     },
     {
         "name": "supply and demand",
         "trans": [
             "供求关系"
+        ]
+    },
+    {
+        "name": "support conservation projects",
+        "trans": [
+            "支持保护项目"
         ]
     },
     {
@@ -10463,12 +10383,6 @@
             "adv. 据说/据传",
             "所谓的/误以为的",
             "假定"
-        ]
-    },
-    {
-        "name": "surface",
-        "trans": [
-            "n./v."
         ]
     },
     {
@@ -10530,7 +10444,6 @@
     {
         "name": "sweat",
         "trans": [
-            "v./n.",
             "繁重的工作",
             "艰苦努力"
         ]
@@ -10554,7 +10467,7 @@
         ]
     },
     {
-        "name": "take one’s mind off sth",
+        "name": "take one’s mind off sth.",
         "trans": [
             "倾诉某事(从而忘却)"
         ]
@@ -10572,7 +10485,7 @@
         ]
     },
     {
-        "name": "take pride in=be proud of",
+        "name": "take pride in",
         "trans": [
             "对......感到自豪",
             "以......为傲"
@@ -10585,7 +10498,7 @@
         ]
     },
     {
-        "name": "take serious action to do/on sth",
+        "name": "take serious action to do/on sth.",
         "trans": [
             "对某事采取严肃行动"
         ]
@@ -10604,7 +10517,7 @@
         ]
     },
     {
-        "name": "take turns doing sth",
+        "name": "take turns doing sth.",
         "trans": [
             "轮流做某事"
         ]
@@ -10612,7 +10525,6 @@
     {
         "name": "tame",
         "trans": [
-            "v./",
             "驾驭/制服",
             "驯化的"
         ]
@@ -10697,6 +10609,12 @@
         ]
     },
     {
+        "name": "terminator",
+        "trans": [
+            "n. 终结者"
+        ]
+    },
+    {
         "name": "terms",
         "trans": [
             "条款"
@@ -10760,6 +10678,12 @@
         "name": "the Belt and Road Initiative",
         "trans": [
             "一带一路(倡议)"
+        ]
+    },
+    {
+        "name": "The book sells well",
+        "trans": [
+            "这本书很畅销/卖起来很好(卖) 注意属于主代被用法/现象 再如："
         ]
     },
     {
@@ -10867,7 +10791,7 @@
     {
         "name": "the only man (still) alive",
         "trans": [
-            "唯一活着/下来的人="
+            "唯一活着/下来的人"
         ]
     },
     {
@@ -10886,6 +10810,12 @@
         "name": "the recurring decimal",
         "trans": [
             "循环小数"
+        ]
+    },
+    {
+        "name": "The reform was greeted with suspicion",
+        "trans": [
+            "改革受到人们质疑"
         ]
     },
     {
@@ -10928,13 +10858,13 @@
     {
         "name": "the youth",
         "trans": [
-            "年轻人="
+            "年轻人"
         ]
     },
     {
         "name": "theoretically",
         "trans": [
-            "adv. 理论上地="
+            "adv. 理论上地"
         ]
     },
     {
@@ -10953,7 +10883,7 @@
     {
         "name": "thin",
         "trans": [
-            "在意义上略逊一筹，仅表示“瘦”)"
+            "在意义上略逊一筹，仅表示“瘦”"
         ]
     },
     {
@@ -10972,15 +10902,9 @@
         ]
     },
     {
-        "name": "threaten v. a species threatened with extinction",
-        "trans": [
-            "一个濒危物种"
-        ]
-    },
-    {
         "name": "three quarters",
         "trans": [
-            "四分之三="
+            "四分之三"
         ]
     },
     {
@@ -10998,13 +10922,13 @@
     {
         "name": "throw cold water on",
         "trans": [
-            "泼冷水="
+            "泼冷水"
         ]
     },
     {
-        "name": "tie v./n",
+        "name": "tie",
         "trans": [
-            "绑"
+            "v./n. 绑"
         ]
     },
     {
@@ -11014,9 +10938,22 @@
         ]
     },
     {
+        "name": "to",
+        "trans": [
+            "不同于",
+            "反义词组："
+        ]
+    },
+    {
         "name": "to a large extent/degree",
         "trans": [
             "在很大程度上"
+        ]
+    },
+    {
+        "name": "to allergic reaction",
+        "trans": [
+            "过敏反应"
         ]
     },
     {
@@ -11027,20 +10964,7 @@
         ]
     },
     {
-        "name": "to)",
-        "trans": [
-            "不同于",
-            "反义词组："
-        ]
-    },
-    {
-        "name": "to) allergic reaction",
-        "trans": [
-            "过敏反应"
-        ]
-    },
-    {
-        "name": "to) vulnerable groups",
+        "name": "to vulnerable groups",
         "trans": [
             "弱势群体"
         ]
@@ -11078,16 +11002,16 @@
         ]
     },
     {
+        "name": "tragedian",
+        "trans": [
+            "n. 悲剧作家/演员 对应词汇："
+        ]
+    },
+    {
         "name": "tragedy",
         "trans": [
             "n. 悲剧/悲哀",
             "惨祸"
-        ]
-    },
-    {
-        "name": "tragic adj. tragedian",
-        "trans": [
-            "n. 悲剧作家/演员 对应词汇："
         ]
     },
     {
@@ -11104,9 +11028,9 @@
         ]
     },
     {
-        "name": "tremendous adj. a tremendous explosion/pressure",
+        "name": "treat sb. to",
         "trans": [
-            "巨大的爆炸声/压力"
+            "用......款待某人"
         ]
     },
     {
@@ -11116,9 +11040,9 @@
         ]
     },
     {
-        "name": "trick v./n",
+        "name": "trick",
         "trans": [
-            "花招/诡计/窍门/骗局/把戏"
+            "v./n. 花招/诡计/窍门/骗局/把戏"
         ]
     },
     {
@@ -11132,15 +11056,8 @@
     {
         "name": "trigger",
         "trans": [
-            "v./n.",
             "诱因",
             "触发/引爆(器)"
-        ]
-    },
-    {
-        "name": "trilogy",
-        "trans": [
-            "n."
         ]
     },
     {
@@ -11174,7 +11091,7 @@
     {
         "name": "trypo-phobia",
         "trans": [
-            "密集恐惧症="
+            "密集恐惧症"
         ]
     },
     {
@@ -11212,7 +11129,7 @@
     {
         "name": "turn the lights out",
         "trans": [
-            "关灯)"
+            "关灯"
         ]
     },
     {
@@ -11230,15 +11147,15 @@
         ]
     },
     {
-        "name": "tutor n./v",
+        "name": "tutor",
         "trans": [
-            "教师"
+            "n./v. 教师"
         ]
     },
     {
-        "name": "tutorial adj./n",
+        "name": "tutorial",
         "trans": [
-            "辅导/导师的 辅导课/班"
+            "adj./n. 辅导/导师的 辅导课/班"
         ]
     },
     {
@@ -11567,12 +11484,6 @@
         ]
     },
     {
-        "name": "v./adj",
-        "trans": [
-            "达到顶峰/峰值/最高值(的)"
-        ]
-    },
-    {
         "name": "vacancy",
         "trans": [
             "n. 空缺/空职/空额",
@@ -11587,7 +11498,7 @@
         ]
     },
     {
-        "name": "various adj. variety n. a large variety of=various",
+        "name": "various",
         "trans": [
             "各种各样的"
         ]
@@ -11656,15 +11567,9 @@
         ]
     },
     {
-        "name": "video-on-demand viewing(",
+        "name": "video-on-demand viewing",
         "trans": [
-            "观看/收视)"
-        ]
-    },
-    {
-        "name": "viral",
-        "trans": [
-            "adj."
+            "观看/收视"
         ]
     },
     {
@@ -11763,12 +11668,6 @@
         ]
     },
     {
-        "name": "vt. The reform was greeted with suspicion",
-        "trans": [
-            "改革受到人们质疑"
-        ]
-    },
-    {
         "name": "vulnerable",
         "trans": [
             "adj. 脆弱/易受伤的",
@@ -11830,7 +11729,7 @@
     {
         "name": "weigh",
         "trans": [
-            "v.称重",
+            "v. 称重",
             "权衡",
             "斟酌"
         ]
@@ -11887,7 +11786,7 @@
         ]
     },
     {
-        "name": "wind up doing=end up doing",
+        "name": "wind up doing",
         "trans": [
             "最终......"
         ]
@@ -11917,7 +11816,7 @@
     {
         "name": "wipe out humanity",
         "trans": [
-            "消灭/灭绝人类(文明)="
+            "消灭/灭绝人类(文明)"
         ]
     },
     {
@@ -11966,13 +11865,13 @@
     {
         "name": "with this honor",
         "trans": [
-            "怀着这份荣誉="
+            "怀着这份荣誉"
         ]
     },
     {
         "name": "work",
         "trans": [
-            "单数)"
+            "单数"
         ]
     },
     {
@@ -11985,13 +11884,13 @@
         "name": "workout",
         "trans": [
             "n. 锻炼",
-            "训练="
+            "训练"
         ]
     },
     {
         "name": "works",
         "trans": [
-            "n. 著作/作品(复数",
+            "n. 著作/作品复数",
             "工厂(单复同形)"
         ]
     },
@@ -12012,7 +11911,7 @@
     {
         "name": "worthy",
         "trans": [
-            "adj.值得(尊重)的",
+            "adj. 值得(尊重)的",
             "有价值的",
             "该二词用法确保把握"
         ]
@@ -12093,6 +11992,12 @@
         "name": "you must rest as much as possible",
         "trans": [
             "医生下周还会看你，在此期间尽量多休息"
+        ]
+    },
+    {
+        "name": "You're hurting me",
+        "trans": [
+            "你弄疼我了"
         ]
     }
 ]

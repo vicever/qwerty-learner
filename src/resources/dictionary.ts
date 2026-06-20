@@ -34,7 +34,7 @@ const chinaExam: DictionaryResource[] = [
     category: '中国考试',
     tags: ['高中英语', '每日词汇'],
     url: '/dicts/zry_daily_vocab.json',
-    length: 1872,
+    length: 1861,
     language: 'en',
     languageCategory: 'en',
   },
