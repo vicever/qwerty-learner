@@ -157,6 +157,9 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
     (index: number) => {
       if (wordState.letterStates[index] === 'correct' || (isShowAnswerOnHover && isHoveringWord)) return true
 
+      // Show letters that have already been typed (immediate visual feedback during typing)
+      if (index < wordState.inputWord.length) return true
+
       if (wordDictationConfig.isOpen) {
         if (wordDictationConfig.type === 'hideAll') return false
 
@@ -179,6 +182,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
       wordDictationConfig.isOpen,
       wordDictationConfig.type,
       wordState.displayWord,
+      wordState.inputWord.length,
       wordState.letterStates,
       wordState.randomLetterVisible,
     ],
@@ -254,16 +258,8 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
         }
       }
     } else {
-      // Still typing - just mark auto-filled spaces as correct, don't judge letters yet
-      setWordState((state) => {
-        for (let i = 0; i < inputLength; i++) {
-          if (state.displayWord[i] === EXPLICIT_SPACE && state.letterStates[i] === 'normal') {
-            state.letterStates[i] = 'correct'
-          }
-        }
-      })
+      // Still typing - don't judge letters yet, just play sound feedback
       playKeySound()
-      dispatch({ type: TypingStateActionType.REPORT_CORRECT_WORD })
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [wordState.inputWord])
@@ -334,7 +330,10 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
             className={`flex items-center ${isTextSelectable && 'select-all'} justify-center ${wordState.hasWrong ? style.wrong : ''}`}
           >
             {wordState.displayWord.split('').map((t, index) => {
-              return <Letter key={`${index}-${t}`} letter={t} visible={getLetterVisible(index)} state={wordState.letterStates[index]} />
+              // During typing, show what the user actually typed; after evaluation, show the target letter
+              const isEvaluated = wordState.hasWrong || wordState.isFinished
+              const letterToShow = isEvaluated ? t : (index < wordState.inputWord.length ? wordState.inputWord[index] : t)
+              return <Letter key={`${index}-${t}`} letter={letterToShow} visible={getLetterVisible(index)} state={wordState.letterStates[index]} />
             })}
           </div>
           {pronunciationIsOpen && (
