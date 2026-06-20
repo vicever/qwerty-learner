@@ -108,11 +108,25 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
           }
           break
 
+        case 'delete':
+          if (wordState.hasWrong || wordState.isFinished) return
+          if (wordState.inputWord.length === 0) return
+
+          setWordState((state) => {
+            // Remove the last character
+            state.inputWord = state.inputWord.slice(0, -1)
+            // Also remove any trailing auto-filled spaces
+            while (state.inputWord.length > 0 && state.displayWord[state.inputWord.length] === EXPLICIT_SPACE) {
+              state.inputWord = state.inputWord.slice(0, -1)
+            }
+          })
+          break
+
         default:
           console.warn('unknown update type', updateAction)
       }
     },
-    [wordState.hasWrong, wordState.inputWord, wordState.displayWord, setWordState],
+    [wordState.hasWrong, wordState.isFinished, wordState.inputWord, wordState.displayWord, setWordState],
   )
 
   const handleHoverWord = useCallback((checked: boolean) => {
