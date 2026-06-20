@@ -1,0 +1,6818 @@
+[
+  {
+    "name": "daily",
+    "trans": [
+      "adj./adv.每日,日常; n.日报"
+    ]
+  },
+  {
+    "name": "in one's daily life",
+    "trans": [
+      "在某人的日常生活中"
+    ]
+  },
+  {
+    "name": "damage",
+    "trans": [
+      "vt./n.损害,毁坏"
+    ]
+  },
+  {
+    "name": "damage(vt.) ..., do damage(n.) to ...",
+    "trans": [
+      "对……造成伤害"
+    ]
+  },
+  {
+    "name": "damage(n.) to property",
+    "trans": [
+      "财产损失"
+    ]
+  },
+  {
+    "name": "damaging",
+    "trans": [
+      "adj.有破坏性的"
+    ]
+  },
+  {
+    "name": "damp",
+    "trans": [
+      "adj.潮的,湿的; n.潮湿; vt.减弱"
+    ]
+  },
+  {
+    "name": "damp(en) his enthusiasm",
+    "trans": [
+      "减弱他的热情"
+    ]
+  },
+  {
+    "name": "dance",
+    "trans": [
+      "n.舞蹈; v.跳舞; n.舞会"
+    ]
+  },
+  {
+    "name": "dance to the music",
+    "trans": [
+      "跟着音乐跳舞"
+    ]
+  },
+  {
+    "name": "dance with sb",
+    "trans": [
+      "与某人一起跳舞"
+    ]
+  },
+  {
+    "name": "danger",
+    "trans": [
+      "n.危险"
+    ]
+  },
+  {
+    "name": "in danger",
+    "trans": [
+      "处于危险之中"
+    ]
+  },
+  {
+    "name": "out of danger",
+    "trans": [
+      "脱离危险"
+    ]
+  },
+  {
+    "name": "dangerous",
+    "trans": [
+      "adj.危险的"
+    ]
+  },
+  {
+    "name": "endanger",
+    "trans": [
+      "vt.危及"
+    ]
+  },
+  {
+    "name": "endangered",
+    "trans": [
+      "adj.濒危的"
+    ]
+  },
+  {
+    "name": "the endangered animals",
+    "trans": [
+      "濒临灭绝的动物"
+    ]
+  },
+  {
+    "name": "dare",
+    "trans": [
+      "v.敢,胆敢"
+    ]
+  },
+  {
+    "name": "daring",
+    "trans": [
+      "n.勇气,胆量"
+    ]
+  },
+  {
+    "name": "dark",
+    "trans": [
+      "adj.黑暗的; n.黑暗;天黑; adj.深色的"
+    ]
+  },
+  {
+    "name": "at dark",
+    "trans": [
+      "天黑时"
+    ]
+  },
+  {
+    "name": "before dark",
+    "trans": [
+      "天黑前"
+    ]
+  },
+  {
+    "name": "sit in the dark",
+    "trans": [
+      "坐在黑暗里"
+    ]
+  },
+  {
+    "name": "darkness",
+    "trans": [
+      "n.黑暗"
+    ]
+  },
+  {
+    "name": "dark green",
+    "trans": [
+      "深绿色"
+    ]
+  },
+  {
+    "name": "data",
+    "trans": [
+      "n.数据;资料"
+    ]
+  },
+  {
+    "name": "big data processing",
+    "trans": [
+      "大数据处理"
+    ]
+  },
+  {
+    "name": "database",
+    "trans": [
+      "n.数据库"
+    ]
+  },
+  {
+    "name": "date",
+    "trans": [
+      "n.日期; vt.注明日期; vt.鉴定年代; vi.追溯到; n.约会"
+    ]
+  },
+  {
+    "name": "What's the date today?",
+    "trans": [
+      "今天几月几号?"
+    ]
+  },
+  {
+    "name": "to date",
+    "trans": [
+      "至今为止"
+    ]
+  },
+  {
+    "name": "keep up to date(on ......)",
+    "trans": [
+      "掌握(……的)最新情况"
+    ]
+  },
+  {
+    "name": "be out of date",
+    "trans": [
+      "过时,不合时宜"
+    ]
+  },
+  {
+    "name": "out-of-date, outdated, dated",
+    "trans": [
+      "adj.过时的"
+    ]
+  },
+  {
+    "name": "a letter (which is) dated Jan. 2nd",
+    "trans": [
+      "注明1月2日的一封信"
+    ]
+  },
+  {
+    "name": "date the antique at the Ming Dynasty",
+    "trans": [
+      "将古董的年代断定为明朝"
+    ]
+  },
+  {
+    "name": "date back to, date from",
+    "trans": [
+      "追溯到……"
+    ]
+  },
+  {
+    "name": "have a date with sb, date sb",
+    "trans": [
+      "与(情侣)约会"
+    ]
+  },
+  {
+    "name": "go out on a date",
+    "trans": [
+      "出去(与情侣)约会"
+    ]
+  },
+  {
+    "name": "daughter",
+    "trans": [
+      "n.女儿"
+    ]
+  },
+  {
+    "name": "dawn",
+    "trans": [
+      "n.黎明; vi.天亮; vi.被理解"
+    ]
+  },
+  {
+    "name": "at dawn",
+    "trans": [
+      "在黎明时"
+    ]
+  },
+  {
+    "name": "sth dawn on sb, It dawns on sb that ...",
+    "trans": [
+      "某人明白/理解了……"
+    ]
+  },
+  {
+    "name": "day",
+    "trans": [
+      "n.一天,日子; n.白天; n.节日; n.时代"
+    ]
+  },
+  {
+    "name": "to this day",
+    "trans": [
+      "至今为止"
+    ]
+  },
+  {
+    "name": "the other day",
+    "trans": [
+      "几天前"
+    ]
+  },
+  {
+    "name": "another day",
+    "trans": [
+      "另一天"
+    ]
+  },
+  {
+    "name": "the day before yesterday",
+    "trans": [
+      "前天"
+    ]
+  },
+  {
+    "name": "the day after tomorrow",
+    "trans": [
+      "后天"
+    ]
+  },
+  {
+    "name": "the day-to-day life",
+    "trans": [
+      "日常生活"
+    ]
+  },
+  {
+    "name": "all day(long)",
+    "trans": [
+      "一整天"
+    ]
+  },
+  {
+    "name": "some day",
+    "trans": [
+      "(将来的)某一天"
+    ]
+  },
+  {
+    "name": "one day",
+    "trans": [
+      "(过去或将来的)某一天"
+    ]
+  },
+  {
+    "name": "day after day, day in and day out",
+    "trans": [
+      "日复一日"
+    ]
+  },
+  {
+    "name": "grow stronger with each passing day",
+    "trans": [
+      "日益强壮"
+    ]
+  },
+  {
+    "name": "during the day, by day",
+    "trans": [
+      "在白天,日间"
+    ]
+  },
+  {
+    "name": "work day and night",
+    "trans": [
+      "日以继夜地工作"
+    ]
+  },
+  {
+    "name": "Labor Day",
+    "trans": [
+      "劳动节"
+    ]
+  },
+  {
+    "name": "National Day",
+    "trans": [
+      "国庆节"
+    ]
+  },
+  {
+    "name": "Teachers' Day",
+    "trans": [
+      "教师节"
+    ]
+  },
+  {
+    "name": "Children's Day",
+    "trans": [
+      "儿童节"
+    ]
+  },
+  {
+    "name": "Mother's Day",
+    "trans": [
+      "母亲节"
+    ]
+  },
+  {
+    "name": "in one's day",
+    "trans": [
+      "在某人所处的时代"
+    ]
+  },
+  {
+    "name": "dead",
+    "trans": [
+      "adj.死的;死气沉沉的"
+    ]
+  },
+  {
+    "name": "deadly",
+    "trans": [
+      "adj.致命的"
+    ]
+  },
+  {
+    "name": "deadline",
+    "trans": [
+      "n.截止日期,最后期限"
+    ]
+  },
+  {
+    "name": "meet the deadline(for application)",
+    "trans": [
+      "赶上(申请的)最后期限"
+    ]
+  },
+  {
+    "name": "deaf",
+    "trans": [
+      "adj.聋的"
+    ]
+  },
+  {
+    "name": "turn a deaf ear to...",
+    "trans": [
+      "对……充耳不闻/置若罔闻"
+    ]
+  },
+  {
+    "name": "be deaf to one's advice",
+    "trans": [
+      "不听某人的建议"
+    ]
+  },
+  {
+    "name": "deal",
+    "trans": [
+      "v.解决; v.涉及; v./n.交易; n.便宜货; n.协议; vt.造成(损失,伤害,打击); v.分配; 很多; 重要事件/人物"
+    ]
+  },
+  {
+    "name": "deal with",
+    "trans": [
+      "解决,处理"
+    ]
+  },
+  {
+    "name": "deal with sb",
+    "trans": [
+      "与某人做交易"
+    ]
+  },
+  {
+    "name": "deal in tea",
+    "trans": [
+      "做茶叶生意"
+    ]
+  },
+  {
+    "name": "make a deal",
+    "trans": [
+      "达成交易,成交"
+    ]
+  },
+  {
+    "name": "dealer",
+    "trans": [
+      "n.经销商,贸易商"
+    ]
+  },
+  {
+    "name": "get a good deal",
+    "trans": [
+      "买到便宜货"
+    ]
+  },
+  {
+    "name": "do a (heavy) blow to tourism",
+    "trans": [
+      "对旅游业造成(严重)损失"
+    ]
+  },
+  {
+    "name": "deal out cards",
+    "trans": [
+      "发牌"
+    ]
+  },
+  {
+    "name": "deal sb a card",
+    "trans": [
+      "发给某人一张牌"
+    ]
+  },
+  {
+    "name": "a great deal of...",
+    "trans": [
+      "大量的……"
+    ]
+  },
+  {
+    "name": "a big deal",
+    "trans": [
+      "①大人物;②了不起的事"
+    ]
+  },
+  {
+    "name": "dear",
+    "trans": [
+      "adj.亲爱的; n.亲爱的人; adj.昂贵的"
+    ]
+  },
+  {
+    "name": "death",
+    "trans": [
+      "n.死亡"
+    ]
+  },
+  {
+    "name": "be burnt to death",
+    "trans": [
+      "被烧死"
+    ]
+  },
+  {
+    "name": "be beaten to death",
+    "trans": [
+      "被打死"
+    ]
+  },
+  {
+    "name": "be shot to death",
+    "trans": [
+      "被射杀"
+    ]
+  },
+  {
+    "name": "be frightened/ scared to death",
+    "trans": [
+      "无卿得要死"
+    ]
+  },
+  {
+    "name": "be bored to death",
+    "trans": [
+      "被饿死"
+    ]
+  },
+  {
+    "name": "starve to death",
+    "trans": [
+      "被冻死"
+    ]
+  },
+  {
+    "name": "freeze to death",
+    "trans": [
+      "被呛死"
+    ]
+  },
+  {
+    "name": "choke to death",
+    "trans": [
+      "九死一生"
+    ]
+  },
+  {
+    "name": "narrowly escape death",
+    "trans": [
+      "生死攸关"
+    ]
+  },
+  {
+    "name": "mean the difference between life and death",
+    "trans": [
+      "外科医生的医术有时关乎生死。"
+    ]
+  },
+  {
+    "name": "debate",
+    "trans": [
+      "v./n.辩论;争论"
+    ]
+  },
+  {
+    "name": "a debate on/ over ...",
+    "trans": [
+      "关于……的辩论/争论"
+    ]
+  },
+  {
+    "name": "under debate",
+    "trans": [
+      "正在辩论/争论之中"
+    ]
+  },
+  {
+    "name": "debatable",
+    "trans": [
+      "adj.有争议的"
+    ]
+  },
+  {
+    "name": "debt",
+    "trans": [
+      "n.债务;欠债"
+    ]
+  },
+  {
+    "name": "be in heavy debt",
+    "trans": [
+      "欠债累累(持续状态)"
+    ]
+  },
+  {
+    "name": "get into heavy debt",
+    "trans": [
+      "陷入沉重的负债(瞬间动作)"
+    ]
+  },
+  {
+    "name": "decade",
+    "trans": [
+      "n.十年"
+    ]
+  },
+  {
+    "name": "decades of...",
+    "trans": [
+      "几十年的……"
+    ]
+  },
+  {
+    "name": "over/ in the past few decades",
+    "trans": [
+      "在过去的几十年间"
+    ]
+  },
+  {
+    "name": "decent",
+    "trans": [
+      "adj.像样的,体面的; adj.正派的,合乎规矩的"
+    ]
+  },
+  {
+    "name": "a decent job",
+    "trans": [
+      "体面的工作"
+    ]
+  },
+  {
+    "name": "a decent wedding ceremony",
+    "trans": [
+      "体面的婚礼"
+    ]
+  },
+  {
+    "name": "a decent person",
+    "trans": [
+      "一个正派的人"
+    ]
+  },
+  {
+    "name": "decide",
+    "trans": [
+      "v.决定"
+    ]
+  },
+  {
+    "name": "decide to do",
+    "trans": [
+      "决定做某事"
+    ]
+  },
+  {
+    "name": "decide on sth",
+    "trans": [
+      "对某事作出决定"
+    ]
+  },
+  {
+    "name": "decisive",
+    "trans": [
+      "adj.决定性的;果断的(反: in~)"
+    ]
+  },
+  {
+    "name": "decision",
+    "trans": [
+      "n.决定"
+    ]
+  },
+  {
+    "name": "make a decision",
+    "trans": [
+      "做出决定"
+    ]
+  },
+  {
+    "name": "decision to do..., decision on/ about ...",
+    "trans": [
+      "……的决定"
+    ]
+  },
+  {
+    "name": "dealer",
+    "trans": [
+      "n.经销商,贸易商"
+    ]
+  },
+  {
+    "name": "get a good deal",
+    "trans": [
+      "买到便宜货"
+    ]
+  },
+  {
+    "name": "do a (heavy) blow to tourism",
+    "trans": [
+      "对旅游业造成(严重)损失"
+    ]
+  },
+  {
+    "name": "deal out cards",
+    "trans": [
+      "发牌"
+    ]
+  },
+  {
+    "name": "deal sb a card",
+    "trans": [
+      "发给某人一张牌"
+    ]
+  },
+  {
+    "name": "a great deal of...",
+    "trans": [
+      "大量的……"
+    ]
+  },
+  {
+    "name": "a big deal",
+    "trans": [
+      "①大人物;②了不起的事"
+    ]
+  },
+  {
+    "name": "dear",
+    "trans": [
+      "adj.亲爱的; n.亲爱的人; adj.昂贵的"
+    ]
+  },
+  {
+    "name": "death",
+    "trans": [
+      "n.死亡"
+    ]
+  },
+  {
+    "name": "be burnt to death",
+    "trans": [
+      "被烧死"
+    ]
+  },
+  {
+    "name": "be beaten to death",
+    "trans": [
+      "被打死"
+    ]
+  },
+  {
+    "name": "be shot to death",
+    "trans": [
+      "被射杀"
+    ]
+  },
+  {
+    "name": "be frightened/ scared to death",
+    "trans": [
+      "无卿得要死"
+    ]
+  },
+  {
+    "name": "be bored to death",
+    "trans": [
+      "被饿死"
+    ]
+  },
+  {
+    "name": "starve to death",
+    "trans": [
+      "被冻死"
+    ]
+  },
+  {
+    "name": "freeze to death",
+    "trans": [
+      "被呛死"
+    ]
+  },
+  {
+    "name": "choke to death",
+    "trans": [
+      "九死一生"
+    ]
+  },
+  {
+    "name": "narrowly escape death",
+    "trans": [
+      "生死攸关"
+    ]
+  },
+  {
+    "name": "mean the difference between life and death",
+    "trans": [
+      "外科医生的医术有时关乎生死。"
+    ]
+  },
+  {
+    "name": "debate",
+    "trans": [
+      "v./n.辩论;争论"
+    ]
+  },
+  {
+    "name": "a debate on/ over ...",
+    "trans": [
+      "关于……的辩论/争论"
+    ]
+  },
+  {
+    "name": "under debate",
+    "trans": [
+      "正在辩论/争论之中"
+    ]
+  },
+  {
+    "name": "debatable",
+    "trans": [
+      "adj.有争议的"
+    ]
+  },
+  {
+    "name": "debt",
+    "trans": [
+      "n.债务;欠债"
+    ]
+  },
+  {
+    "name": "be in heavy debt",
+    "trans": [
+      "欠债累累(持续状态)"
+    ]
+  },
+  {
+    "name": "get into heavy debt",
+    "trans": [
+      "陷入沉重的负债(瞬间动作)"
+    ]
+  },
+  {
+    "name": "decade",
+    "trans": [
+      "n.十年"
+    ]
+  },
+  {
+    "name": "decades of...",
+    "trans": [
+      "几十年的……"
+    ]
+  },
+  {
+    "name": "over/ in the past few decades",
+    "trans": [
+      "在过去的几十年间"
+    ]
+  },
+  {
+    "name": "decent",
+    "trans": [
+      "adj.像样的,体面的; adj.正派的,合乎规矩的"
+    ]
+  },
+  {
+    "name": "a decent job",
+    "trans": [
+      "体面的工作"
+    ]
+  },
+  {
+    "name": "a decent wedding ceremony",
+    "trans": [
+      "体面的婚礼"
+    ]
+  },
+  {
+    "name": "a decent person",
+    "trans": [
+      "一个正派的人"
+    ]
+  },
+  {
+    "name": "decide",
+    "trans": [
+      "v.决定"
+    ]
+  },
+  {
+    "name": "decide to do",
+    "trans": [
+      "决定做某事"
+    ]
+  },
+  {
+    "name": "decide on sth",
+    "trans": [
+      "对某事作出决定"
+    ]
+  },
+  {
+    "name": "decisive",
+    "trans": [
+      "adj.决定性的;果断的(反: in~)"
+    ]
+  },
+  {
+    "name": "decision",
+    "trans": [
+      "n.决定"
+    ]
+  },
+  {
+    "name": "make a decision",
+    "trans": [
+      "做出决定"
+    ]
+  },
+  {
+    "name": "decision to do..., decision on/ about ...",
+    "trans": [
+      "……的决定"
+    ]
+  },
+  {
+    "name": "declare",
+    "trans": [
+      "vt.宣布,声明"
+    ]
+  },
+  {
+    "name": "declare war on",
+    "trans": [
+      "向……宣战"
+    ]
+  },
+  {
+    "name": "declare that ...",
+    "trans": [
+      "宣布,表明"
+    ]
+  },
+  {
+    "name": "declare the military operation(to be)illegal",
+    "trans": [
+      "宣布此次军事行动非法"
+    ]
+  },
+  {
+    "name": "declaration",
+    "trans": [
+      "n.宣布,公告"
+    ]
+  },
+  {
+    "name": "decline",
+    "trans": [
+      "vt./vi.(婉言)谢绝; vi./n.衰退; vi./n.下降"
+    ]
+  },
+  {
+    "name": "decline to do",
+    "trans": [
+      "(婉言)谢绝做某事"
+    ]
+  },
+  {
+    "name": "decline the invitation",
+    "trans": [
+      "(婉言)谢绝邀请"
+    ]
+  },
+  {
+    "name": "fall into decline",
+    "trans": [
+      "开始衰落"
+    ]
+  },
+  {
+    "name": "in decline",
+    "trans": [
+      "正在下跌/下降/衰退"
+    ]
+  },
+  {
+    "name": "decrease",
+    "trans": [
+      "v./n.下降;减少"
+    ]
+  },
+  {
+    "name": "decline/ decrease(v.) from 90% by 20% to 70%",
+    "trans": [
+      "从90%下降了20%到70%"
+    ]
+  },
+  {
+    "name": "a sharp/ dramatic decline/ decrease(n.)",
+    "trans": [
+      "急剧下降"
+    ]
+  },
+  {
+    "name": "decline/ decrease(v.) sharply/ dramatically",
+    "trans": [
+      "急剧下降"
+    ]
+  },
+  {
+    "name": "decorate",
+    "trans": [
+      "vt.装饰,装潢"
+    ]
+  },
+  {
+    "name": "decorate ... with ...",
+    "trans": [
+      "用……来装饰"
+    ]
+  },
+  {
+    "name": "decoration",
+    "trans": [
+      "n.装饰,装潢;装饰品"
+    ]
+  },
+  {
+    "name": "dedicate",
+    "trans": [
+      "vt.致力,献身"
+    ]
+  },
+  {
+    "name": "dedicate oneself to/ be dedicated to doing",
+    "trans": [
+      "致力于做……"
+    ]
+  },
+  {
+    "name": "dedicate one's life to doing",
+    "trans": [
+      "一生奉献给做某事"
+    ]
+  },
+  {
+    "name": "dedication",
+    "trans": [
+      "n.敬业,献身"
+    ]
+  },
+  {
+    "name": "dedicated",
+    "trans": [
+      "adj.敬业的; adj.专用的"
+    ]
+  },
+  {
+    "name": "a dedicated teacher",
+    "trans": [
+      "一位敬业的老师"
+    ]
+  },
+  {
+    "name": "dedicated software",
+    "trans": [
+      "专用软件"
+    ]
+  },
+  {
+    "name": "deed",
+    "trans": [
+      "n.行为,行动,事情"
+    ]
+  },
+  {
+    "name": "words and deeds",
+    "trans": [
+      "言行"
+    ]
+  },
+  {
+    "name": "do good deeds",
+    "trans": [
+      "做好人好事"
+    ]
+  },
+  {
+    "name": "deep",
+    "trans": [
+      "adj.深的; adv.(与deeply比较)主要修饰时间,状态,空间,介词短语等"
+    ]
+  },
+  {
+    "name": "dark green",
+    "trans": [
+      "深绿色"
+    ]
+  },
+  {
+    "name": "deep in thought",
+    "trans": [
+      "深入沉思"
+    ]
+  },
+  {
+    "name": "a deep hidden deep beneath the ground",
+    "trans": [
+      "被深藏在地下"
+    ]
+  },
+  {
+    "name": "be hidden deep beneath the ground",
+    "trans": [
+      "被深藏在地下"
+    ]
+  },
+  {
+    "name": "stare deep into her eye",
+    "trans": [
+      "深深凝视着她的眼睛"
+    ]
+  },
+  {
+    "name": "talk deep into the night",
+    "trans": [
+      "一直谈话到深夜"
+    ]
+  },
+  {
+    "name": "deeply",
+    "trans": [
+      "adv.与deep比较,主要用于修饰,隐喻带有情感色彩的动词，表示认真程度，还可用于修饰adj."
+    ]
+  },
+  {
+    "name": "think deeply about ...",
+    "trans": [
+      "深思……"
+    ]
+  },
+  {
+    "name": "breathe deeply",
+    "trans": [
+      "深呼吸"
+    ]
+  },
+  {
+    "name": "take a deep breath",
+    "trans": [
+      "深呼吸"
+    ]
+  },
+  {
+    "name": "sleep deeply",
+    "trans": [
+      "睡得很沉"
+    ]
+  },
+  {
+    "name": "declare",
+    "trans": [
+      "vt.宣布,声明"
+    ]
+  },
+  {
+    "name": "declare war on",
+    "trans": [
+      "向……宣战"
+    ]
+  },
+  {
+    "name": "declare that ...",
+    "trans": [
+      "宣布,表明"
+    ]
+  },
+  {
+    "name": "declare the military operation(to be)illegal",
+    "trans": [
+      "宣布此次军事行动非法"
+    ]
+  },
+  {
+    "name": "declaration",
+    "trans": [
+      "n.宣布,公告"
+    ]
+  },
+  {
+    "name": "decline",
+    "trans": [
+      "vt./vi.(婉言)谢绝; vi./n.衰退; vi./n.下降"
+    ]
+  },
+  {
+    "name": "decline to do",
+    "trans": [
+      "(婉言)谢绝做某事"
+    ]
+  },
+  {
+    "name": "decline the invitation",
+    "trans": [
+      "(婉言)谢绝邀请"
+    ]
+  },
+  {
+    "name": "fall into decline",
+    "trans": [
+      "开始衰落"
+    ]
+  },
+  {
+    "name": "in decline",
+    "trans": [
+      "正在下跌/下降/衰退"
+    ]
+  },
+  {
+    "name": "decrease",
+    "trans": [
+      "v./n.下降;减少"
+    ]
+  },
+  {
+    "name": "decline/ decrease(v.) from 90% by 20% to 70%",
+    "trans": [
+      "从90%下降了20%到70%"
+    ]
+  },
+  {
+    "name": "a sharp/ dramatic decline/ decrease(n.)",
+    "trans": [
+      "急剧下降"
+    ]
+  },
+  {
+    "name": "decline/ decrease(v.) sharply/ dramatically",
+    "trans": [
+      "急剧下降"
+    ]
+  },
+  {
+    "name": "decorate",
+    "trans": [
+      "vt.装饰,装潢"
+    ]
+  },
+  {
+    "name": "decorate ... with ...",
+    "trans": [
+      "用……来装饰"
+    ]
+  },
+  {
+    "name": "decoration",
+    "trans": [
+      "n.装饰,装潢;装饰品"
+    ]
+  },
+  {
+    "name": "dedicate",
+    "trans": [
+      "vt.致力,献身"
+    ]
+  },
+  {
+    "name": "dedicate oneself to/ be dedicated to doing",
+    "trans": [
+      "致力于做……"
+    ]
+  },
+  {
+    "name": "dedicate one's life to doing",
+    "trans": [
+      "一生奉献给做某事"
+    ]
+  },
+  {
+    "name": "dedication",
+    "trans": [
+      "n.敬业,献身"
+    ]
+  },
+  {
+    "name": "dedicated",
+    "trans": [
+      "adj.敬业的; adj.专用的"
+    ]
+  },
+  {
+    "name": "a dedicated teacher",
+    "trans": [
+      "一位敬业的老师"
+    ]
+  },
+  {
+    "name": "dedicated software",
+    "trans": [
+      "专用软件"
+    ]
+  },
+  {
+    "name": "deed",
+    "trans": [
+      "n.行为,行动,事情"
+    ]
+  },
+  {
+    "name": "words and deeds",
+    "trans": [
+      "言行"
+    ]
+  },
+  {
+    "name": "do good deeds",
+    "trans": [
+      "做好人好事"
+    ]
+  },
+  {
+    "name": "deep",
+    "trans": [
+      "adj.深的; adv.(与deeply比较)主要修饰时间,状态,空间,介词短语等"
+    ]
+  },
+  {
+    "name": "dark green",
+    "trans": [
+      "深绿色"
+    ]
+  },
+  {
+    "name": "deep in thought",
+    "trans": [
+      "深入沉思"
+    ]
+  },
+  {
+    "name": "a deep hidden deep beneath the ground",
+    "trans": [
+      "被深藏在地下"
+    ]
+  },
+  {
+    "name": "be hidden deep beneath the ground",
+    "trans": [
+      "被深藏在地下"
+    ]
+  },
+  {
+    "name": "stare deep into her eye",
+    "trans": [
+      "深深凝视着她的眼睛"
+    ]
+  },
+  {
+    "name": "talk deep into the night",
+    "trans": [
+      "一直谈话到深夜"
+    ]
+  },
+  {
+    "name": "deeply",
+    "trans": [
+      "adv.与deep比较,主要用于修饰,隐喻带有情感色彩的动词，表示认真程度，还可用于修饰adj."
+    ]
+  },
+  {
+    "name": "think deeply about ...",
+    "trans": [
+      "深思……"
+    ]
+  },
+  {
+    "name": "breathe deeply",
+    "trans": [
+      "深呼吸"
+    ]
+  },
+  {
+    "name": "take a deep breath",
+    "trans": [
+      "深呼吸"
+    ]
+  },
+  {
+    "name": "sleep deeply",
+    "trans": [
+      "睡得很沉"
+    ]
+  },
+  {
+    "name": "defend",
+    "trans": [
+      "vt./v.防御,防卫,保卫; 防守(球门); v.辩护"
+    ]
+  },
+  {
+    "name": "defend the country/ border",
+    "trans": [
+      "保卫祖国/边疆"
+    ]
+  },
+  {
+    "name": "defend oneself against attackers",
+    "trans": [
+      "保卫自己免受袭击者的侵害"
+    ]
+  },
+  {
+    "name": "defend against danger",
+    "trans": [
+      "防范危险"
+    ]
+  },
+  {
+    "name": "defend well in the football match",
+    "trans": [
+      "在足球赛中防守出色"
+    ]
+  },
+  {
+    "name": "defend oneself against the charge in court",
+    "trans": [
+      "在法庭上就指控为自己辩护"
+    ]
+  },
+  {
+    "name": "defence",
+    "trans": [
+      "defense,n.防御,防卫,保卫; n.辩护"
+    ]
+  },
+  {
+    "name": "the last line of defence",
+    "trans": [
+      "最后一道防线"
+    ]
+  },
+  {
+    "name": "in defence of ...",
+    "trans": [
+      "为了保卫……"
+    ]
+  },
+  {
+    "name": "Soldiers died in defence of their country.",
+    "trans": [
+      "士兵们为了保卫他们的国家而牺牲了。"
+    ]
+  },
+  {
+    "name": "in one's defence",
+    "trans": [
+      "为……辩护"
+    ]
+  },
+  {
+    "name": "definite",
+    "trans": [
+      "adj.明确的,确切的"
+    ]
+  },
+  {
+    "name": "a definite answer/ reply",
+    "trans": [
+      "明确的回答/答复"
+    ]
+  },
+  {
+    "name": "definitely",
+    "trans": [
+      "adv.明确地,肯定地"
+    ]
+  },
+  {
+    "name": "definition",
+    "trans": [
+      "n.定义;释义; n.清晰度"
+    ]
+  },
+  {
+    "name": "by definition",
+    "trans": [
+      "根据释义,顾名思义"
+    ]
+  },
+  {
+    "name": "define",
+    "trans": [
+      "vt.①定义;②确定"
+    ]
+  },
+  {
+    "name": "define ... as ...",
+    "trans": [
+      "将……定义为……"
+    ]
+  },
+  {
+    "name": "define clients' needs",
+    "trans": [
+      "确定客户需求"
+    ]
+  },
+  {
+    "name": "degree",
+    "trans": [
+      "n.学位; n.程度; n.度数"
+    ]
+  },
+  {
+    "name": "a bachelor's degree (in physics)",
+    "trans": [
+      "(物理)学士学位"
+    ]
+  },
+  {
+    "name": "a master's degree (in chemistry)",
+    "trans": [
+      "(化学)硕士学位"
+    ]
+  },
+  {
+    "name": "a doctor's degree (in medicine)",
+    "trans": [
+      "(医学)博士学位"
+    ]
+  },
+  {
+    "name": "to a great degree/ extent",
+    "trans": [
+      "在很大程度上"
+    ]
+  },
+  {
+    "name": "to some a certain degree/ extent",
+    "trans": [
+      "在某种程度上"
+    ]
+  },
+  {
+    "name": "to such a degree/ an extent",
+    "trans": [
+      "到如此程度"
+    ]
+  },
+  {
+    "name": "To what degree/ extent ...?",
+    "trans": [
+      "在多大程度上……?"
+    ]
+  },
+  {
+    "name": "delay",
+    "trans": [
+      "v./n.延期,推迟,耽搁"
+    ]
+  },
+  {
+    "name": "delay doing",
+    "trans": [
+      "推迟做某事"
+    ]
+  },
+  {
+    "name": "without delay",
+    "trans": [
+      "毫不迟延地"
+    ]
+  },
+  {
+    "name": "delayed retirement",
+    "trans": [
+      "延迟退休"
+    ]
+  },
+  {
+    "name": "delay ... by+时间",
+    "trans": [
+      "推迟/延误……时间"
+    ]
+  },
+  {
+    "name": "delete",
+    "trans": [
+      "vt.删除,删去"
+    ]
+  },
+  {
+    "name": "deletion",
+    "trans": [
+      "n.删除"
+    ]
+  },
+  {
+    "name": "delicate",
+    "trans": [
+      "adj.纤弱的; adj.纤细的,精美的; adj.易碎的; 娇嫩的; adj.清淡的; adj.微妙的"
+    ]
+  },
+  {
+    "name": "a delicate child",
+    "trans": [
+      "身体娇弱的孩子"
+    ]
+  },
+  {
+    "name": "a delicate wrist",
+    "trans": [
+      "纤细的手腕"
+    ]
+  },
+  {
+    "name": "a delicate vase",
+    "trans": [
+      "精致的花瓶"
+    ]
+  },
+  {
+    "name": "a delicate glass",
+    "trans": [
+      "易碎的玻璃"
+    ]
+  },
+  {
+    "name": "delicate skin",
+    "trans": [
+      "娇嫩的皮肤"
+    ]
+  },
+  {
+    "name": "delicate flavor",
+    "trans": [
+      "清淡的口味"
+    ]
+  },
+  {
+    "name": "the delicate balance",
+    "trans": [
+      "微妙平衡"
+    ]
+  },
+  {
+    "name": "delicious",
+    "trans": [
+      "adj.美味的,可口的"
+    ]
+  },
+  {
+    "name": "delicacy",
+    "trans": [
+      "n.美味佳肴,美食"
+    ]
+  },
+  {
+    "name": "delight",
+    "trans": [
+      "v./n.(使)高兴,(使)愉快"
+    ]
+  },
+  {
+    "name": "with delight",
+    "trans": [
+      "高兴地"
+    ]
+  },
+  {
+    "name": "be delighted at/ with ...",
+    "trans": [
+      "为…感到高兴"
+    ]
+  },
+  {
+    "name": "be delighted to do",
+    "trans": [
+      "高兴做某事"
+    ]
+  },
+  {
+    "name": "to one's (great) delight, (much) to one's delight",
+    "trans": [
+      "令某人(大为)高兴的是"
+    ]
+  },
+  {
+    "name": "take delight(n.) in ......, delight(v.) in ...",
+    "trans": [
+      "以(尤指不好的事)为乐"
+    ]
+  },
+  {
+    "name": "delighted",
+    "trans": [
+      "adj.感到高兴的"
+    ]
+  },
+  {
+    "name": "delightful",
+    "trans": [
+      "adj.令人高兴的"
+    ]
+  },
+  {
+    "name": "deliver",
+    "trans": [
+      "vt.投递; vt.投以; vt.发表; vt.给予; vt.接生; v.履行"
+    ]
+  },
+  {
+    "name": "deliver a letter",
+    "trans": [
+      "递送一封信"
+    ]
+  },
+  {
+    "name": "deliver a smile",
+    "trans": [
+      "投以微笑"
+    ]
+  },
+  {
+    "name": "deliver a speech/ an address",
+    "trans": [
+      "发表演讲"
+    ]
+  },
+  {
+    "name": "deliver a heavy blow",
+    "trans": [
+      "给予重击"
+    ]
+  },
+  {
+    "name": "deliver a warning about ...",
+    "trans": [
+      "就……发出警告"
+    ]
+  },
+  {
+    "name": "deliver (her of) a baby",
+    "trans": [
+      "医生接生婴儿"
+    ]
+  },
+  {
+    "name": "be delivered of a baby",
+    "trans": [
+      "[孕妇]生下婴儿"
+    ]
+  },
+  {
+    "name": "deliver on this mission",
+    "trans": [
+      "履行这个使命"
+    ]
+  },
+  {
+    "name": "deliver on one's promise(s)",
+    "trans": [
+      "兑现某人的承诺"
+    ]
+  },
+  {
+    "name": "delivery",
+    "trans": [
+      "n.①投递;②递送的物品;③演讲风格;④打击;⑤分娩"
+    ]
+  },
+  {
+    "name": "demand",
+    "trans": [
+      "vt./n.(坚决,有权,强烈)要求; vt./n.需要"
+    ]
+  },
+  {
+    "name": "demand to do",
+    "trans": [
+      "要求做某事"
+    ]
+  },
+  {
+    "name": "demand that ... (should) do",
+    "trans": [
+      "要求……"
+    ]
+  },
+  {
+    "name": "demand sth of sb",
+    "trans": [
+      "向某人要某物"
+    ]
+  },
+  {
+    "name": "demanding",
+    "trans": [
+      "adj.苛求的,要求高的,费力的"
+    ]
+  },
+  {
+    "name": "a demanding job",
+    "trans": [
+      "要求高的工作"
+    ]
+  },
+  {
+    "name": "in great demand",
+    "trans": [
+      "需求量大"
+    ]
+  },
+  {
+    "name": "supply and demand",
+    "trans": [
+      "供求关系"
+    ]
+  },
+  {
+    "name": "meet/ satisfy/ fill sb's demands(s)/the demands of sb (for sth)",
+    "trans": [
+      "满足某人(对……)的要求"
+    ]
+  },
+  {
+    "name": "If the orchestra met the conductor's demands for high-quality music, he would weep for joy.",
+    "trans": [
+      "如果管乐队满足了指挥对高质量音乐的要求，他会喜悦而泣。"
+    ]
+  },
+  {
+    "name": "demonstrate",
+    "trans": [
+      "vt.游行示威; vt.演示; vt.展现,证明"
+    ]
+  },
+  {
+    "name": "At the exhibition, the company's sales manager demonstrated the new type of electronic toys(which/ that) children were looking forward to.",
+    "trans": [
+      "在展览会上，公司销售经理展示了孩子们所期待的新型电子玩具。"
+    ]
+  },
+  {
+    "name": "demonstrate one's courage",
+    "trans": [
+      "展现出某人的勇气"
+    ]
+  },
+  {
+    "name": "demonstrate one's ability to do",
+    "trans": [
+      "证实了某人做……的能力"
+    ]
+  },
+  {
+    "name": "demonstrate the link between ... and ...",
+    "trans": [
+      "证实了……和……的联系"
+    ]
+  },
+  {
+    "name": "dentist",
+    "trans": [
+      "n.牙医"
+    ]
+  },
+  {
+    "name": "the dentists",
+    "trans": [
+      "牙医诊所"
+    ]
+  },
+  {
+    "name": "deny",
+    "trans": [
+      "vt.否定,否认; vt.拒绝"
+    ]
+  },
+  {
+    "name": "deny doing",
+    "trans": [
+      "否认做某事"
+    ]
+  },
+  {
+    "name": "deny that ...",
+    "trans": [
+      "否认……"
+    ]
+  },
+  {
+    "name": "There is no denying+ n.",
+    "trans": [
+      "不可否认"
+    ]
+  },
+  {
+    "name": "There is no denying that+句子",
+    "trans": [
+      "不可否认"
+    ]
+  },
+  {
+    "name": "There is no denying the beauty of a sunset.",
+    "trans": [
+      "日落的美丽毋庸置疑。"
+    ]
+  },
+  {
+    "name": "There is no denying that a sunset is beautiful.",
+    "trans": [
+      "日落的美丽毋庸置疑。"
+    ]
+  },
+  {
+    "name": "denial",
+    "trans": [
+      "n.①否定,否认;②拒绝"
+    ]
+  },
+  {
+    "name": "Access to the information was denied to us.",
+    "trans": [
+      "我们无法得到情报。"
+    ]
+  },
+  {
+    "name": "depart",
+    "trans": [
+      "vi.离开,出发,起程"
+    ]
+  },
+  {
+    "name": "depart (from A) for B",
+    "trans": [
+      "(离开A)出发去B"
+    ]
+  },
+  {
+    "name": "departure",
+    "trans": [
+      "n.①离开,出发;②背离"
+    ]
+  },
+  {
+    "name": "departure time",
+    "trans": [
+      "离开时间"
+    ]
+  },
+  {
+    "name": "department",
+    "trans": [
+      "n.部门;院系"
+    ]
+  },
+  {
+    "name": "a department store",
+    "trans": [
+      "百货商店"
+    ]
+  },
+  {
+    "name": "a sales department",
+    "trans": [
+      "销售部"
+    ]
+  },
+  {
+    "name": "depend",
+    "trans": [
+      "vi.依赖,依靠,取决于"
+    ]
+  },
+  {
+    "name": "dependent",
+    "trans": [
+      "adj.依赖的"
+    ]
+  },
+  {
+    "name": "depend on= be dependent on",
+    "trans": [
+      "①依赖; ②取决于"
+    ]
+  },
+  {
+    "name": "Whether a book sells well depends on many factors.",
+    "trans": [
+      "一本书是否畅销取决于诸多因素。"
+    ]
+  },
+  {
+    "name": "It all depends.",
+    "trans": [
+      "视情况而定。"
+    ]
+  },
+  {
+    "name": "dependence",
+    "trans": [
+      "n.依赖,依靠(反: in~)"
+    ]
+  },
+  {
+    "name": "depress",
+    "trans": [
+      "vt.使沮丧; vt.使抑郁; vt.使萧条; vt.按下"
+    ]
+  },
+  {
+    "name": "be depressed about ...",
+    "trans": [
+      "为……感到沮丧"
+    ]
+  },
+  {
+    "name": "depressing",
+    "trans": [
+      "adj.令人沮丧的"
+    ]
+  },
+  {
+    "name": "depressed",
+    "trans": [
+      "adj.①感到沮丧的;②患抑郁症的"
+    ]
+  },
+  {
+    "name": "a depressed market",
+    "trans": [
+      "不景气的市场"
+    ]
+  },
+  {
+    "name": "depression",
+    "trans": [
+      "n.①沮丧;②抑郁;③萧条"
+    ]
+  },
+  {
+    "name": "the (Great) Depression",
+    "trans": [
+      "(1929-1933 年的)经济大萧条"
+    ]
+  },
+  {
+    "name": "depth",
+    "trans": [
+      "n.深度;纵深"
+    ]
+  },
+  {
+    "name": "in the depths of winter",
+    "trans": [
+      "在隆冬"
+    ]
+  },
+  {
+    "name": "in the depths of despair",
+    "trans": [
+      "处在绝望的深渊"
+    ]
+  },
+  {
+    "name": "What's the depth of the water?",
+    "trans": [
+      "水有多深?"
+    ]
+  },
+  {
+    "name": "How deep is the water?",
+    "trans": [
+      "水有多深?"
+    ]
+  },
+  {
+    "name": "This pond is ten meters in depth.",
+    "trans": [
+      "这池塘十米深。"
+    ]
+  },
+  {
+    "name": "This pond is ten meters deep.",
+    "trans": [
+      "这池塘十米深。"
+    ]
+  },
+  {
+    "name": "describe",
+    "trans": [
+      "vt.描述,描绘,描写,形容"
+    ]
+  },
+  {
+    "name": "describe ... as ...",
+    "trans": [
+      "把……描述为……"
+    ]
+  },
+  {
+    "name": "description",
+    "trans": [
+      "n.描述,描绘,描写,形容"
+    ]
+  },
+  {
+    "name": "beyond description",
+    "trans": [
+      "难以描述,无法形容"
+    ]
+  },
+  {
+    "name": "desert",
+    "trans": [
+      "n.沙漠; vt.遗弃,抛弃"
+    ]
+  },
+  {
+    "name": "a desert island",
+    "trans": [
+      "荒岛"
+    ]
+  },
+  {
+    "name": "deserve",
+    "trans": [
+      "vt.值得;应受,应得"
+    ]
+  },
+  {
+    "name": "deserve sth, deserve to do",
+    "trans": [
+      "应得……,应受到……"
+    ]
+  },
+  {
+    "name": "deserve sth, deserve doing, deserve to be done",
+    "trans": [
+      "值得被做"
+    ]
+  },
+  {
+    "name": "design",
+    "trans": [
+      "vt.设计; n.设计,图案"
+    ]
+  },
+  {
+    "name": "designer",
+    "trans": [
+      "n.设计师"
+    ]
+  },
+  {
+    "name": "a fashion designer",
+    "trans": [
+      "时装设计师"
+    ]
+  },
+  {
+    "name": "designer clothes",
+    "trans": [
+      "(著名设计师设计的)名牌服装"
+    ]
+  },
+  {
+    "name": "desire",
+    "trans": [
+      "vt./n.希望,渴望"
+    ]
+  },
+  {
+    "name": "desire(v.) sth",
+    "trans": [
+      "渴望某物"
+    ]
+  },
+  {
+    "name": "desire(n.) for sth",
+    "trans": [
+      "对某物的渴望"
+    ]
+  },
+  {
+    "name": "desire(v./n.) to do",
+    "trans": [
+      "渴望做某事"
+    ]
+  },
+  {
+    "name": "desire(v.) sb to do",
+    "trans": [
+      "渴望某人做某事"
+    ]
+  },
+  {
+    "name": "desire(v.) that ...(should) do",
+    "trans": [
+      "渴望……"
+    ]
+  },
+  {
+    "name": "desirable",
+    "trans": [
+      "adj.值得拥有的,可取的,有益的"
+    ]
+  },
+  {
+    "name": "desk",
+    "trans": [
+      "n.①办公桌,书桌;②接待处,服务台"
+    ]
+  },
+  {
+    "name": "at the reception desk",
+    "trans": [
+      "在接待处/服务台/前台"
+    ]
+  },
+  {
+    "name": "desperate",
+    "trans": [
+      "adj.感到绝望的; adj.不顾一切的; adj.极度渴望的"
+    ]
+  },
+  {
+    "name": "despair",
+    "trans": [
+      "n./vi.绝望"
+    ]
+  },
+  {
+    "name": "in despair",
+    "trans": [
+      "绝望地"
+    ]
+  },
+  {
+    "name": "fall into despair",
+    "trans": [
+      "陷入绝望"
+    ]
+  },
+  {
+    "name": "desperation",
+    "trans": [
+      "n.拼命,不顾一切"
+    ]
+  },
+  {
+    "name": "the desperate struggle to rescue the patient",
+    "trans": [
+      "拼命救病人的努力"
+    ]
+  },
+  {
+    "name": "in desperation",
+    "trans": [
+      "在走投无路之下"
+    ]
+  },
+  {
+    "name": "be desperate for sth, be desperate to do",
+    "trans": [
+      "很渴望得到某物/去做某事"
+    ]
+  },
+  {
+    "name": "be in desperate need of ...",
+    "trans": [
+      "急需……"
+    ]
+  },
+  {
+    "name": "despite",
+    "trans": [
+      "prep.尽管"
+    ]
+  },
+  {
+    "name": "despite+名词/短语/名词性从句/the fact that",
+    "trans": [
+      "尽管……"
+    ]
+  },
+  {
+    "name": "Despite his illness, he still stuck to his post.",
+    "trans": [
+      "尽管他病了，但他依然坚守岗位。"
+    ]
+  },
+  {
+    "name": "Despite the fact that he was ill, he still stuck to his post.",
+    "trans": [
+      "尽管他病了，但他依然坚守岗位。"
+    ]
+  },
+  {
+    "name": "Despite what he had done, he failed to persuade people into believing him.",
+    "trans": [
+      "尽管他做了些事情，但他没能说服大家相信他。"
+    ]
+  },
+  {
+    "name": "desert",
+    "trans": [
+      "n.目的地,终点"
+    ]
+  },
+  {
+    "name": "destination",
+    "trans": [
+      "n.目的地,终点"
+    ]
+  },
+  {
+    "name": "a tourist destination",
+    "trans": [
+      "旅游目的地"
+    ]
+  },
+  {
+    "name": "destroy",
+    "trans": [
+      "vt.破坏,毁坏,摧毁"
+    ]
+  },
+  {
+    "name": "destruction",
+    "trans": [
+      "n.破坏,毁坏,摧毁"
+    ]
+  },
+  {
+    "name": "detail",
+    "trans": [
+      "n.细节; vt.详细说明,详细列举"
+    ]
+  },
+  {
+    "name": "in detail",
+    "trans": [
+      "详细地"
+    ]
+  },
+  {
+    "name": "detailed",
+    "trans": [
+      "adj.详细的"
+    ]
+  },
+  {
+    "name": "detect",
+    "trans": [
+      "vt.察觉,发现"
+    ]
+  },
+  {
+    "name": "detective",
+    "trans": [
+      "adj.侦探的; n.侦探,警探"
+    ]
+  },
+  {
+    "name": "a detective story",
+    "trans": [
+      "侦探小说"
+    ]
+  },
+  {
+    "name": "do some detective work",
+    "trans": [
+      "做一些侦查工作"
+    ]
+  },
+  {
+    "name": "determine",
+    "trans": [
+      "vt.下决心,决定; vt.查明,确定"
+    ]
+  },
+  {
+    "name": "be determined to do",
+    "trans": [
+      "下定决心做某事"
+    ]
+  },
+  {
+    "name": "determined attitude",
+    "trans": [
+      "坚定的态度"
+    ]
+  },
+  {
+    "name": "determination",
+    "trans": [
+      "n.决心"
+    ]
+  },
+  {
+    "name": "determine the cause of the accident",
+    "trans": [
+      "查明事故原因"
+    ]
+  },
+  {
+    "name": "develop",
+    "trans": [
+      "vt.发展; v.发育;生长; vt.开发; vt.形成;出现,产生; vt.得(病),患(病)"
+    ]
+  },
+  {
+    "name": "a developing country",
+    "trans": [
+      "发展中国家"
+    ]
+  },
+  {
+    "name": "a developed country",
+    "trans": [
+      "发达国家"
+    ]
+  },
+  {
+    "name": "an underdeveloped country",
+    "trans": [
+      "欠发达国家"
+    ]
+  },
+  {
+    "name": "the least developed country",
+    "trans": [
+      "最不发达国家"
+    ]
+  },
+  {
+    "name": "develop into a quarrel",
+    "trans": [
+      "演变为争吵"
+    ]
+  },
+  {
+    "name": "developmental (adj.) delay",
+    "trans": [
+      "发育迟缓"
+    ]
+  },
+  {
+    "name": "developer",
+    "trans": [
+      "n.发育者;成长的人; ①晚发育者;②大器晚成者"
+    ]
+  },
+  {
+    "name": "a late developer",
+    "trans": [
+      "①晚发育者;②大器晚成者"
+    ]
+  },
+  {
+    "name": "develop the new technology",
+    "trans": [
+      "开发新技术"
+    ]
+  },
+  {
+    "name": "develop the property",
+    "trans": [
+      "开发房地产"
+    ]
+  },
+  {
+    "name": "device",
+    "trans": [
+      "n.装置,设备"
+    ]
+  },
+  {
+    "name": "devote",
+    "trans": [
+      "vt.投身,奉献"
+    ]
+  },
+  {
+    "name": "devote oneself to ......, be devoted to ...",
+    "trans": [
+      "致力于(to是介词)"
+    ]
+  },
+  {
+    "name": "devote one's life/ time/ energy to ...",
+    "trans": [
+      "将一生/时间/精力奉献给……(to是介词)"
+    ]
+  },
+  {
+    "name": "devotion",
+    "trans": [
+      "n.献身,奉献,致力"
+    ]
+  },
+  {
+    "name": "devotion to ...",
+    "trans": [
+      "对……的投入/献身"
+    ]
+  },
+  {
+    "name": "diagnose",
+    "trans": [
+      "vt.诊断"
+    ]
+  },
+  {
+    "name": "[某人] be diagnosed with+疾病名称",
+    "trans": [
+      "被诊断得了…"
+    ]
+  },
+  {
+    "name": "[疾病] be diagnosed as+疾病名称",
+    "trans": [
+      "被诊断为…"
+    ]
+  },
+  {
+    "name": "diagnosis",
+    "trans": [
+      "n.诊断"
+    ]
+  },
+  {
+    "name": "diagram",
+    "trans": [
+      "n.图表,示意图"
+    ]
+  },
+  {
+    "name": "dialog(ue)",
+    "trans": [
+      "n.对话"
+    ]
+  },
+  {
+    "name": "diamond",
+    "trans": [
+      "n.钻石,金刚石"
+    ]
+  },
+  {
+    "name": "diary",
+    "trans": [
+      "n.日志,日记"
+    ]
+  },
+  {
+    "name": "keep a diary",
+    "trans": [
+      "记日记,写日记"
+    ]
+  },
+  {
+    "name": "dictionary",
+    "trans": [
+      "n.字典,词典"
+    ]
+  },
+  {
+    "name": "a walking dictionary",
+    "trans": [
+      "活字典"
+    ]
+  },
+  {
+    "name": "refer to/ consult the dictionary",
+    "trans": [
+      "查字典"
+    ]
+  },
+  {
+    "name": "look up the word(s) in the dictionary",
+    "trans": [
+      "查字典"
+    ]
+  },
+  {
+    "name": "die",
+    "trans": [
+      "v.死亡"
+    ]
+  },
+  {
+    "name": "die young",
+    "trans": [
+      "英年早逝"
+    ]
+  },
+  {
+    "name": "die from wounds",
+    "trans": [
+      "因伤而死(from+外因)"
+    ]
+  },
+  {
+    "name": "die of a heart attack",
+    "trans": [
+      "死于心脏病发(of+内因)"
+    ]
+  },
+  {
+    "name": "die of depression",
+    "trans": [
+      "死于抑郁(of+内因)"
+    ]
+  },
+  {
+    "name": "die of starvation",
+    "trans": [
+      "饿死(of+内因)"
+    ]
+  },
+  {
+    "name": "die out",
+    "trans": [
+      "灭绝"
+    ]
+  },
+  {
+    "name": "die off",
+    "trans": [
+      "相继死去"
+    ]
+  },
+  {
+    "name": "die away",
+    "trans": [
+      "(风,光,声)逐渐变弱"
+    ]
+  },
+  {
+    "name": "die down",
+    "trans": [
+      "逐渐减弱"
+    ]
+  },
+  {
+    "name": "diet",
+    "trans": [
+      "n.饮食"
+    ]
+  },
+  {
+    "name": "a balanced diet",
+    "trans": [
+      "均衡饮食"
+    ]
+  },
+  {
+    "name": "be/ go on a diet",
+    "trans": [
+      "节食"
+    ]
+  },
+  {
+    "name": "differ",
+    "trans": [
+      "vi.不同,有区别; vi.(意见)发生分歧"
+    ]
+  },
+  {
+    "name": "different",
+    "trans": [
+      "adj.不同的"
+    ]
+  },
+  {
+    "name": "be different from",
+    "trans": [
+      "与……不同"
+    ]
+  },
+  {
+    "name": "differ from ...",
+    "trans": [
+      "与……不同"
+    ]
+  },
+  {
+    "name": "be different in ...",
+    "trans": [
+      "在……方面不同"
+    ]
+  },
+  {
+    "name": "differ in ...",
+    "trans": [
+      "在……方面不同"
+    ]
+  },
+  {
+    "name": "differentiate",
+    "trans": [
+      "vt.区分,辨别"
+    ]
+  },
+  {
+    "name": "differentiate between A and B",
+    "trans": [
+      "将A和B区分开来"
+    ]
+  },
+  {
+    "name": "differentiate A from B",
+    "trans": [
+      "将A和B区分开来"
+    ]
+  },
+  {
+    "name": "differ with sb",
+    "trans": [
+      "与某人意见不一"
+    ]
+  },
+  {
+    "name": "difference",
+    "trans": [
+      "n.[C]差异,不同;分歧"
+    ]
+  },
+  {
+    "name": "the difference(s) between A and B",
+    "trans": [
+      "A与B之间的差异"
+    ]
+  },
+  {
+    "name": "the difference(s) in ...",
+    "trans": [
+      "在……方面的不同"
+    ]
+  },
+  {
+    "name": "make a difference",
+    "trans": [
+      "起作用,有效果,有影响"
+    ]
+  },
+  {
+    "name": "make no/ little difference",
+    "trans": [
+      "一点作用也没有"
+    ]
+  },
+  {
+    "name": "difficult",
+    "trans": [
+      "adj.困难的,艰难的"
+    ]
+  },
+  {
+    "name": "a difficult student",
+    "trans": [
+      "学困生"
+    ]
+  },
+  {
+    "name": "difficulty",
+    "trans": [
+      "困难,艰难"
+    ]
+  },
+  {
+    "name": "have difficulty (in) doing",
+    "trans": [
+      "做某事有困难"
+    ]
+  },
+  {
+    "name": "in difficulty/ difficulties",
+    "trans": [
+      "处在困境中"
+    ]
+  },
+  {
+    "name": "with difficulty/ difficulties",
+    "trans": [
+      "困难地,吃力地"
+    ]
+  },
+  {
+    "name": "dig",
+    "trans": [
+      "vt./n.挖,掘,挖掘"
+    ]
+  },
+  {
+    "name": "dig up details",
+    "trans": [
+      "挖掘细节"
+    ]
+  },
+  {
+    "name": "digest",
+    "trans": [
+      "vt.消化,吸收; vt.理解,领悟"
+    ]
+  },
+  {
+    "name": "digest the food",
+    "trans": [
+      "消化食物"
+    ]
+  },
+  {
+    "name": "digest a book",
+    "trans": [
+      "理解一本书"
+    ]
+  },
+  {
+    "name": "digestion",
+    "trans": [
+      "n.①消化,吸收;②理解,领悟"
+    ]
+  },
+  {
+    "name": "digital",
+    "trans": [
+      "adj.数字的,数码的"
+    ]
+  },
+  {
+    "name": "a digital camera",
+    "trans": [
+      "数码相机"
+    ]
+  },
+  {
+    "name": "digit",
+    "trans": [
+      "n.[数]数位"
+    ]
+  },
+  {
+    "name": "four digits",
+    "trans": [
+      "四位数"
+    ]
+  },
+  {
+    "name": "dignity",
+    "trans": [
+      "n.尊严"
+    ]
+  },
+  {
+    "name": "live with dignity",
+    "trans": [
+      "有尊严地生活"
+    ]
+  },
+  {
+    "name": "dimension",
+    "trans": [
+      "n.(空间)维度; n.方面,层面,侧面; n.(~s)规模,程度,范围"
+    ]
+  },
+  {
+    "name": "dimensional",
+    "trans": [
+      "adj.维度的"
+    ]
+  },
+  {
+    "name": "a three dimensional structure",
+    "trans": [
+      "三维结构"
+    ]
+  },
+  {
+    "name": "add a new dimension to her life",
+    "trans": [
+      "为她的生活增添新的内容"
+    ]
+  },
+  {
+    "name": "a disaster of great dimensions",
+    "trans": [
+      "巨大的灾难"
+    ]
+  },
+  {
+    "name": "dine",
+    "trans": [
+      "vi.进餐,用餐"
+    ]
+  },
+  {
+    "name": "dine out",
+    "trans": [
+      "外出吃饭"
+    ]
+  },
+  {
+    "name": "a dining table",
+    "trans": [
+      "餐桌"
+    ]
+  },
+  {
+    "name": "a dining room",
+    "trans": [
+      "(家里的)餐厅"
+    ]
+  },
+  {
+    "name": "a dining car",
+    "trans": [
+      "(火车上的)餐车"
+    ]
+  },
+  {
+    "name": "dinner",
+    "trans": [
+      "n.晚餐,正餐"
+    ]
+  },
+  {
+    "name": "a dinner party",
+    "trans": [
+      "晚宴"
+    ]
+  },
+  {
+    "name": "have noodles for dinner",
+    "trans": [
+      "晚饭吃面"
+    ]
+  },
+  {
+    "name": "dinosaur",
+    "trans": [
+      "n.恐龙"
+    ]
+  },
+  {
+    "name": "direct",
+    "trans": [
+      "vt.指示,要求; vt.导演(电影或剧); vt.指导,监督,负责; vt.引导,指路; adj.直接的(反: in~); adj.率直的"
+    ]
+  },
+  {
+    "name": "direct sb to do",
+    "trans": [
+      "指示/要求某人做某事"
+    ]
+  },
+  {
+    "name": "direct that ...(should) do",
+    "trans": [
+      "指示/要求……"
+    ]
+  },
+  {
+    "name": "direct a TV series",
+    "trans": [
+      "导演一部电视剧"
+    ]
+  },
+  {
+    "name": "director",
+    "trans": [
+      "n.①主管,董事;②导演"
+    ]
+  },
+  {
+    "name": "direct day-to-day operations",
+    "trans": [
+      "负责日常运营"
+    ]
+  },
+  {
+    "name": "direct sb to the school",
+    "trans": [
+      "给某人指出去学校的路"
+    ]
+  },
+  {
+    "name": "a direct question",
+    "trans": [
+      "一个直截了当的问题"
+    ]
+  },
+  {
+    "name": "go direct to ...",
+    "trans": [
+      "直接去……"
+    ]
+  },
+  {
+    "name": "fly direct to ...",
+    "trans": [
+      "直飞……"
+    ]
+  },
+  {
+    "name": "a direct flight to Shanghai",
+    "trans": [
+      "直飞上海的航班"
+    ]
+  },
+  {
+    "name": "directly",
+    "trans": [
+      "adv.直接地(反: in~); conj.一……就……"
+    ]
+  },
+  {
+    "name": "be directly associated with ...",
+    "trans": [
+      "与……直接相关"
+    ]
+  },
+  {
+    "name": "direction",
+    "trans": [
+      "n.方向; n.(常~s)指示,指引,说明"
+    ]
+  },
+  {
+    "name": "go/ head in the direction of ...",
+    "trans": [
+      "朝着……方向去"
+    ]
+  },
+  {
+    "name": "walk in the direction of ...",
+    "trans": [
+      "朝着……方向走去"
+    ]
+  },
+  {
+    "name": "from all directions",
+    "trans": [
+      "从四面八方"
+    ]
+  },
+  {
+    "name": "from the direction of ...",
+    "trans": [
+      "从……方向"
+    ]
+  },
+  {
+    "name": "in all directions",
+    "trans": [
+      "向四面八方"
+    ]
+  },
+  {
+    "name": "In which direction are we going?",
+    "trans": [
+      "我们要去什么方向?"
+    ]
+  },
+  {
+    "name": "give sb directions",
+    "trans": [
+      "给某人指示"
+    ]
+  },
+  {
+    "name": "follow the directions",
+    "trans": [
+      "遵照指示"
+    ]
+  },
+  {
+    "name": "directory",
+    "trans": [
+      "n.公司名录;电话簿;[计算机]目录"
+    ]
+  },
+  {
+    "name": "dirty",
+    "trans": [
+      "adj.脏的,肮脏的"
+    ]
+  },
+  {
+    "name": "dirt",
+    "trans": [
+      "n.污垢,污物,灰尘"
+    ]
+  },
+  {
+    "name": "disabled",
+    "trans": [
+      "adj.残疾的"
+    ]
+  },
+  {
+    "name": "disability",
+    "trans": [
+      "n.残疾,无能"
+    ]
+  },
+  {
+    "name": "disappear",
+    "trans": [
+      "vi.消失"
+    ]
+  },
+  {
+    "name": "disappearance",
+    "trans": [
+      "n.消失"
+    ]
+  },
+  {
+    "name": "disappoint",
+    "trans": [
+      "vt.使失望"
+    ]
+  },
+  {
+    "name": "be disappointed at sth/ with sb/ to do/ that ...",
+    "trans": [
+      "对……感到失望"
+    ]
+  },
+  {
+    "name": "disappointed",
+    "trans": [
+      "adj.感到失望的"
+    ]
+  },
+  {
+    "name": "disappointing",
+    "trans": [
+      "adj.令人失望的"
+    ]
+  },
+  {
+    "name": "disappointment",
+    "trans": [
+      "n.失望"
+    ]
+  },
+  {
+    "name": "disaster",
+    "trans": [
+      "n.灾难,灾祸"
+    ]
+  },
+  {
+    "name": "a natural disaster",
+    "trans": [
+      "自然灾害,天灾"
+    ]
+  },
+  {
+    "name": "a man-made disaster",
+    "trans": [
+      "人祸"
+    ]
+  },
+  {
+    "name": "the disaster-stricken area",
+    "trans": [
+      "灾区"
+    ]
+  },
+  {
+    "name": "disastrous",
+    "trans": [
+      "adj.灾难性的"
+    ]
+  },
+  {
+    "name": "disastrous consequence",
+    "trans": [
+      "灾难性的后果"
+    ]
+  },
+  {
+    "name": "discipline",
+    "trans": [
+      "n.纪律; vt.(自我)训练,约束; n.训练(方法); vt./n.管教,约束; vt.惩戒,惩处; n.(尤指大学所教的)学科"
+    ]
+  },
+  {
+    "name": "a disciplined army",
+    "trans": [
+      "纪律严明的军队"
+    ]
+  },
+  {
+    "name": "self-discipline",
+    "trans": [
+      "n.自律"
+    ]
+  },
+  {
+    "name": "the discipline for",
+    "trans": [
+      "……的训练方法"
+    ]
+  },
+  {
+    "name": "discipline sb for sth",
+    "trans": [
+      "因某事惩罚某人"
+    ]
+  },
+  {
+    "name": "discount",
+    "trans": [
+      "n.折扣,打折; vt.将……打折出售; vt.低估,不认为……"
+    ]
+  },
+  {
+    "name": "sell goods at a discount",
+    "trans": [
+      "打折出售商品"
+    ]
+  },
+  {
+    "name": "give/ offer sb a 20% discount",
+    "trans": [
+      "向某人提供八折优惠"
+    ]
+  },
+  {
+    "name": "(sb) get/ be given a 20% discount",
+    "trans": [
+      "(某人)享受到八折"
+    ]
+  },
+  {
+    "name": "discount the possibility of ...",
+    "trans": [
+      "低估……的可能性"
+    ]
+  },
+  {
+    "name": "discount ... as being important",
+    "trans": [
+      "不认为……重要"
+    ]
+  },
+  {
+    "name": "discover",
+    "trans": [
+      "vt.发现,发觉"
+    ]
+  },
+  {
+    "name": "discovery",
+    "trans": [
+      "n.[U]发现; [C]被发现的事物"
+    ]
+  },
+  {
+    "name": "make some scientific discoveries",
+    "trans": [
+      "做出科学发现"
+    ]
+  },
+  {
+    "name": "discriminate",
+    "trans": [
+      "vi.歧视; vt./ vi.区分,区别"
+    ]
+  },
+  {
+    "name": "discriminate against women",
+    "trans": [
+      "歧视妇女"
+    ]
+  },
+  {
+    "name": "discriminate A from B",
+    "trans": [
+      "将A和B区分开来"
+    ]
+  },
+  {
+    "name": "discriminate between A and B",
+    "trans": [
+      "将A和B区分开来"
+    ]
+  },
+  {
+    "name": "discrimination",
+    "trans": [
+      "n.(1)歧视;(2)辨别力"
+    ]
+  },
+  {
+    "name": "discrimination against women",
+    "trans": [
+      "对女性的歧视"
+    ]
+  },
+  {
+    "name": "gender/ sex discrimination",
+    "trans": [
+      "性别歧视"
+    ]
+  },
+  {
+    "name": "racial discrimination",
+    "trans": [
+      "种族歧视"
+    ]
+  },
+  {
+    "name": "indiscriminate",
+    "trans": [
+      "adj.不加区分的"
+    ]
+  },
+  {
+    "name": "discuss",
+    "trans": [
+      "vt.讨论"
+    ]
+  },
+  {
+    "name": "discussion",
+    "trans": [
+      "n.讨论,议论"
+    ]
+  },
+  {
+    "name": "discuss sth, have a discussion on/ about sth",
+    "trans": [
+      "讨论某事"
+    ]
+  },
+  {
+    "name": "have a discussion with sb",
+    "trans": [
+      "与某人讨论"
+    ]
+  },
+  {
+    "name": "under discussion",
+    "trans": [
+      "正在讨论中"
+    ]
+  },
+  {
+    "name": "disease",
+    "trans": [
+      "n.病,疾病"
+    ]
+  },
+  {
+    "name": "get/ contract/ pick up/ develop a disease",
+    "trans": [
+      "得病"
+    ]
+  },
+  {
+    "name": "suffer from heart disease",
+    "trans": [
+      "患有心脏病"
+    ]
+  },
+  {
+    "name": "recover from the disease",
+    "trans": [
+      "从疾病中恢复"
+    ]
+  },
+  {
+    "name": "dish",
+    "trans": [
+      "n.盘,碟;(~es)(待洗的)餐具;一盘食物"
+    ]
+  },
+  {
+    "name": "a main dish/ course",
+    "trans": [
+      "一道主菜"
+    ]
+  },
+  {
+    "name": "a side dish",
+    "trans": [
+      "一道配菜"
+    ]
+  },
+  {
+    "name": "family dishes",
+    "trans": [
+      "家常菜"
+    ]
+  },
+  {
+    "name": "wash dishes, do the dishes",
+    "trans": [
+      "洗餐具"
+    ]
+  },
+  {
+    "name": "disk, disc",
+    "trans": [
+      "n.圆盘,磁盘,唱片"
+    ]
+  },
+  {
+    "name": "dismiss",
+    "trans": [
+      "vt.解雇,开除; vt.摒弃, 不予考虑,对……不屑一提, 驳回; vt.使解散"
+    ]
+  },
+  {
+    "name": "dismiss the objections",
+    "trans": [
+      "对反对之声不予理会"
+    ]
+  },
+  {
+    "name": "dismiss his suggestion(s)",
+    "trans": [
+      "对他的建议不予考虑"
+    ]
+  },
+  {
+    "name": "dismiss the case",
+    "trans": [
+      "驳回案件"
+    ]
+  },
+  {
+    "name": "dismiss ... as ...",
+    "trans": [
+      "(持否定态度地)认为……是……"
+    ]
+  },
+  {
+    "name": "The class is dismissed.",
+    "trans": [
+      "下课了。"
+    ]
+  },
+  {
+    "name": "display",
+    "trans": [
+      "vt./n.展示,表现(情感,态度,品质,能力); vt./n.展出"
+    ]
+  },
+  {
+    "name": "display courage",
+    "trans": [
+      "展现勇气"
+    ]
+  },
+  {
+    "name": "display artworks",
+    "trans": [
+      "展出艺术作品"
+    ]
+  },
+  {
+    "name": "on display",
+    "trans": [
+      "展览着,陈列着"
+    ]
+  },
+  {
+    "name": "display the file on the screen",
+    "trans": [
+      "在屏幕上显示文件"
+    ]
+  },
+  {
+    "name": "distance",
+    "trans": [
+      "n.①距离,间距;②远,远处; vt.使疏远"
+    ]
+  },
+  {
+    "name": "be seated at a distance of 2 meters",
+    "trans": [
+      "每隔2米就坐"
+    ]
+  },
+  {
+    "name": "stand in the distance",
+    "trans": [
+      "站在远处"
+    ]
+  },
+  {
+    "name": "look around in the distance",
+    "trans": [
+      "极目远眺"
+    ]
+  },
+  {
+    "name": "look into the distance",
+    "trans": [
+      "朝远处看"
+    ]
+  },
+  {
+    "name": "walk from a distance",
+    "trans": [
+      "从远处走来"
+    ]
+  },
+  {
+    "name": "make a long-distance call",
+    "trans": [
+      "打长途电话"
+    ]
+  },
+  {
+    "name": "distance learning",
+    "trans": [
+      "远程学习"
+    ]
+  },
+  {
+    "name": "distance oneself from ...",
+    "trans": [
+      "与……疏远/撇清关系"
+    ]
+  },
+  {
+    "name": "distant",
+    "trans": [
+      "adj.遥远的;(关系)远的"
+    ]
+  },
+  {
+    "name": "in the not-so-distant future",
+    "trans": [
+      "在不久的未来"
+    ]
+  },
+  {
+    "name": "in the near future",
+    "trans": [
+      "在不久的将来"
+    ]
+  },
+  {
+    "name": "distinct",
+    "trans": [
+      "adj.(视听/记忆方面)清楚的,明显的; adj.截然不同的"
+    ]
+  },
+  {
+    "name": "distinguish",
+    "trans": [
+      "vt.区分,区别; vt.使……脱颖而出,使……杰出; vt.认出,看出,听出"
+    ]
+  },
+  {
+    "name": "distinction",
+    "trans": [
+      "n.①区分, 区别;②n.独特性, 不同凡响处"
+    ]
+  },
+  {
+    "name": "distinguish A from B",
+    "trans": [
+      "区分A和B"
+    ]
+  },
+  {
+    "name": "make a distinction between A and B",
+    "trans": [
+      "区分A和B"
+    ]
+  },
+  {
+    "name": "have the distinction of ...",
+    "trans": [
+      "有着……的独特之处"
+    ]
+  },
+  {
+    "name": "distinctive",
+    "trans": [
+      "adj.独特的,与众不同的"
+    ]
+  },
+  {
+    "name": "distinguish the company from the competition",
+    "trans": [
+      "使公司在竞争中脱颖而出"
+    ]
+  },
+  {
+    "name": "distinguished",
+    "trans": [
+      "adj.卓越的,杰出的"
+    ]
+  },
+  {
+    "name": "a distinguished guest",
+    "trans": [
+      "嘉宾,尊贵的客人"
+    ]
+  },
+  {
+    "name": "distinguish nothing in the dark room",
+    "trans": [
+      "在昏暗房间里看不清东西"
+    ]
+  },
+  {
+    "name": "distract",
+    "trans": [
+      "vt.分散(注意力),使…分心"
+    ]
+  },
+  {
+    "name": "distract one's attention (from ...)",
+    "trans": [
+      "分散某人(对……)的注意力"
+    ]
+  },
+  {
+    "name": "distract sb (from ...)",
+    "trans": [
+      "使某人(对……)分心"
+    ]
+  },
+  {
+    "name": "distress",
+    "trans": [
+      "n.痛苦,苦恼; vt.使苦恼,使悲伤; n.拮据,(缺钱而导致的)困苦, 困难; n.遇难、遇险(正处危险之中)"
+    ]
+  },
+  {
+    "name": "be distressed to do",
+    "trans": [
+      "做某事很苦恼"
+    ]
+  },
+  {
+    "name": "in distress",
+    "trans": [
+      "苦恼地"
+    ]
+  },
+  {
+    "name": "distressed",
+    "trans": [
+      "adj.感到苦恼的"
+    ]
+  },
+  {
+    "name": "distressing",
+    "trans": [
+      "adj.令人苦恼的"
+    ]
+  },
+  {
+    "name": "financial distress",
+    "trans": [
+      "财政困难"
+    ]
+  },
+  {
+    "name": "a poor family in great distress",
+    "trans": [
+      "一户极度贫困的家庭"
+    ]
+  },
+  {
+    "name": "a distress signal",
+    "trans": [
+      "求救信号"
+    ]
+  },
+  {
+    "name": "a ship in distress",
+    "trans": [
+      "一艘遇难船"
+    ]
+  },
+  {
+    "name": "distribute",
+    "trans": [
+      "vt.分发,分配,分送; vt.分销,经销"
+    ]
+  },
+  {
+    "name": "distribute blankets to refugees",
+    "trans": [
+      "将毯子分发给难民"
+    ]
+  },
+  {
+    "name": "distribution",
+    "trans": [
+      "n.①分发,分配;②分销,经销"
+    ]
+  },
+  {
+    "name": "district",
+    "trans": [
+      "n.区,区域;行政区"
+    ]
+  },
+  {
+    "name": "a school district",
+    "trans": [
+      "学区"
+    ]
+  },
+  {
+    "name": "Huangpu District",
+    "trans": [
+      "黄浦区"
+    ]
+  },
+  {
+    "name": "disturb",
+    "trans": [
+      "vt.打扰,扰乱; vt.弄乱,搞乱,搅乱; vt.使不安; vt.挪动,改变……的位置"
+    ]
+  },
+  {
+    "name": "disturb the balance of nature",
+    "trans": [
+      "破坏生态平衡"
+    ]
+  },
+  {
+    "name": "disturb the papers on the desk",
+    "trans": [
+      "弄乱桌上的文件"
+    ]
+  },
+  {
+    "name": "be disturbed to do",
+    "trans": [
+      "对做某事感到烦恼"
+    ]
+  },
+  {
+    "name": "Don't disturb eggs in the nest.",
+    "trans": [
+      "别动巢里的蛋。"
+    ]
+  },
+  {
+    "name": "dive",
+    "trans": [
+      "vi./n.潜水;跳水"
+    ]
+  },
+  {
+    "name": "dive into the water",
+    "trans": [
+      "跳入水中"
+    ]
+  },
+  {
+    "name": "dive for sth",
+    "trans": [
+      "潜水寻找某物"
+    ]
+  },
+  {
+    "name": "diver",
+    "trans": [
+      "n.①潜水者;②跳水者"
+    ]
+  },
+  {
+    "name": "diving",
+    "trans": [
+      "n.①潜水(运动);②跳水(运动)"
+    ]
+  },
+  {
+    "name": "diverse",
+    "trans": [
+      "adj.多种多样的"
+    ]
+  },
+  {
+    "name": "diversity",
+    "trans": [
+      "n.多样化,多样性"
+    ]
+  },
+  {
+    "name": "biodiversity",
+    "trans": [
+      "n.生物多样性"
+    ]
+  },
+  {
+    "name": "divide",
+    "trans": [
+      "vt.划分,分开,分隔; vt.使……产生分歧,使……对立; vt.除"
+    ]
+  },
+  {
+    "name": "divide ... from ...",
+    "trans": [
+      "把……与……隔开"
+    ]
+  },
+  {
+    "name": "divide ... into ...",
+    "trans": [
+      "把……分成……"
+    ]
+  },
+  {
+    "name": "divide up",
+    "trans": [
+      "划分,瓜分,分割,分配"
+    ]
+  },
+  {
+    "name": "divide up the work",
+    "trans": [
+      "分工"
+    ]
+  },
+  {
+    "name": "divide up the money",
+    "trans": [
+      "把钱给分了"
+    ]
+  },
+  {
+    "name": "divide schools up according to home addresses",
+    "trans": [
+      "根据家庭地址划分学校"
+    ]
+  },
+  {
+    "name": "divide ... between(两者)/ among(三者及三者以上)",
+    "trans": [
+      "把……分给……"
+    ]
+  },
+  {
+    "name": "Six divided by two is three.",
+    "trans": [
+      "6÷3=2。"
+    ]
+  },
+  {
+    "name": "division",
+    "trans": [
+      "n.①分开;②分歧;③除法;④部门"
+    ]
+  },
+  {
+    "name": "dizzy",
+    "trans": [
+      "adj.头晕目眩的"
+    ]
+  },
+  {
+    "name": "do",
+    "trans": [
+      "v.做,干; aux.①构成疑问或否定句;②代替动词; ③加强语气"
+    ]
+  },
+  {
+    "name": "do well/ badly in ...",
+    "trans": [
+      "在……上做得好/不好"
+    ]
+  },
+  {
+    "name": "do with",
+    "trans": [
+      "处理,对待"
+    ]
+  },
+  {
+    "name": "I don't know what to do (with it).",
+    "trans": [
+      "我不知道该如何处置。"
+    ]
+  },
+  {
+    "name": "I don't know how to do it/ deal with it.",
+    "trans": [
+      "我不知道该如何处置。"
+    ]
+  },
+  {
+    "name": "do without sb/ sth",
+    "trans": [
+      "没……也行,没……也能将就"
+    ]
+  },
+  {
+    "name": "He is very good at operating a computer, and he can do without a mouse.",
+    "trans": [
+      "他非常擅长电脑操作，没鼠标也行。"
+    ]
+  },
+  {
+    "name": "make do (with ......)",
+    "trans": [
+      "凑活(用……),将就着(用……)"
+    ]
+  },
+  {
+    "name": "have something to do with ...",
+    "trans": [
+      "与……有关"
+    ]
+  },
+  {
+    "name": "have much to do with ...",
+    "trans": [
+      "与……很有关系"
+    ]
+  },
+  {
+    "name": "have nothing to do with ...",
+    "trans": [
+      "与……无关"
+    ]
+  },
+  {
+    "name": "do away with ...",
+    "trans": [
+      "废除(规划,制度)"
+    ]
+  },
+  {
+    "name": "Our school did away with school uniforms ten years ago.",
+    "trans": [
+      "我们学校十年前就取消了校服。"
+    ]
+  },
+  {
+    "name": "Do cover your mouth and nose with a tissue when you are sneezing.",
+    "trans": [
+      "打喷嚏时，务必用纸巾遮住口鼻。"
+    ]
+  },
+  {
+    "name": "doctor",
+    "trans": [
+      "n.医生; n.博士"
+    ]
+  },
+  {
+    "name": "see a doctor",
+    "trans": [
+      "看医生"
+    ]
+  },
+  {
+    "name": "a doctor's degree",
+    "trans": [
+      "博士学位"
+    ]
+  },
+  {
+    "name": "doctorate",
+    "trans": [
+      "博士学位"
+    ]
+  },
+  {
+    "name": "document",
+    "trans": [
+      "n.文件,公文; n.证件; vt.记录,记载; vt.用文件(或文献)证明……"
+    ]
+  },
+  {
+    "name": "a well-documented history",
+    "trans": [
+      "有据可查的历史"
+    ]
+  },
+  {
+    "name": "documentary",
+    "trans": [
+      "n.纪录片"
+    ]
+  },
+  {
+    "name": "a documentary(adj. ) film",
+    "trans": [
+      "纪录片"
+    ]
+  },
+  {
+    "name": "It is well documented that ...",
+    "trans": [
+      "有充分的文件(或文献)证明……"
+    ]
+  },
+  {
+    "name": "dog",
+    "trans": [
+      "n.狗"
+    ]
+  },
+  {
+    "name": "a hunting dog",
+    "trans": [
+      "猎犬"
+    ]
+  },
+  {
+    "name": "a guide dog",
+    "trans": [
+      "导盲犬"
+    ]
+  },
+  {
+    "name": "dollar",
+    "trans": [
+      "n.美国、加拿大等地的货币单位"
+    ]
+  },
+  {
+    "name": "dolphin",
+    "trans": [
+      "n.海豚"
+    ]
+  },
+  {
+    "name": "domain",
+    "trans": [
+      "n.(专业, 职责等)领域, 范畴; n.(旧的)领地, 领土, 势力范围; n.[网站]域名"
+    ]
+  },
+  {
+    "name": "within/ outside the domain of ...",
+    "trans": [
+      "属于/不属于……的范畴"
+    ]
+  },
+  {
+    "name": "domestic",
+    "trans": [
+      "adj.国内的; adj.家庭的; adj.家养的,驯养的"
+    ]
+  },
+  {
+    "name": "domestic affairs",
+    "trans": [
+      "国内事务"
+    ]
+  },
+  {
+    "name": "domestic violence",
+    "trans": [
+      "家庭暴力"
+    ]
+  },
+  {
+    "name": "domestic animals",
+    "trans": [
+      "家畜"
+    ]
+  },
+  {
+    "name": "dominate",
+    "trans": [
+      "vt.统治,支配,在……中占主导地位; vi.占主导地位"
+    ]
+  },
+  {
+    "name": "dominant",
+    "trans": [
+      "adj.占统治地位的"
+    ]
+  },
+  {
+    "name": "donate",
+    "trans": [
+      "vt.捐赠,捐献"
+    ]
+  },
+  {
+    "name": "donate blood",
+    "trans": [
+      "献血"
+    ]
+  },
+  {
+    "name": "donate money to the disabled",
+    "trans": [
+      "给残疾人捐钱"
+    ]
+  },
+  {
+    "name": "donation",
+    "trans": [
+      "n.捐赠,捐献,捐款,捐赠物"
+    ]
+  },
+  {
+    "name": "make a donation to the charitable cause",
+    "trans": [
+      "向慈善事业捐赠"
+    ]
+  },
+  {
+    "name": "donor",
+    "trans": [
+      "n.捐赠者"
+    ]
+  },
+  {
+    "name": "door",
+    "trans": [
+      "n.门"
+    ]
+  },
+  {
+    "name": "at the door",
+    "trans": [
+      "在门口"
+    ]
+  },
+  {
+    "name": "next door(to ...)",
+    "trans": [
+      "(在……)的隔壁"
+    ]
+  },
+  {
+    "name": "from door to door",
+    "trans": [
+      "挨家挨户"
+    ]
+  },
+  {
+    "name": "dorm /dɔːm/, dormitory /'dɔːmətri/",
+    "trans": [
+      "n.宿舍"
+    ]
+  },
+  {
+    "name": "dot",
+    "trans": [
+      "n.点; vt.加点于……; vt.在(表面)布满/涂上……; vt.遍布, 布满, 星罗密布于"
+    ]
+  },
+  {
+    "name": "dot the word",
+    "trans": [
+      "给单词加点"
+    ]
+  },
+  {
+    "name": "dot the face with sun cream",
+    "trans": [
+      "将防晒霜涂在脸上"
+    ]
+  },
+  {
+    "name": "A be dotted with B",
+    "trans": [
+      "将A处布满了B"
+    ]
+  },
+  {
+    "name": "This town is dotted with many small villages.",
+    "trans": [
+      "在A处遍布了许多小村庄。"
+    ]
+  },
+  {
+    "name": "double",
+    "trans": [
+      "adj.双倍的; n.双倍; v.(使)加倍; v.①折起;②(笑得或痛得)弓起身子"
+    ]
+  },
+  {
+    "name": "a double-bed room",
+    "trans": [
+      "一间有双人床的房间"
+    ]
+  },
+  {
+    "name": "double up/ over",
+    "trans": [
+      "折起"
+    ]
+  },
+  {
+    "name": "double up/ over a piece of paper",
+    "trans": [
+      "折叠一张纸"
+    ]
+  },
+  {
+    "name": "He doubled up/ over with great pain.",
+    "trans": [
+      "他很痛，身体都直不起来了。"
+    ]
+  },
+  {
+    "name": "doubt",
+    "trans": [
+      "n./vt.怀疑"
+    ]
+  },
+  {
+    "name": "(There is) no doubt that ...",
+    "trans": [
+      "毫无疑问……"
+    ]
+  },
+  {
+    "name": "No doubt",
+    "trans": [
+      "毫无疑问……"
+    ]
+  },
+  {
+    "name": "Without doubt",
+    "trans": [
+      "毫无疑问……"
+    ]
+  },
+  {
+    "name": "Beyond doubt",
+    "trans": [
+      "毫无疑问……"
+    ]
+  },
+  {
+    "name": "Undoubtedly",
+    "trans": [
+      "毫无疑问……"
+    ]
+  },
+  {
+    "name": "in doubt",
+    "trans": [
+      "没把握,不能确定"
+    ]
+  },
+  {
+    "name": "raise doubts about ...",
+    "trans": [
+      "对……产生怀疑"
+    ]
+  },
+  {
+    "name": "cast doubt(s) on ...",
+    "trans": [
+      "对……产生怀疑"
+    ]
+  },
+  {
+    "name": "I don't/ never doubt that he will keep his promise.",
+    "trans": [
+      "我从不怀疑他将会遵守自己的诺言。"
+    ]
+  },
+  {
+    "name": "I doubt whether he will come tonight.",
+    "trans": [
+      "我怀疑他今晚会不会来。"
+    ]
+  },
+  {
+    "name": "doubtful",
+    "trans": [
+      "adj.可疑的,有疑问的"
+    ]
+  },
+  {
+    "name": "be doubtful about ...",
+    "trans": [
+      "对……持怀疑态度"
+    ]
+  },
+  {
+    "name": "down",
+    "trans": [
+      "adv./prep.向下; adv./prep.在不远处; adv./prep.沿着,顺着; come down to,归结为……(to是介词)"
+    ]
+  },
+  {
+    "name": "be down with illness",
+    "trans": [
+      "病倒"
+    ]
+  },
+  {
+    "name": "let sb down",
+    "trans": [
+      "让某人失望了"
+    ]
+  },
+  {
+    "name": "fall down to the ground",
+    "trans": [
+      "掉到地上"
+    ]
+  },
+  {
+    "name": "go down to the shops",
+    "trans": [
+      "到附近的商店去"
+    ]
+  },
+  {
+    "name": "walk down the street",
+    "trans": [
+      "沿着街道行走"
+    ]
+  },
+  {
+    "name": "come down to",
+    "trans": [
+      "归结为……(to是介词)"
+    ]
+  },
+  {
+    "name": "It all comes down to funds in the end.",
+    "trans": [
+      "归根到底是资金的问题。"
+    ]
+  },
+  {
+    "name": "download",
+    "trans": [
+      "vt./n.下载"
+    ]
+  },
+  {
+    "name": "upload",
+    "trans": [
+      "vt./n.上传"
+    ]
+  },
+  {
+    "name": "downstairs",
+    "trans": [
+      "adv.往楼下; adj.楼下的"
+    ]
+  },
+  {
+    "name": "go downstairs",
+    "trans": [
+      "下楼"
+    ]
+  },
+  {
+    "name": "downtown",
+    "trans": [
+      "adv./adj./n.市中心"
+    ]
+  },
+  {
+    "name": "go downtown",
+    "trans": [
+      "去市中心"
+    ]
+  },
+  {
+    "name": "a downtown store",
+    "trans": [
+      "一家市中心的商店"
+    ]
+  },
+  {
+    "name": "a hotel in the heart of downtown",
+    "trans": [
+      "在市中心核心区域的酒店"
+    ]
+  },
+  {
+    "name": "dozen",
+    "trans": [
+      "n.①十二;②(a~)十几"
+    ]
+  },
+  {
+    "name": "half a dozen people",
+    "trans": [
+      "六个人"
+    ]
+  },
+  {
+    "name": "a dozen people",
+    "trans": [
+      "①十二个人;②十几个人"
+    ]
+  },
+  {
+    "name": "two dozen people",
+    "trans": [
+      "二十四个人"
+    ]
+  },
+  {
+    "name": "dozens of ...",
+    "trans": [
+      "几十,数十……"
+    ]
+  },
+  {
+    "name": "draft",
+    "trans": [
+      "n.草稿,草案; vt.起草,草拟; vt.征召"
+    ]
+  },
+  {
+    "name": "make a rough draft",
+    "trans": [
+      "写初稿"
+    ]
+  },
+  {
+    "name": "draft a contract",
+    "trans": [
+      "起草一份合同"
+    ]
+  },
+  {
+    "name": "draft sb into the army",
+    "trans": [
+      "征召某人入伍"
+    ]
+  },
+  {
+    "name": "drag",
+    "trans": [
+      "vt.(用力或强行)拖,拽,拉; vi.缓慢前行; vi.拖沓地进行"
+    ]
+  },
+  {
+    "name": "dragon",
+    "trans": [
+      "n.龙"
+    ]
+  },
+  {
+    "name": "drama",
+    "trans": [
+      "n.戏剧"
+    ]
+  },
+  {
+    "name": "dramatic",
+    "trans": [
+      "adj.戏剧性的;戏剧的; adj.(变化,影响等)巨大的,显著的; adj.激动人心的,给人印象深刻的"
+    ]
+  },
+  {
+    "name": "the dramatic talent",
+    "trans": [
+      "戏剧才能"
+    ]
+  },
+  {
+    "name": "dramatic changes",
+    "trans": [
+      "巨变"
+    ]
+  },
+  {
+    "name": "a dramatic increase/ rise",
+    "trans": [
+      "暴涨"
+    ]
+  },
+  {
+    "name": "dramatically",
+    "trans": [
+      "adv.①戏剧性地;②巨大地, 显著地"
+    ]
+  },
+  {
+    "name": "the dramatic scenery",
+    "trans": [
+      "令人印象深刻的景色"
+    ]
+  },
+  {
+    "name": "draw",
+    "trans": [
+      "v.画画; v.吸引; v.拉; v.拔(牙); v.取出; v.获取, 得出, 推断出; v.呼吸,吸气; v./n.打平,平局; v.抽签"
+    ]
+  },
+  {
+    "name": "draw customers",
+    "trans": [
+      "吸引顾客"
+    ]
+  },
+  {
+    "name": "draw one's attention",
+    "trans": [
+      "吸引某人的注意力"
+    ]
+  },
+  {
+    "name": "be drawn to ...",
+    "trans": [
+      "被……所吸引"
+    ]
+  },
+  {
+    "name": "the horse-drawn carriage",
+    "trans": [
+      "马车"
+    ]
+  },
+  {
+    "name": "draw a tooth",
+    "trans": [
+      "拔牙"
+    ]
+  },
+  {
+    "name": "draw/ withdraw money from the bank",
+    "trans": [
+      "从银行取钱"
+    ]
+  },
+  {
+    "name": "draw a gun",
+    "trans": [
+      "掏出一把枪"
+    ]
+  },
+  {
+    "name": "draw a conclusion",
+    "trans": [
+      "得出结论"
+    ]
+  },
+  {
+    "name": "draw a lesson from ...",
+    "trans": [
+      "从……吸取教训"
+    ]
+  },
+  {
+    "name": "draw a breath",
+    "trans": [
+      "吸气"
+    ]
+  },
+  {
+    "name": "draw/ take a deep breath, breathe deeply",
+    "trans": [
+      "深吸一口气"
+    ]
+  },
+  {
+    "name": "a prize draw",
+    "trans": [
+      "一场抽奖活动"
+    ]
+  },
+  {
+    "name": "draw lots",
+    "trans": [
+      "抽签"
+    ]
+  },
+  {
+    "name": "be drawing near",
+    "trans": [
+      "正在临近"
+    ]
+  },
+  {
+    "name": "The final examination is drawing near.",
+    "trans": [
+      "期末考试快来了。"
+    ]
+  },
+  {
+    "name": "draw up",
+    "trans": [
+      "(正式)起草,草拟"
+    ]
+  },
+  {
+    "name": "draw up a contract",
+    "trans": [
+      "起草合同"
+    ]
+  },
+  {
+    "name": "draw on",
+    "trans": [
+      "利用"
+    ]
+  },
+  {
+    "name": "He drew on his experience to make a documentary.",
+    "trans": [
+      "他利用自己的经验来制作一个纪录片。"
+    ]
+  },
+  {
+    "name": "drawer",
+    "trans": [
+      "n.抽屉"
+    ]
+  },
+  {
+    "name": "dream",
+    "trans": [
+      "v.做梦;梦想; n.梦;梦想"
+    ]
+  },
+  {
+    "name": "dream of/ about ..., dream that ...",
+    "trans": [
+      "梦见;梦想着"
+    ]
+  },
+  {
+    "name": "I dream of becoming an astronaut some day.",
+    "trans": [
+      "我梦想有朝一日能成为宇航员。"
+    ]
+  },
+  {
+    "name": "I dream that I can become an astronaut some day.",
+    "trans": [
+      "我梦想有朝一日能成为宇航员。"
+    ]
+  },
+  {
+    "name": "dress",
+    "trans": [
+      "n.连衣裙;礼服; v.穿衣"
+    ]
+  },
+  {
+    "name": "a wedding dress",
+    "trans": [
+      "结婚礼服"
+    ]
+  },
+  {
+    "name": "an evening dress",
+    "trans": [
+      "晚礼服"
+    ]
+  },
+  {
+    "name": "dress sb (in ...)",
+    "trans": [
+      "给某人穿(……)衣服"
+    ]
+  },
+  {
+    "name": "I spent much time dressing my son in the school uniform.",
+    "trans": [
+      "我花了好久给儿子穿校服。"
+    ]
+  },
+  {
+    "name": "dress oneself (in ...)",
+    "trans": [
+      "[表动作]穿上(……)"
+    ]
+  },
+  {
+    "name": "After getting up, I began to dress myself (in clothes).",
+    "trans": [
+      "起床后，我开始穿衣。"
+    ]
+  },
+  {
+    "name": "be dressed (in ...)",
+    "trans": [
+      "[表状态]穿着(……)"
+    ]
+  },
+  {
+    "name": "Our class teacher is dressed in a grey coat today.",
+    "trans": [
+      "我们的班主任今天穿着一件灰色的大衣。"
+    ]
+  },
+  {
+    "name": "be dressed for the cold day",
+    "trans": [
+      "穿保暖的衣服"
+    ]
+  },
+  {
+    "name": "dress for the evening party",
+    "trans": [
+      "为参加晚宴而打扮"
+    ]
+  },
+  {
+    "name": "dress up",
+    "trans": [
+      "穿着盛装,盛装打扮"
+    ]
+  },
+  {
+    "name": "dress well/ badly",
+    "trans": [
+      "穿着得体/糟糕"
+    ]
+  },
+  {
+    "name": "drill",
+    "trans": [
+      "n.钻,钻机; vt./vi.钻(孔); n./v.操练,反复练习"
+    ]
+  },
+  {
+    "name": "drill a hole",
+    "trans": [
+      "钻孔,打孔"
+    ]
+  },
+  {
+    "name": "drill for oil",
+    "trans": [
+      "钻探石油"
+    ]
+  },
+  {
+    "name": "drill students in grammar",
+    "trans": [
+      "反复操练学生语法"
+    ]
+  },
+  {
+    "name": "drill sb to do",
+    "trans": [
+      "让某人反复练习做某事"
+    ]
+  },
+  {
+    "name": "a well-drilled team",
+    "trans": [
+      "一支训练有素的队伍"
+    ]
+  },
+  {
+    "name": "drink",
+    "trans": [
+      "v.喝,饮;喝酒; n.饮料"
+    ]
+  },
+  {
+    "name": "drink up the milk",
+    "trans": [
+      "把牛奶喝光"
+    ]
+  },
+  {
+    "name": "drink to ...",
+    "trans": [
+      "为……举杯祝贺"
+    ]
+  },
+  {
+    "name": "drunk",
+    "trans": [
+      "adj.喝醉的; n.喝醉酒的人"
+    ]
+  },
+  {
+    "name": "a drunk driver",
+    "trans": [
+      "醉酒的司机"
+    ]
+  },
+  {
+    "name": "get drunk",
+    "trans": [
+      "喝醉了"
+    ]
+  },
+  {
+    "name": "energy drinks",
+    "trans": [
+      "功能饮料"
+    ]
+  },
+  {
+    "name": "soft drinks",
+    "trans": [
+      "软饮料"
+    ]
+  },
+  {
+    "name": "sugary drinks",
+    "trans": [
+      "含糖饮料"
+    ]
+  },
+  {
+    "name": "drive",
+    "trans": [
+      "v./n.开车,驾驶; n.私人车道; vt.驱赶; vt.逼迫,迫使; v.驱动; n.(机械装置/内心)驱动力; n.[计]驱动器; v.推进;猛冲; n.运动"
+    ]
+  },
+  {
+    "name": "drive sb home",
+    "trans": [
+      "开车把某人送回家"
+    ]
+  },
+  {
+    "name": "drive sb to+地点",
+    "trans": [
+      "开车把某人送到……"
+    ]
+  },
+  {
+    "name": "a driving test",
+    "trans": [
+      "驾驶考试"
+    ]
+  },
+  {
+    "name": "a driving license",
+    "trans": [
+      "驾照"
+    ]
+  },
+  {
+    "name": "drunk driving",
+    "trans": [
+      "醉酒驾车"
+    ]
+  },
+  {
+    "name": "driveway",
+    "trans": [
+      "私人车道"
+    ]
+  },
+  {
+    "name": "drive away, drive off",
+    "trans": [
+      "驱赶,赶走,驱逐"
+    ]
+  },
+  {
+    "name": "drive sb mad",
+    "trans": [
+      "把某人逼疯"
+    ]
+  },
+  {
+    "name": "drive sb to do",
+    "trans": [
+      "迫使某人做某事"
+    ]
+  },
+  {
+    "name": "a petrol-driven car",
+    "trans": [
+      "汽油驱动的车"
+    ]
+  },
+  {
+    "name": "be driven by profits",
+    "trans": [
+      "受利益驱使"
+    ]
+  },
+  {
+    "name": "the driving force",
+    "trans": [
+      "(影响事物发展的)驱动力"
+    ]
+  },
+  {
+    "name": "driver",
+    "trans": [
+      "n.①司机;②驱动因素"
+    ]
+  },
+  {
+    "name": "a nationwide drive to crack down on crimes",
+    "trans": [
+      "打击犯罪的全国性运动"
+    ]
+  },
+  {
+    "name": "drop",
+    "trans": [
+      "v.(使)掉落,(使)落下; v.退出,停止; v.顺道; v.(使)滴下; n.滴; v./n.下降"
+    ]
+  },
+  {
+    "name": "drop bombs(over the city)",
+    "trans": [
+      "(在这座城市)投炸弹"
+    ]
+  },
+  {
+    "name": "drop out",
+    "trans": [
+      "退出,脱离;退学"
+    ]
+  },
+  {
+    "name": "drop out of school",
+    "trans": [
+      "退学"
+    ]
+  },
+  {
+    "name": "drop the course",
+    "trans": [
+      "退课"
+    ]
+  },
+  {
+    "name": "drop sb from the name list",
+    "trans": [
+      "把某人踢出名单"
+    ]
+  },
+  {
+    "name": "drop in at sp",
+    "trans": [
+      "顺道拜访某地"
+    ]
+  },
+  {
+    "name": "drop in on sb",
+    "trans": [
+      "顺道拜访某人"
+    ]
+  },
+  {
+    "name": "drop sb off",
+    "trans": [
+      "把某人放下车"
+    ]
+  },
+  {
+    "name": "a drop of sweat",
+    "trans": [
+      "一滴汗珠"
+    ]
+  },
+  {
+    "name": "drown",
+    "trans": [
+      "v.(使)淹死,(使)淹没"
+    ]
+  },
+  {
+    "name": "a drowning child",
+    "trans": [
+      "落水儿童(水中挣扎)"
+    ]
+  },
+  {
+    "name": "a drowned child",
+    "trans": [
+      "溺亡儿童(已死)"
+    ]
+  },
+  {
+    "name": "drown out ...",
+    "trans": [
+      "将……淹没"
+    ]
+  },
+  {
+    "name": "drug",
+    "trans": [
+      "n.(~s)毒品; n.药物; vt.使(某人)服麻醉药;在(某处)投放麻醉药"
+    ]
+  },
+  {
+    "name": "take drugs",
+    "trans": [
+      "吸毒"
+    ]
+  },
+  {
+    "name": "dry",
+    "trans": [
+      "adj.干的; v.(使)变干"
+    ]
+  },
+  {
+    "name": "dry up",
+    "trans": [
+      "(使)干涸,(使)变干"
+    ]
+  },
+  {
+    "name": "drought",
+    "trans": [
+      "n.干旱"
+    ]
+  },
+  {
+    "name": "duck",
+    "trans": [
+      "n.鸭子"
+    ]
+  },
+  {
+    "name": "due",
+    "trans": [
+      "adj.应付的,到期的; adj.[置于名词前]适当的, 合适的; adj.应得的,应有的; n.应得的东西"
+    ]
+  },
+  {
+    "name": "due to",
+    "trans": [
+      "因为"
+    ]
+  },
+  {
+    "name": "be due to do",
+    "trans": [
+      "预期/预计做某事"
+    ]
+  },
+  {
+    "name": "after due consideration",
+    "trans": [
+      "经过适当考虑后"
+    ]
+  },
+  {
+    "name": "duly",
+    "trans": [
+      "adv.①按时地,准时地;②适当地,恰当地"
+    ]
+  },
+  {
+    "name": "be given due recognition",
+    "trans": [
+      "被给予应得的认可"
+    ]
+  },
+  {
+    "name": "dumpling",
+    "trans": [
+      "n.饺子,汤团"
+    ]
+  },
+  {
+    "name": "a soup dumpling",
+    "trans": [
+      "汤包"
+    ]
+  },
+  {
+    "name": "a red bean rice dumpling",
+    "trans": [
+      "赤豆粽子"
+    ]
+  },
+  {
+    "name": "a rice dumpling(which is) made of red beans",
+    "trans": [
+      "赤豆粽子"
+    ]
+  },
+  {
+    "name": "during",
+    "trans": [
+      "prep.在…的时候,在…的期间"
+    ]
+  },
+  {
+    "name": "duration",
+    "trans": [
+      "n.持续时间,期间"
+    ]
+  },
+  {
+    "name": "for the duration of ...",
+    "trans": [
+      "在……期间"
+    ]
+  },
+  {
+    "name": "dust",
+    "trans": [
+      "n.灰尘,尘土; v.擦灰,除去灰尘"
+    ]
+  },
+  {
+    "name": "dusty",
+    "trans": [
+      "adj.多尘的,落满灰尘的"
+    ]
+  },
+  {
+    "name": "duty",
+    "trans": [
+      "n.责任,职责,义务"
+    ]
+  },
+  {
+    "name": "on duty",
+    "trans": [
+      "值班,当班"
+    ]
+  },
+  {
+    "name": "off duty",
+    "trans": [
+      "不值班,不当班"
+    ]
+  },
+  {
+    "name": "do one' s duty",
+    "trans": [
+      "尽职"
+    ]
+  },
+  {
+    "name": "neglect one' s duty",
+    "trans": [
+      "玩忽职守"
+    ]
+  },
+  {
+    "name": "dying",
+    "trans": [
+      "adj.垂死的,临终的; adj.渴望的"
+    ]
+  },
+  {
+    "name": "undying",
+    "trans": [
+      "adj.永恒的"
+    ]
+  },
+  {
+    "name": "have an undying passion for ...",
+    "trans": [
+      "对……有着永恒的热情"
+    ]
+  },
+  {
+    "name": "be dying to do, be dying for sth",
+    "trans": [
+      "渴望……"
+    ]
+  },
+  {
+    "name": "dynamic",
+    "trans": [
+      "adj.精力充沛的; adj.不断变化的,动态的; adj.[物理]力学的;动力学的; n.动力,驱动力"
+    ]
+  },
+  {
+    "name": "dynamics",
+    "trans": [
+      "n.(内部的)互动; n.(发展的)动态; n.力学;动力学"
+    ]
+  },
+  {
+    "name": "group dynamics",
+    "trans": [
+      "小组成员的互动"
+    ]
+  },
+  {
+    "name": "the dynamics of the reform",
+    "trans": [
+      "改革的动态"
+    ]
+  },
+  {
+    "name": "dynasty",
+    "trans": [
+      "n.王朝,朝代"
+    ]
+  },
+  {
+    "name": "the Qing Dynasty",
+    "trans": [
+      "清朝(朝代前要加the)"
+    ]
+  },
+  {
+    "name": "each",
+    "trans": [
+      "adj./ pron./ adv.每,每个,各,各自"
+    ]
+  },
+  {
+    "name": "we each",
+    "trans": [
+      "我们每个人(复数)"
+    ]
+  },
+  {
+    "name": "each of us",
+    "trans": [
+      "我们每个人(单数)"
+    ]
+  },
+  {
+    "name": "eager",
+    "trans": [
+      "adj.渴望的,热切的"
+    ]
+  },
+  {
+    "name": "be eager for sth/ to do",
+    "trans": [
+      "渴望……"
+    ]
+  },
+  {
+    "name": "eagle",
+    "trans": [
+      "n.鹰"
+    ]
+  },
+  {
+    "name": "ear",
+    "trans": [
+      "n.耳朵"
+    ]
+  },
+  {
+    "name": "early",
+    "trans": [
+      "adj./adv.早;早期"
+    ]
+  },
+  {
+    "name": "an early riser",
+    "trans": [
+      "习惯早起的人"
+    ]
+  },
+  {
+    "name": "earn",
+    "trans": [
+      "vt.赚,挣; vt.赢得,博得"
+    ]
+  },
+  {
+    "name": "earn money",
+    "trans": [
+      "挣钱"
+    ]
+  },
+  {
+    "name": "earn sb sth",
+    "trans": [
+      "为某人博得/赢得……"
+    ]
+  },
+  {
+    "name": "earth",
+    "trans": [
+      "n.泥土,土壤; vt.用土掩盖; n.地球;地"
+    ]
+  },
+  {
+    "name": "down-to-earth",
+    "trans": [
+      "adj.务实的,脚踏实地的"
+    ]
+  },
+  {
+    "name": "on the earth",
+    "trans": [
+      "在地球上"
+    ]
+  },
+  {
+    "name": "on earth",
+    "trans": [
+      "究竟"
+    ]
+  },
+  {
+    "name": "earthquake",
+    "trans": [
+      "n.地震"
+    ]
+  },
+  {
+    "name": "the earthquake-stricken area",
+    "trans": [
+      "地震灾区"
+    ]
+  },
+  {
+    "name": "ease",
+    "trans": [
+      "vt.减轻,缓解; n.安逸,舒适; n.容易"
+    ]
+  },
+  {
+    "name": "ease the anxiety",
+    "trans": [
+      "减轻/缓解焦虑"
+    ]
+  },
+  {
+    "name": "ease the traffic jam(s)",
+    "trans": [
+      "减轻/缓解交通堵塞"
+    ]
+  },
+  {
+    "name": "feel at ease",
+    "trans": [
+      "感到安逸/舒适"
+    ]
+  },
+  {
+    "name": "with ease",
+    "trans": [
+      "容易地,不费力地"
+    ]
+  },
+  {
+    "name": "easily",
+    "trans": [
+      "容易地"
+    ]
+  },
+  {
+    "name": "east",
+    "trans": [
+      "n./ adj./adv.东方"
+    ]
+  },
+  {
+    "name": "eastern",
+    "trans": [
+      "adj.东方的,东部的"
+    ]
+  },
+  {
+    "name": "easy",
+    "trans": [
+      "adj.容易的,不费力的; adj.安逸的,舒适的,安心的"
+    ]
+  },
+  {
+    "name": "take it easy",
+    "trans": [
+      "放心好了,别着急"
+    ]
+  },
+  {
+    "name": "feel/ be easy about ...",
+    "trans": [
+      "对……感到安心"
+    ]
+  },
+  {
+    "name": "eat",
+    "trans": [
+      "v.吃"
+    ]
+  },
+  {
+    "name": "eat out",
+    "trans": [
+      "出去吃"
+    ]
+  },
+  {
+    "name": "eat up",
+    "trans": [
+      "吃光,耗尽"
+    ]
+  },
+  {
+    "name": "ecology",
+    "trans": [
+      "n.生态;生态学"
+    ]
+  },
+  {
+    "name": "ecological",
+    "trans": [
+      "adj.生态的"
+    ]
+  },
+  {
+    "name": "ecologist",
+    "trans": [
+      "n.生态学家"
+    ]
+  },
+  {
+    "name": "economic",
+    "trans": [
+      "adj.经济的,经济学的"
+    ]
+  },
+  {
+    "name": "economical",
+    "trans": [
+      "adj.经济型的,节约的"
+    ]
+  },
+  {
+    "name": "the economical use of space",
+    "trans": [
+      "对空间的节约利用"
+    ]
+  },
+  {
+    "name": "economy",
+    "trans": [
+      "n.经济;节约"
+    ]
+  },
+  {
+    "name": "world economy",
+    "trans": [
+      "世界经济"
+    ]
+  },
+  {
+    "name": "economy class",
+    "trans": [
+      "经济舱"
+    ]
+  },
+  {
+    "name": "economics",
+    "trans": [
+      "n.经济学"
+    ]
+  },
+  {
+    "name": "economist",
+    "trans": [
+      "n.经济学家"
+    ]
+  },
+  {
+    "name": "edge",
+    "trans": [
+      "n.刀刃; n.边缘; n.优势; v.(~out...) 小胜,险胜..."
+    ]
+  },
+  {
+    "name": "animals on the edge of extinction",
+    "trans": [
+      "濒危动物"
+    ]
+  },
+  {
+    "name": "have an edge over ...",
+    "trans": [
+      "比……占有优势"
+    ]
+  },
+  {
+    "name": "~ out...",
+    "trans": [
+      "小胜,险胜"
+    ]
+  },
+  {
+    "name": "editor",
+    "trans": [
+      "n.编辑"
+    ]
+  },
+  {
+    "name": "edit",
+    "trans": [
+      "vt.编辑;编校;剪辑"
+    ]
+  },
+  {
+    "name": "edition",
+    "trans": [
+      "n.(出版物的)版,版本,版次"
+    ]
+  },
+  {
+    "name": "educate",
+    "trans": [
+      "vt.教育"
+    ]
+  },
+  {
+    "name": "educate sb to do",
+    "trans": [
+      "教育某人做某事"
+    ]
+  },
+  {
+    "name": "educator",
+    "trans": [
+      "n.教育工作者"
+    ]
+  },
+  {
+    "name": "educated",
+    "trans": [
+      "adj.有教养的;受过教育的"
+    ]
+  },
+  {
+    "name": "education",
+    "trans": [
+      "n.教育"
+    ]
+  },
+  {
+    "name": "primary/ elementary education",
+    "trans": [
+      "初等教育,小学教育"
+    ]
+  },
+  {
+    "name": "secondary education",
+    "trans": [
+      "中等教育,中学教育"
+    ]
+  },
+  {
+    "name": "basic education",
+    "trans": [
+      "基础教育(中小学教育)"
+    ]
+  },
+  {
+    "name": "higher education",
+    "trans": [
+      "高等教育"
+    ]
+  },
+  {
+    "name": "receive education",
+    "trans": [
+      "接受教育"
+    ]
+  },
+  {
+    "name": "educational",
+    "trans": [
+      "adj.①教育的;②有教育意义的"
+    ]
+  },
+  {
+    "name": "the educational cause",
+    "trans": [
+      "教育事业"
+    ]
+  },
+  {
+    "name": "effect",
+    "trans": [
+      "n.影响; n.效果,作用; n.[物理/化学/心理学等]效应; n.生效,实施; in effect 事实上"
+    ]
+  },
+  {
+    "name": "the effect of A on B",
+    "trans": [
+      "A对B的影响"
+    ]
+  },
+  {
+    "name": "have a short-term/ long-term effect on ...",
+    "trans": [
+      "对……有短期/长期影响"
+    ]
+  },
+  {
+    "name": "have an immediate effect",
+    "trans": [
+      "立竿见影"
+    ]
+  },
+  {
+    "name": "the side effect",
+    "trans": [
+      "副作用"
+    ]
+  },
+  {
+    "name": "be of no effect",
+    "trans": [
+      "无效,没效果"
+    ]
+  },
+  {
+    "name": "take effect",
+    "trans": [
+      "奏效,起作用,产生效果"
+    ]
+  },
+  {
+    "name": "in effect",
+    "trans": [
+      "事实上"
+    ]
+  },
+  {
+    "name": "effective",
+    "trans": [
+      "adj.有效的,起作用的(反: in~)"
+    ]
+  },
+  {
+    "name": "efficient",
+    "trans": [
+      "adj.效率高的,高效的(反: in~)"
+    ]
+  },
+  {
+    "name": "an energy-efficient device",
+    "trans": [
+      "节能装置"
+    ]
+  },
+  {
+    "name": "efficiency",
+    "trans": [
+      "n.效率"
+    ]
+  },
+  {
+    "name": "effort",
+    "trans": [
+      "n.努力"
+    ]
+  },
+  {
+    "name": "make efforts/ an effort to do",
+    "trans": [
+      "努力做某事"
+    ]
+  },
+  {
+    "name": "make every effort to do",
+    "trans": [
+      "尽一切努力去做某事"
+    ]
+  },
+  {
+    "name": "spare no effort to do",
+    "trans": [
+      "不遗余力做某事"
+    ]
+  },
+  {
+    "name": "effortless",
+    "trans": [
+      "adj.毫不费力的"
+    ]
+  },
+  {
+    "name": "egg/ eg",
+    "trans": [
+      "n.蛋;卵"
+    ]
+  },
+  {
+    "name": "lay eggs",
+    "trans": [
+      "下蛋"
+    ]
+  },
+  {
+    "name": "either",
+    "trans": [
+      "adj./ pron.两者中任一; adv.也(用于否定句句末)"
+    ]
+  },
+  {
+    "name": "either ... or ...",
+    "trans": [
+      "要么……要么……"
+    ]
+  },
+  {
+    "name": "either way",
+    "trans": [
+      "不管怎样,无论以哪种方式"
+    ]
+  },
+  {
+    "name": "elder",
+    "trans": [
+      "adj.年龄较大的"
+    ]
+  },
+  {
+    "name": "my elder brother/ sister",
+    "trans": [
+      "我的哥哥/姐姐"
+    ]
+  },
+  {
+    "name": "elderly",
+    "trans": [
+      "adj.年长的,年老的,上了年纪的"
+    ]
+  },
+  {
+    "name": "the elderly",
+    "trans": [
+      "老年人"
+    ]
+  },
+  {
+    "name": "elect",
+    "trans": [
+      "vt.选举; v.选择"
+    ]
+  },
+  {
+    "name": "elect sb (as) monitor",
+    "trans": [
+      "选某人当班长"
+    ]
+  },
+  {
+    "name": "election",
+    "trans": [
+      "n.选举"
+    ]
+  },
+  {
+    "name": "elect to do",
+    "trans": [
+      "选择做某事"
+    ]
+  },
+  {
+    "name": "electric",
+    "trans": [
+      "adj.电的,用电的,电动的"
+    ]
+  },
+  {
+    "name": "an electric light",
+    "trans": [
+      "电灯"
+    ]
+  },
+  {
+    "name": "an electric vehicle",
+    "trans": [
+      "电动车"
+    ]
+  },
+  {
+    "name": "electrical",
+    "trans": [
+      "adj.电的,与电有关的"
+    ]
+  },
+  {
+    "name": "an electrical engineer",
+    "trans": [
+      "电气工程师"
+    ]
+  },
+  {
+    "name": "electrical appliances",
+    "trans": [
+      "电器"
+    ]
+  },
+  {
+    "name": "electricity",
+    "trans": [
+      "n.电"
+    ]
+  },
+  {
+    "name": "electrician",
+    "trans": [
+      "n.电工,电气技师"
+    ]
+  },
+  {
+    "name": "electronic",
+    "trans": [
+      "adj.电子的"
+    ]
+  },
+  {
+    "name": "an electronic dictionary",
+    "trans": [
+      "电子词典"
+    ]
+  },
+  {
+    "name": "elegant",
+    "trans": [
+      "adj.优雅的,典雅的"
+    ]
+  },
+  {
+    "name": "element",
+    "trans": [
+      "n.要素,成分,因素; n.[化学]元素"
+    ]
+  },
+  {
+    "name": "elephant",
+    "trans": [
+      "n.象,大象"
+    ]
+  },
+  {
+    "name": "embarrass",
+    "trans": [
+      "vt.使尴尬,使局促不安"
+    ]
+  },
+  {
+    "name": "embarrassed",
+    "trans": [
+      "adj.感到尴尬的"
+    ]
+  },
+  {
+    "name": "be embarrassed about ...",
+    "trans": [
+      "对……感到尴尬"
+    ]
+  },
+  {
+    "name": "be embarrassed to do",
+    "trans": [
+      "对做某事感到尴尬"
+    ]
+  },
+  {
+    "name": "embarrassing",
+    "trans": [
+      "adj.令人尴尬的"
+    ]
+  },
+  {
+    "name": "embarrassment",
+    "trans": [
+      "n.尴尬"
+    ]
+  },
+  {
+    "name": "emerge",
+    "trans": [
+      "vi.浮现,出现,显露; vi.(从困境中)摆脱出来"
+    ]
+  },
+  {
+    "name": "emerge from one's divorce",
+    "trans": [
+      "走出离婚的阴影"
+    ]
+  },
+  {
+    "name": "emergency",
+    "trans": [
+      "n.紧急情况"
+    ]
+  },
+  {
+    "name": "in an emergency",
+    "trans": [
+      "在紧急情况下"
+    ]
+  },
+  {
+    "name": "an emergency hospital/ ward",
+    "trans": [
+      "急诊医院/病房"
+    ]
+  },
+  {
+    "name": "an emergency meeting",
+    "trans": [
+      "紧急会议"
+    ]
+  },
+  {
+    "name": "an emergency exit",
+    "trans": [
+      "应急出口"
+    ]
+  },
+  {
+    "name": "emotion",
+    "trans": [
+      "n.情感,情绪"
+    ]
+  },
+  {
+    "name": "emotional",
+    "trans": [
+      "adj.①情感的,情绪的;②情绪化的"
+    ]
+  },
+  {
+    "name": "emperor",
+    "trans": [
+      "n.皇帝,君主"
+    ]
+  },
+  {
+    "name": "emphasis",
+    "trans": [
+      "n.强调,着重"
+    ]
+  },
+  {
+    "name": "put/ place/ lay emphasis on ...",
+    "trans": [
+      "强调……"
+    ]
+  },
+  {
+    "name": "emphasize",
+    "trans": [
+      "vt.强调,着重"
+    ]
+  },
+  {
+    "name": "emphasize sth, emphasize that ...",
+    "trans": [
+      "强调……"
+    ]
+  },
+  {
+    "name": "employ",
+    "trans": [
+      "vt.使用; vt.雇佣"
+    ]
+  },
+  {
+    "name": "employ a new method",
+    "trans": [
+      "使用新的方法"
+    ]
+  },
+  {
+    "name": "employ sb to do",
+    "trans": [
+      "雇佣某人做某事"
+    ]
+  },
+  {
+    "name": "employ sb as ...",
+    "trans": [
+      "雇佣某人担任……"
+    ]
+  },
+  {
+    "name": "employee",
+    "trans": [
+      "n.雇员"
+    ]
+  },
+  {
+    "name": "employer",
+    "trans": [
+      "n.雇主,老板"
+    ]
+  },
+  {
+    "name": "employment",
+    "trans": [
+      "n.使用; n.雇用,就业"
+    ]
+  },
+  {
+    "name": "unemployed",
+    "trans": [
+      "adj.失业的"
+    ]
+  },
+  {
+    "name": "in employment",
+    "trans": [
+      "[表状态]有工作"
+    ]
+  },
+  {
+    "name": "out of employment",
+    "trans": [
+      "[表状态]失业,没工作"
+    ]
+  },
+  {
+    "name": "empty",
+    "trans": [
+      "adj.空的; v.(使)变空; vi.(河流)流入,注入"
+    ]
+  },
+  {
+    "name": "be empty of ...",
+    "trans": [
+      "没有……"
+    ]
+  },
+  {
+    "name": "empty the fridge",
+    "trans": [
+      "清空冰箱"
+    ]
+  },
+  {
+    "name": "enable",
+    "trans": [
+      "vt.使能够"
+    ]
+  },
+  {
+    "name": "enable sb to do",
+    "trans": [
+      "使某人能够做某事"
+    ]
+  },
+  {
+    "name": "enclose",
+    "trans": [
+      "vt.把...附入,封入; vt.围住,包住"
+    ]
+  },
+  {
+    "name": "enclose sth with the letter",
+    "trans": [
+      "随信附上某物"
+    ]
+  },
+  {
+    "name": "the enclosed",
+    "trans": [
+      "(信件内所封入的)附件"
+    ]
+  },
+  {
+    "name": "enclose the garden with the fences",
+    "trans": [
+      "用栅栏把花园围起来"
+    ]
+  },
+  {
+    "name": "enclosure",
+    "trans": [
+      "n.①附件;②围住;③围地"
+    ]
+  },
+  {
+    "name": "encounter",
+    "trans": [
+      "vt./n.偶遇,邂逅(某人); vt./n.遭到,遭遇(某事)"
+    ]
+  },
+  {
+    "name": "encounter a tricky problem",
+    "trans": [
+      "遇到棘手问题"
+    ]
+  },
+  {
+    "name": "encourage",
+    "trans": [
+      "vt.鼓励"
+    ]
+  },
+  {
+    "name": "encourage doing",
+    "trans": [
+      "鼓励做某事"
+    ]
+  },
+  {
+    "name": "encourage sb to do sth",
+    "trans": [
+      "鼓励某人做某事"
+    ]
+  },
+  {
+    "name": "encouraged",
+    "trans": [
+      "adj.受到鼓励的"
+    ]
+  },
+  {
+    "name": "encouraging",
+    "trans": [
+      "adj.鼓舞人心的"
+    ]
+  },
+  {
+    "name": "encouragement",
+    "trans": [
+      "n.鼓励"
+    ]
+  },
+  {
+    "name": "end",
+    "trans": [
+      "v./n.结束,终止; n.末端,尽头; n.目标"
+    ]
+  },
+  {
+    "name": "at the end of ...",
+    "trans": [
+      "在……的最后"
+    ]
+  },
+  {
+    "name": "in the end",
+    "trans": [
+      "最终,终于"
+    ]
+  },
+  {
+    "name": "end my lecture with a poem",
+    "trans": [
+      "用首诗来结束我的讲座"
+    ]
+  },
+  {
+    "name": "bring my lecture to an end with a poem",
+    "trans": [
+      "用首诗来结束我的讲座"
+    ]
+  },
+  {
+    "name": "bring/ put an end to my lecture with a poem",
+    "trans": [
+      "用首诗来结束我的讲座"
+    ]
+  },
+  {
+    "name": "end in ...",
+    "trans": [
+      "①以……结尾, 末尾是……; ②与抽象名词搭配(如: 失败, 成功, 死亡等)"
+    ]
+  },
+  {
+    "name": "end in failure",
+    "trans": [
+      "以失败告终"
+    ]
+  },
+  {
+    "name": "end in victory",
+    "trans": [
+      "以胜利告终"
+    ]
+  },
+  {
+    "name": "end in death",
+    "trans": [
+      "以死亡告终"
+    ]
+  },
+  {
+    "name": "end up in+地点",
+    "trans": [
+      "以住院告终"
+    ]
+  },
+  {
+    "name": "end up in hospital",
+    "trans": [
+      "以住院告终"
+    ]
+  },
+  {
+    "name": "end up in prison",
+    "trans": [
+      "以坐牢告终"
+    ]
+  },
+  {
+    "name": "end up with+ sth",
+    "trans": [
+      "以……告终"
+    ]
+  },
+  {
+    "name": "end up with a decent job",
+    "trans": [
+      "最终找到个体面工作"
+    ]
+  },
+  {
+    "name": "end up+ doing sth",
+    "trans": [
+      "以做某事告终"
+    ]
+  },
+  {
+    "name": "end up being cheated",
+    "trans": [
+      "最终被骗了"
+    ]
+  },
+  {
+    "name": "on end",
+    "trans": [
+      "连续不断地"
+    ]
+  },
+  {
+    "name": "the end result",
+    "trans": [
+      "最终结果"
+    ]
+  },
+  {
+    "name": "make(both) ends meet",
+    "trans": [
+      "使收支平衡"
+    ]
+  },
+  {
+    "name": "without end",
+    "trans": [
+      "无穷尽地"
+    ]
+  },
+  {
+    "name": "endlessly",
+    "trans": [
+      "无穷尽地"
+    ]
+  },
+  {
+    "name": "high-end",
+    "trans": [
+      "adj.高端的"
+    ]
+  },
+  {
+    "name": "endurance",
+    "trans": [
+      "n.忍力,忍耐力,持久力"
+    ]
+  },
+  {
+    "name": "endure",
+    "trans": [
+      "v.忍耐,忍受,容忍;持久,持续"
+    ]
+  },
+  {
+    "name": "endure to do/ doing",
+    "trans": [
+      "忍受做某事"
+    ]
+  },
+  {
+    "name": "enemy",
+    "trans": [
+      "n.敌人"
+    ]
+  },
+  {
+    "name": "energy",
+    "trans": [
+      "n.[U]能源,能量; n.①[C]精力;②[U]活力,干劲"
+    ]
+  },
+  {
+    "name": "clean energy",
+    "trans": [
+      "清洁能源"
+    ]
+  },
+  {
+    "name": "nuclear energy",
+    "trans": [
+      "核能"
+    ]
+  },
+  {
+    "name": "solar energy",
+    "trans": [
+      "太阳能"
+    ]
+  },
+  {
+    "name": "wind energy",
+    "trans": [
+      "风能"
+    ]
+  },
+  {
+    "name": "consume energy",
+    "trans": [
+      "消耗能源"
+    ]
+  },
+  {
+    "name": "save energy, conserve energy",
+    "trans": [
+      "节约能源"
+    ]
+  },
+  {
+    "name": "be full of energy",
+    "trans": [
+      "精力充沛"
+    ]
+  },
+  {
+    "name": "energetic",
+    "trans": [
+      "adj.精力充沛的"
+    ]
+  },
+  {
+    "name": "engage",
+    "trans": [
+      "vt.使忙于; vt./ vi.参与,从事; v.订婚; vt.聘用; vt.吸引(注意力,兴趣); 建立密切关系"
+    ]
+  },
+  {
+    "name": "be engaged in the work",
+    "trans": [
+      "忙于工作"
+    ]
+  },
+  {
+    "name": "be engaged in/ engage in the activity",
+    "trans": [
+      "参与活动"
+    ]
+  },
+  {
+    "name": "be engaged to sb",
+    "trans": [
+      "与某人订婚"
+    ]
+  },
+  {
+    "name": "engage sb as general manager",
+    "trans": [
+      "聘用某人为总经理"
+    ]
+  },
+  {
+    "name": "engage sb to do",
+    "trans": [
+      "聘用某人做某事"
+    ]
+  },
+  {
+    "name": "engage one's attention",
+    "trans": [
+      "吸引某人的注意力"
+    ]
+  },
+  {
+    "name": "engage one's interest",
+    "trans": [
+      "吸引某人的兴趣"
+    ]
+  },
+  {
+    "name": "engage with",
+    "trans": [
+      "与……建立密切关系"
+    ]
+  },
+  {
+    "name": "engagement",
+    "trans": [
+      "n.①参与;②订婚;③雇佣;④密切关系"
+    ]
+  },
+  {
+    "name": "engine",
+    "trans": [
+      "n.引擎,发动机"
+    ]
+  },
+  {
+    "name": "a fire engine",
+    "trans": [
+      "消防车"
+    ]
+  },
+  {
+    "name": "engineer",
+    "trans": [
+      "n.工程师; vt.(工程)设计"
+    ]
+  },
+  {
+    "name": "engineer a bridge",
+    "trans": [
+      "设计一座桥"
+    ]
+  },
+  {
+    "name": "engineering",
+    "trans": [
+      "n.工程,工程学"
+    ]
+  },
+  {
+    "name": "English",
+    "trans": [
+      "n.英语; adj.英国人的;英国的;英语的"
+    ]
+  },
+  {
+    "name": "British English",
+    "trans": [
+      "英式英语"
+    ]
+  },
+  {
+    "name": "American English",
+    "trans": [
+      "美式英语"
+    ]
+  },
+  {
+    "name": "enhance",
+    "trans": [
+      "vt.提高,加强"
+    ]
+  },
+  {
+    "name": "enjoy",
+    "trans": [
+      "vt.欣赏,享受"
+    ]
+  },
+  {
+    "name": "enjoy doing",
+    "trans": [
+      "享受做某事"
+    ]
+  },
+  {
+    "name": "enjoy oneself",
+    "trans": [
+      "玩得愉快"
+    ]
+  },
+  {
+    "name": "enjoyment",
+    "trans": [
+      "n.享受"
+    ]
+  },
+  {
+    "name": "enjoyable",
+    "trans": [
+      "adj.令人愉快的,令人享受的"
+    ]
+  },
+  {
+    "name": "enormous",
+    "trans": [
+      "adj.巨大的"
+    ]
+  },
+  {
+    "name": "enough",
+    "trans": [
+      "adv.足够的"
+    ]
+  },
+  {
+    "name": "ensure",
+    "trans": [
+      "vt.保证,确保"
+    ]
+  },
+  {
+    "name": "ensure sth, ensure that ...",
+    "trans": [
+      "确保……"
+    ]
+  },
+  {
+    "name": "ensure sb sth",
+    "trans": [
+      "确保某人某物"
+    ]
+  },
+  {
+    "name": "enter",
+    "trans": [
+      "vt.进入; vi.参加"
+    ]
+  },
+  {
+    "name": "enter for ...",
+    "trans": [
+      "报名参加……"
+    ]
+  },
+  {
+    "name": "enter upon one's new vocation",
+    "trans": [
+      "开始做某人的新工作"
+    ]
+  },
+  {
+    "name": "enterprise",
+    "trans": [
+      "n.公司,企业"
+    ]
+  },
+  {
+    "name": "entertainment",
+    "trans": [
+      "n.招待,款待; n.娱乐"
+    ]
+  },
+  {
+    "name": "entertaining",
+    "trans": [
+      "adj.令人愉快的"
+    ]
+  },
+  {
+    "name": "entertain",
+    "trans": [
+      "vt.①招待,款待(某人);②给……娱乐"
+    ]
+  },
+  {
+    "name": "entertain sb with sth",
+    "trans": [
+      "用……使某人获得快乐"
+    ]
+  },
+  {
+    "name": "enthusiastic",
+    "trans": [
+      "adj.充满热情的"
+    ]
+  },
+  {
+    "name": "enthusiasm",
+    "trans": [
+      "n.[U]热情"
+    ]
+  },
+  {
+    "name": "be enthusiastic about...",
+    "trans": [
+      "对……充满热情"
+    ]
+  },
+  {
+    "name": "have enthusiasm for ...",
+    "trans": [
+      "对……充满热情"
+    ]
+  },
+  {
+    "name": "entire",
+    "trans": [
+      "adj.全部的,整个的,完全的"
+    ]
+  },
+  {
+    "name": "entirely",
+    "trans": [
+      "adv.完全地,彻底地; vt.给…提名; vt.使…有权力使…"
+    ]
+  },
+  {
+    "name": "entitle",
+    "trans": [
+      "使某人有权做某事"
+    ]
+  },
+  {
+    "name": "entitle sb to do",
+    "trans": [
+      "使某人有权做某事"
+    ]
+  },
+  {
+    "name": "entitle sb to sth",
+    "trans": [
+      "使某人有权获得某物"
+    ]
+  },
+  {
+    "name": "entitled",
+    "trans": [
+      "被命名为……"
+    ]
+  },
+  {
+    "name": "entrance",
+    "trans": [
+      "n.进入(入学,入场等); n.入口"
+    ]
+  },
+  {
+    "name": "entrance fee",
+    "trans": [
+      "入场费"
+    ]
+  },
+  {
+    "name": "the entrance to the museum",
+    "trans": [
+      "(1)n进入(的动作); 进入许可; (2)n.入口通道,门厅; (3)n.输入,录入; (4)n.(字典的)词条;(5)n.参赛作品"
+    ]
+  },
+  {
+    "name": "entry",
+    "trans": [
+      "词条;(5)n.参赛作品"
+    ]
+  },
+  {
+    "name": "No entry!",
+    "trans": [
+      "禁止入内!"
+    ]
+  },
+  {
+    "name": "gain entry into ...",
+    "trans": [
+      "获得进入……的权力"
+    ]
+  },
+  {
+    "name": "data entry",
+    "trans": [
+      "数据录入"
+    ]
+  },
+  {
+    "name": "envelope",
+    "trans": [
+      "n.信封;封套"
+    ]
+  },
+  {
+    "name": "envelop",
+    "trans": [
+      "vt.笼罩,包住,裹住"
+    ]
+  },
+  {
+    "name": "Fragrant smell has enveloped the whole table.",
+    "trans": [
+      "香气已经笼罩了整个餐桌。"
+    ]
+  },
+  {
+    "name": "environment",
+    "trans": [
+      "n.环境"
+    ]
+  },
+  {
+    "name": "environmental",
+    "trans": [
+      "adj.环境的"
+    ]
+  },
+  {
+    "name": "an environmental group",
+    "trans": [
+      "环保团体"
+    ]
+  },
+  {
+    "name": "environmentally friendly",
+    "trans": [
+      "环保的"
+    ]
+  },
+  {
+    "name": "envy",
+    "trans": [
+      "vt./n.嫉妒,羡慕"
+    ]
+  },
+  {
+    "name": "out of envy",
+    "trans": [
+      "出于嫉妒"
+    ]
+  },
+  {
+    "name": "with envy",
+    "trans": [
+      "嫉妒地,羡慕地"
+    ]
+  },
+  {
+    "name": "envy sb sth",
+    "trans": [
+      "嫉妒/羡慕某人某物"
+    ]
+  },
+  {
+    "name": "be the envy of ...",
+    "trans": [
+      "成为……嫉妒/羡慕的对象(目标)"
+    ]
+  },
+  {
+    "name": "China's safety is the envy of many countries.",
+    "trans": [
+      "中国的安全是很多国家羡慕的对象。"
+    ]
+  },
+  {
+    "name": "envious",
+    "trans": [
+      "adj.羡慕的,嫉妒的"
+    ]
+  },
+  {
+    "name": "be envious of...",
+    "trans": [
+      "嫉妒,羡慕"
+    ]
+  },
+  {
+    "name": "episode",
+    "trans": [
+      "n.(节目的)一集; n.一段(人生)经历"
+    ]
+  },
+  {
+    "name": "equal",
+    "trans": [
+      "adj.等同的; vt.等同于; adj.平等的; 相等的(反: un~); adj.(be ~to)vt.比得上,匹敌; n.同等的人; 可比拟的东西"
+    ]
+  },
+  {
+    "name": "be equal to",
+    "trans": [
+      "等同于"
+    ]
+  },
+  {
+    "name": "One hundred millimeters is equal to/ equals one centimeter.",
+    "trans": [
+      "100毫米等于1厘米。"
+    ]
+  },
+  {
+    "name": "equal rights",
+    "trans": [
+      "平等的权利"
+    ]
+  },
+  {
+    "name": "equality",
+    "trans": [
+      "n.平等(反: in~)"
+    ]
+  },
+  {
+    "name": "equality between men and women",
+    "trans": [
+      "男女平等"
+    ]
+  },
+  {
+    "name": "gender inequality",
+    "trans": [
+      "性别不平等"
+    ]
+  },
+  {
+    "name": "be equal to",
+    "trans": [
+      "比得上,匹敌"
+    ]
+  }
+]

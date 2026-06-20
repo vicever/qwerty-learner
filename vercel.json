@@ -8,6 +8,13 @@
       }
     },
     {
+      "src": "^/dicts/.*",
+      "headers": {
+        "Cache-Control": "public, max-age=86400",
+        "Content-Type": "application/json; charset=utf-8"
+      }
+    },
+    {
       "src": "/.*",
       "dest": "/index.html"
     }

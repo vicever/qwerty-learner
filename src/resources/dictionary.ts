@@ -14,6 +14,30 @@ const chinaExam: DictionaryResource[] = [
     language: 'en',
     languageCategory: 'en',
   },
+  //新增的东昌中学高考单词
+  {
+    id: 'Dongchang',
+    name: 'Dongchang',
+    description: '东昌中学高考单词词库',
+    category: '中国考试',
+    tags: ['大学英语'],
+    url: '/dicts/dongchang.json',
+    length: 2607,
+    language: 'en',
+    languageCategory: 'en',
+  },
+  // 张容毓每日词汇
+  {
+    id: 'zry-daily',
+    name: '张容毓每日词汇',
+    description: '张容毓整理的每日词汇合集，含单词、词组与固定搭配',
+    category: '中国考试',
+    tags: ['高中英语', '每日词汇'],
+    url: '/dicts/zry_daily_vocab.json',
+    length: 1063,
+    language: 'en',
+    languageCategory: 'en',
+  },
   {
     id: 'cet6',
     name: 'CET-6',
