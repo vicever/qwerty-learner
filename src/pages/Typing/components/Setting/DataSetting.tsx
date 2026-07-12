@@ -4,6 +4,7 @@ import { exportDatabase, importDatabase } from '@/utils/db/data-export'
 import * as Progress from '@radix-ui/react-progress'
 import * as ScrollArea from '@radix-ui/react-scroll-area'
 import { useCallback, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 export default function DataSetting() {
   const [isExporting, setIsExporting] = useState(false)
@@ -118,6 +119,18 @@ export default function DataSetting() {
             >
               导入数据
             </button>
+          </div>
+          <div className={styles.section}>
+            <span className={styles.sectionLabel}>高级数据管理</span>
+            <span className={styles.sectionDescription}>
+              管理本地备份、检查数据完整性、查看详细数据统计。
+            </span>
+            <Link
+              to="/data-manager"
+              className="ml-4 inline-block rounded bg-indigo-500 px-4 py-2 text-white hover:bg-indigo-600"
+            >
+              进入数据管理
+            </Link>
           </div>
         </div>
       </ScrollArea.Viewport>

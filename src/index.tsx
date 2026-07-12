@@ -5,6 +5,7 @@ import { FriendLinks } from './pages/FriendLinks'
 import MobilePage from './pages/Mobile'
 import TypingPage from './pages/Typing'
 import { initAccount, isOpenDarkModeAtom } from '@/store'
+import { autoBackupOnVersionUpgrade, checkDataIntegrity, fixDataIntegrity } from '@/utils/db/backup'
 import { Analytics } from '@vercel/analytics/react'
 import 'animate.css'
 import { useAtomValue } from 'jotai'
@@ -16,6 +17,7 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 
 const AnalysisPage = lazy(() => import('./pages/Analysis'))
+const DataManagerPage = lazy(() => import('./pages/DataManager'))
 const GalleryPage = lazy(() => import('./pages/Gallery-N'))
 const ReviewPage = lazy(() => import('./pages/Review'))
 
@@ -35,6 +37,19 @@ function Root() {
 
   useEffect(() => {
     initAccount()
+    autoBackupOnVersionUpgrade()
+    checkDataIntegrity().then((result) => {
+      if (!result.valid) {
+        console.warn('数据完整性检查失败:', result.issues)
+        fixDataIntegrity().then((fixResult) => {
+          if (fixResult.success) {
+            console.log('数据修复成功:', fixResult.message)
+          } else {
+            console.error('数据修复失败:', fixResult.message)
+          }
+        })
+      }
+    })
   }, [])
 
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 600)
@@ -65,6 +80,7 @@ function Root() {
                 <Route path="/gallery" element={<GalleryPage />} />
                 <Route path="/analysis" element={<AnalysisPage />} />
                 <Route path="/review" element={<ReviewPage />} />
+                <Route path="/data-manager" element={<DataManagerPage />} />
                 <Route path="/error-book" element={<ErrorBook />} />
                 <Route path="/friend-links" element={<FriendLinks />} />
                 <Route path="/*" element={<Navigate to="/" />} />
