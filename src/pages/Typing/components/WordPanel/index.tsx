@@ -3,10 +3,11 @@ import type { TypingState } from '../../store/type'
 import PrevAndNextWord from '../PrevAndNextWord'
 import Progress from '../Progress'
 import Phonetic from './components/Phonetic'
+import SentenceContext from './components/SentenceContext'
 import Translation from './components/Translation'
 import WordComponent from './components/Word'
 import { usePrefetchPronunciationSound } from '@/hooks/usePronunciation'
-import { isReviewModeAtom, isShowPrevAndNextWordAtom, loopWordConfigAtom, phoneticConfigAtom, reviewModeInfoAtom } from '@/store'
+import { isReviewModeAtom, isShowPrevAndNextWordAtom, loopWordConfigAtom, phoneticConfigAtom, practiceModeAtom, reviewModeInfoAtom } from '@/store'
 import type { Word } from '@/typings'
 import { useAtomValue, useSetAtom } from 'jotai'
 import { useCallback, useContext, useMemo, useState } from 'react'
@@ -25,6 +26,8 @@ export default function WordPanel() {
 
   const setReviewModeInfo = useSetAtom(reviewModeInfoAtom)
   const isReviewMode = useAtomValue(isReviewModeAtom)
+  const practiceMode = useAtomValue(practiceModeAtom)
+  const isSentenceMode = practiceMode === 'sentence'
 
   const prevIndex = useMemo(() => {
     const newIndex = state.chapterData.index - 1
@@ -180,14 +183,19 @@ export default function WordPanel() {
               </div>
             )}
             <div className="relative">
+              {isSentenceMode && <SentenceContext word={currentWord} />}
               <WordComponent word={currentWord} onFinish={onFinish} key={wordComponentKey} />
               {phoneticConfig.isOpen && <Phonetic word={currentWord} />}
-              <Translation
-                trans={currentWord.trans.join('；') + (wordCountHint ? ' ' + wordCountHint : '')}
-                showTrans={shouldShowTranslation}
-                onMouseEnter={() => handleShowTranslation(true)}
-                onMouseLeave={() => handleShowTranslation(false)}
-              />
+              {isSentenceMode ? (
+                <div className="h-[60px]" />
+              ) : (
+                <Translation
+                  trans={currentWord.trans.join('；') + (wordCountHint ? ' ' + wordCountHint : '')}
+                  showTrans={shouldShowTranslation}
+                  onMouseEnter={() => handleShowTranslation(true)}
+                  onMouseLeave={() => handleShowTranslation(false)}
+                />
+              )}
             </div>
           </div>
         )}

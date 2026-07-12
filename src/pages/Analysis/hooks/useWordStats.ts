@@ -1,5 +1,7 @@
+import { currentAccountIdAtom } from '@/store'
 import { db } from '@/utils/db'
 import type { IWordRecord } from '@/utils/db/record'
+import { useAtomValue } from 'jotai'
 import dayjs from 'dayjs'
 import { useEffect, useState } from 'react'
 import type { Activity } from 'react-activity-calendar'
@@ -36,6 +38,7 @@ function getLevel(value: number) {
 }
 
 export function useWordStats(startTimeStamp: number, endTimeStamp: number) {
+  const accountId = useAtomValue(currentAccountIdAtom)
   const [wordStats, setWordStats] = useState<IWordStats>({
     exerciseRecord: [],
     wordRecord: [],
@@ -46,19 +49,22 @@ export function useWordStats(startTimeStamp: number, endTimeStamp: number) {
 
   useEffect(() => {
     const fetchWordStats = async () => {
-      const stats = await getChapterStats(startTimeStamp, endTimeStamp)
+      const stats = await getChapterStats(startTimeStamp, endTimeStamp, accountId)
       setWordStats(stats)
     }
 
     fetchWordStats()
-  }, [startTimeStamp, endTimeStamp])
+  }, [startTimeStamp, endTimeStamp, accountId])
 
   return wordStats
 }
 
-async function getChapterStats(startTimeStamp: number, endTimeStamp: number): Promise<IWordStats> {
+async function getChapterStats(startTimeStamp: number, endTimeStamp: number, accountId: string): Promise<IWordStats> {
   // indexedDB查找某个数字范围内的数据
-  const records: IWordRecord[] = await db.wordRecords.where('timeStamp').between(startTimeStamp, endTimeStamp).toArray()
+  const records: IWordRecord[] = (await db.wordRecords
+    .where('timeStamp')
+    .between(startTimeStamp, endTimeStamp)
+    .toArray()).filter((r) => r.accountId === accountId)
 
   if (records.length === 0) {
     return { isEmpty: true, exerciseRecord: [], wordRecord: [], wpmRecord: [], accuracyRecord: [], wrongTimeRecord: [] }

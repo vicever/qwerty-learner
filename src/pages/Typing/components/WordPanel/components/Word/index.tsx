@@ -69,6 +69,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
     newWordState.letterStates = new Array(headword.length).fill('normal')
     newWordState.startTime = getUtcStringForMixpanel()
     newWordState.randomLetterVisible = headword.split('').map(() => Math.random() > 0.4)
+    newWordState.showCorrectAfterWrong = false
     setWordState(newWordState)
   }, [word, setWordState])
 
@@ -171,7 +172,8 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
     (index: number) => {
       if (wordState.letterStates[index] === 'correct' || (isShowAnswerOnHover && isHoveringWord)) return true
 
-      // Show letters that have already been typed (immediate visual feedback during typing)
+      if (wordState.showCorrectAfterWrong) return true
+
       if (index < wordState.inputWord.length) return true
 
       if (wordDictationConfig.isOpen) {
@@ -199,6 +201,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
       wordState.inputWord.length,
       wordState.letterStates,
       wordState.randomLetterVisible,
+      wordState.showCorrectAfterWrong,
     ],
   )
 
@@ -255,17 +258,18 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
         })
         dispatch({ type: TypingStateActionType.REPORT_CORRECT_WORD })
       } else {
-        // 有错误 - 显示结果后延迟重置
-        playBeepSound()
-        setWordState((state) => {
-          state.hasWrong = true
-          state.hasMadeInputWrong = true
-          state.wrongCount += 1
-          state.letterMistake = { ...state.letterMistake, ...mistakes }
+          playBeepSound()
+          setWordState((state) => {
+            state.hasWrong = true
+            state.hasMadeInputWrong = true
+            state.wrongCount += 1
+            state.letterMistake = { ...state.letterMistake, ...mistakes }
+            state.showCorrectAfterWrong = true
+            state.endTime = getUtcStringForMixpanel()
 
-          const currentState = JSON.parse(JSON.stringify(state))
-          dispatch({ type: TypingStateActionType.REPORT_WRONG_WORD, payload: { letterMistake: currentState.letterMistake } })
-        })
+            const currentState = JSON.parse(JSON.stringify(state))
+            dispatch({ type: TypingStateActionType.REPORT_WRONG_WORD, payload: { letterMistake: currentState.letterMistake } })
+          })
 
         if (currentChapter === 0 && state.chapterData.index === 0 && wordState.wrongCount >= 3) {
           setShowTipAlert(true)
@@ -282,14 +286,24 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
     if (wordState.hasWrong) {
       const timer = setTimeout(() => {
         setWordState((state) => {
-          state.inputWord = ''
-          state.letterStates = new Array(state.letterStates.length).fill('normal')
-          state.hasWrong = false
+          state.isFinished = true
         })
-      }, 1500)
+      }, 3000)
+
+      const handleEnter = (e: KeyboardEvent) => {
+        if (e.key === 'Enter') {
+          clearTimeout(timer)
+          setWordState((state) => {
+            state.isFinished = true
+          })
+        }
+      }
+
+      window.addEventListener('keydown', handleEnter)
 
       return () => {
         clearTimeout(timer)
+        window.removeEventListener('keydown', handleEnter)
       }
     }
   }, [wordState.hasWrong, setWordState])

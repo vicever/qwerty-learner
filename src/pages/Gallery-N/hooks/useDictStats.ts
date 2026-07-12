@@ -1,13 +1,16 @@
+import { currentAccountIdAtom } from '@/store'
 import { db } from '@/utils/db'
 import type { IChapterRecord } from '@/utils/db/record'
+import { useAtomValue } from 'jotai'
 import { useEffect, useState } from 'react'
 
 export function useDictStats(dictID: string, isStartLoad: boolean) {
+  const accountId = useAtomValue(currentAccountIdAtom)
   const [dictStats, setDictStats] = useState<IDictStats | null>(null)
 
   useEffect(() => {
     const fetchDictStats = async () => {
-      const stats = await getDictStats(dictID)
+      const stats = await getDictStats(dictID, accountId)
       setDictStats(stats)
     }
 
@@ -15,7 +18,7 @@ export function useDictStats(dictID: string, isStartLoad: boolean) {
       fetchDictStats()
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [dictID, isStartLoad])
+  }, [dictID, isStartLoad, accountId])
 
   return dictStats
 }
@@ -24,8 +27,10 @@ interface IDictStats {
   exercisedChapterCount: number
 }
 
-async function getDictStats(dict: string): Promise<IDictStats> {
-  const records: IChapterRecord[] = await db.chapterRecords.where({ dict }).toArray()
+async function getDictStats(dict: string, accountId: string): Promise<IDictStats> {
+  const records: IChapterRecord[] = (await db.chapterRecords.where({ dict }).toArray()).filter(
+    (r) => r.accountId === accountId,
+  )
   const allChapter = records.map(({ chapter }) => chapter).filter((item) => item !== null) as number[]
   const uniqueChapter = allChapter.filter((value, index, self) => {
     return self.indexOf(value) === index

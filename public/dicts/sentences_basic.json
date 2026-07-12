@@ -1,0 +1,152 @@
+[
+  {
+    "name": "agree",
+    "trans": ["The students agree they have too much homework."],
+    "usphone": "ə'ɡri",
+    "ukphone": "ə'griː"
+  },
+  {
+    "name": "arrive",
+    "trans": ["They arrived at school at 7 a.m. this morning."],
+    "usphone": "ə'raɪv",
+    "ukphone": "ə'raɪv"
+  },
+  {
+    "name": "breakfast",
+    "trans": ["I ate eggs and toast for breakfast today."],
+    "usphone": "'brɛkfəst",
+    "ukphone": "'brekfəst"
+  },
+  {
+    "name": "beautiful",
+    "trans": ["The sunset over the ocean was truly beautiful."],
+    "usphone": "'bjutəfəl",
+    "ukphone": "'bjuːtɪfʊl"
+  },
+  {
+    "name": "careful",
+    "trans": ["Please be careful when you cross the busy street."],
+    "usphone": "'kɛrfəl",
+    "ukphone": "'keəfʊl"
+  },
+  {
+    "name": "decide",
+    "trans": ["We need to decide where to go for our vacation."],
+    "usphone": "dɪ'saɪd",
+    "ukphone": "dɪ'saɪd"
+  },
+  {
+    "name": "enjoy",
+    "trans": ["I really enjoy listening to music on rainy days."],
+    "usphone": "ɪn'dʒɔɪ",
+    "ukphone": "ɪn'dʒɔɪ"
+  },
+  {
+    "name": "foreign",
+    "trans": ["She loves learning about foreign cultures and languages."],
+    "usphone": "'fɔrən",
+    "ukphone": "'fɒrɪn"
+  },
+  {
+    "name": "garden",
+    "trans": ["My grandmother grows roses in her small garden."],
+    "usphone": "'ɡɑrdn",
+    "ukphone": "'ɡɑːdən"
+  },
+  {
+    "name": "holiday",
+    "trans": ["We are planning a trip to Japan for the holiday."],
+    "usphone": "'hɑləde",
+    "ukphone": "'hɒlɪdeɪ"
+  },
+  {
+    "name": "imagine",
+    "trans": ["Can you imagine living without a smartphone for a week?"],
+    "usphone": "ɪ'mædʒɪn",
+    "ukphone": "ɪ'mædʒɪn"
+  },
+  {
+    "name": "journey",
+    "trans": ["The journey from Beijing to Shanghai takes about five hours."],
+    "usphone": "'dʒɝni",
+    "ukphone": "'dʒɜːni"
+  },
+  {
+    "name": "knowledge",
+    "trans": ["Reading books is the best way to gain knowledge."],
+    "usphone": "'nɑlɪdʒ",
+    "ukphone": "'nɒlɪdʒ"
+  },
+  {
+    "name": "language",
+    "trans": ["English is the most widely spoken language in the world."],
+    "usphone": "'læŋɡwɪdʒ",
+    "ukphone": "'læŋɡwɪdʒ"
+  },
+  {
+    "name": "memory",
+    "trans": ["He has a great memory for names and faces."],
+    "usphone": "'mɛməri",
+    "ukphone": "'meməri"
+  },
+  {
+    "name": "natural",
+    "trans": ["Honey is a natural sweetener that never goes bad."],
+    "usphone": "'nætʃrəl",
+    "ukphone": "'nætʃrəl"
+  },
+  {
+    "name": "opportunity",
+    "trans": ["Studying abroad is a great opportunity for young people."],
+    "usphone": "'ɑpɚ'tunəti",
+    "ukphone": "ˌɒpə'tjuːnɪti"
+  },
+  {
+    "name": "practice",
+    "trans": ["Practice makes perfect when learning to play the piano."],
+    "usphone": "'præktɪs",
+    "ukphone": "'præktɪs"
+  },
+  {
+    "name": "question",
+    "trans": ["If you have any question, please raise your hand."],
+    "usphone": "'kwɛstʃən",
+    "ukphone": "'kwestʃən"
+  },
+  {
+    "name": "remember",
+    "trans": ["I can't remember where I put my car keys."],
+    "usphone": "rɪ'mɛmbɚ",
+    "ukphone": "rɪ'membə"
+  },
+  {
+    "name": "success",
+    "trans": ["Hard work is the key to success in any field."],
+    "usphone": "sək'sɛs",
+    "ukphone": "sək'ses"
+  },
+  {
+    "name": "together",
+    "trans": ["Let's work together to finish this project on time."],
+    "usphone": "tə'ɡɛðɚ",
+    "ukphone": "tə'ɡeðə"
+  },
+  {
+    "name": "understand",
+    "trans": ["I don't quite understand what you mean by that."],
+    "usphone": "'ʌndɚ'stænd",
+    "ukphone": "ˌʌndə'stænd"
+  },
+  {
+    "name": "weather",
+    "trans": ["The weather forecast says it will rain tomorrow."],
+    "usphone": "'wɛðɚ",
+    "ukphone": "'weðə"
+  },
+  {
+    "name": "experience",
+    "trans": ["Traveling gives you a chance to experience new things."],
+    "usphone": "ɪk'spɪrɪəns",
+    "ukphone": "ɪk'spɪəriəns"
+  }
+]

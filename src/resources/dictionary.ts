@@ -336,17 +336,6 @@ const chinaExam: DictionaryResource[] = [
     languageCategory: 'en',
   },
   {
-    id: '4000_Essential_English_Words2',
-    name: 'Essential Words',
-    description: '4000 Essential English Words sentence',
-    category: '中国考试',
-    tags: ['其他'],
-    url: '/dicts/4000_Essential_English_Words-sentence.json',
-    length: 3600,
-    language: 'en',
-    languageCategory: 'en',
-  },
-  {
     id: 'longman_communication_3000_words',
     name: 'Longman Communication 3000',
     description: 'Most frequent words in both spoken and written English',
@@ -600,6 +589,18 @@ const chinaExam: DictionaryResource[] = [
     tags: ['课外词汇'],
     url: '/dicts/RogersWords.json',
     length: 4174,
+    language: 'en',
+    languageCategory: 'en',
+  },
+  // 添加示例词典
+  {
+    id: 'example_with_pages',
+    name: '示例词典(带页码)',
+    description: '带页码信息的示例词典',
+    category: '示例',
+    tags: ['示例'],
+    url: '/dicts/example_with_pages.json',
+    length: 20,
     language: 'en',
     languageCategory: 'en',
   },
@@ -4179,6 +4180,32 @@ const indonesianDicts: DictionaryResource[] = [
   },
 ]
 
+//句子练习（挖空填空模式，trans 字段为含目标单词的例句）
+const sentencePractice: DictionaryResource[] = [
+  {
+    id: 'sentences_basic',
+    name: '基础例句 25',
+    description: '常用单词例句，句子模式下挖空默写',
+    category: '句子练习',
+    tags: ['例句'],
+    url: '/dicts/sentences_basic.json',
+    length: 25,
+    language: 'en',
+    languageCategory: 'en',
+  },
+  {
+    id: '4000_Essential_English_Words2',
+    name: 'Essential Words',
+    description: '4000 Essential English Words sentence',
+    category: '句子练习',
+    tags: ['例句'],
+    url: '/dicts/4000_Essential_English_Words-sentence.json',
+    length: 3600,
+    language: 'en',
+    languageCategory: 'en',
+  },
+]
+
 /**
  * Built-in dictionaries in an array.
  * Why arrays? Because it keeps the order across browsers.
@@ -4192,6 +4219,7 @@ export const dictionaryResources: DictionaryResource[] = [
   ...germanExam,
   ...kazakhHapinDicts,
   ...indonesianDicts,
+  ...sentencePractice,
 
   // {
   //   id: 'zhtest',

@@ -1,23 +1,30 @@
 {
-  "version": 2,
-  "routes": [
+  "framework": "vite",
+  "buildCommand": "cross-env CI=false vite build",
+  "outputDirectory": "dist",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
+  "headers": [
     {
-      "src": "^/assets/.*",
-      "headers": {
-        "Cache-Control": "public, max-age=31536000, immutable"
-      }
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
     },
     {
-      "src": "^/dicts/.*",
-      "headers": {
-        "Cache-Control": "public, max-age=86400",
-        "Content-Type": "application/json; charset=utf-8"
-      }
-    },
-    {
-      "src": "/.*",
-      "dest": "/index.html"
+      "source": "/dicts/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json; charset=utf-8"
+        }
+      ]
     }
-  ],
-  "outputDirectory": "dist"
+  ]
 }

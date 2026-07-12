@@ -3,6 +3,7 @@ import AnalysisButton from '../AnalysisButton'
 import ErrorBookButton from '../ErrorBookButton'
 import HandPositionIllustration from '../HandPositionIllustration'
 import LoopWordSwitcher from '../LoopWordSwitcher'
+import PracticeModeSwitcher from '../PracticeModeSwitcher'
 import Setting from '../Setting'
 import SoundSwitcher from '../SoundSwitcher'
 import WordDictationSwitcher from '../WordDictationSwitcher'
@@ -42,6 +43,8 @@ export default function Switcher() {
 
   return (
     <div className="flex items-center justify-center gap-2">
+      <PracticeModeSwitcher />
+
       <Tooltip content="音效设置">
         <SoundSwitcher />
       </Tooltip>

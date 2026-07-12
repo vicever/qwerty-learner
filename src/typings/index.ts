@@ -25,6 +25,8 @@ export type Word = {
   usphone: string
   ukphone: string
   notation?: string
+  // 添加页码字段
+  page?: number
 }
 
 export type WordWithIndex = Word & {

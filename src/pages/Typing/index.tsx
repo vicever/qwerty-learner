@@ -5,6 +5,7 @@ import ResultScreen from './components/ResultScreen'
 import Speed from './components/Speed'
 import StartButton from './components/StartButton'
 import Switcher from './components/Switcher'
+import TodayCard from './components/TodayCard'
 import WordList from './components/WordList'
 import WordPanel from './components/WordPanel'
 import { useConfetti } from './hooks/useConfetti'
@@ -22,6 +23,7 @@ import { useAtom, useAtomValue, useSetAtom } from 'jotai'
 import type React from 'react'
 import { useCallback, useEffect, useState } from 'react'
 import { useImmerReducer } from 'use-immer'
+import { CHAPTER_LENGTH } from '@/constants'
 
 const App: React.FC = () => {
   const [state, dispatch] = useImmerReducer(typingReducer, structuredClone(initialState))
@@ -161,6 +163,8 @@ const App: React.FC = () => {
                 !state.isFinished && <WordPanel />
               )}
             </div>
+            {/* 未开始练习时显示"今日手感"仪表板卡片 */}
+            {!state.isTyping && !state.isFinished && !isLoading && <TodayCard />}
             <Speed />
           </div>
         </div>

@@ -20,6 +20,8 @@ export type WordState = {
   letterMistake: LetterMistakes
   // 用于随机隐藏字母功能
   randomLetterVisible: boolean[]
+  // 错误后显示正确答案
+  showCorrectAfterWrong: boolean
 }
 
 export const initialWordState: WordState = {
@@ -37,4 +39,5 @@ export const initialWordState: WordState = {
   letterTimeArray: [],
   letterMistake: {},
   randomLetterVisible: [],
+  showCorrectAfterWrong: false,
 }

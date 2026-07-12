@@ -1,16 +1,17 @@
 import type { TErrorWordData } from '../hooks/useErrorWords'
 import { Button } from '@/components/ui/button'
-import { currentChapterAtom, currentDictIdAtom, reviewModeInfoAtom } from '@/store'
+import { currentAccountIdAtom, currentChapterAtom, currentDictIdAtom, reviewModeInfoAtom } from '@/store'
 import type { Dictionary } from '@/typings'
 import { timeStamp2String } from '@/utils'
 import { generateNewWordReviewRecord, useGetLatestReviewRecord } from '@/utils/db/review-record'
 import * as Progress from '@radix-ui/react-progress'
-import { useSetAtom } from 'jotai'
+import { useAtomValue, useSetAtom } from 'jotai'
 import { useNavigate } from 'react-router-dom'
 import MdiRobotAngry from '~icons/mdi/robot-angry'
 
 export function ReviewDetail({ errorData, dict }: { errorData: TErrorWordData[]; dict: Dictionary }) {
-  const latestReviewRecord = useGetLatestReviewRecord(dict.id)
+  const accountId = useAtomValue(currentAccountIdAtom)
+  const latestReviewRecord = useGetLatestReviewRecord(dict.id, accountId)
   const setReviewModeInfo = useSetAtom(reviewModeInfoAtom)
   const setCurrentDictId = useSetAtom(currentDictIdAtom)
   const navigate = useNavigate()
@@ -20,7 +21,7 @@ export function ReviewDetail({ errorData, dict }: { errorData: TErrorWordData[];
     setCurrentDictId(dict.id)
     setCurrentChapter(-1)
 
-    const record = await generateNewWordReviewRecord(dict.id, errorData)
+    const record = await generateNewWordReviewRecord(dict.id, errorData, accountId)
     setReviewModeInfo({ isReviewMode: true, reviewRecord: record })
     navigate('/')
   }

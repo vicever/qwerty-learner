@@ -1,4 +1,5 @@
 import atomForConfig from './atomForConfig'
+import { currentAccountIdAtom, currentAccountNameAtom, accountsAtom, initAccount } from './accountAtom'
 import { reviewInfoAtom } from './reviewInfoAtom'
 import { DISMISS_START_CARD_DATE_KEY, defaultFontSizeConfig } from '@/constants'
 import { idDictionaryMap } from '@/resources/dictionary'
@@ -112,6 +113,12 @@ export const dismissStartCardDateAtom = atomWithStorage<Date | null>(DISMISS_STA
 
 // Enhanced version promotion popup state
 export const hasSeenEnhancedPromotionAtom = atomWithStorage('hasSeenEnhancedPromotion', false)
+
+// 账户相关
+export { currentAccountIdAtom, currentAccountNameAtom, accountsAtom, initAccount }
+
+// 练习模式：'word' | 'sentence'
+export { practiceModeAtom, type PracticeMode } from './practiceModeAtom'
 
 // for dev test
 //   dismissStartCardDateAtom = atom<Date | null>(new Date())

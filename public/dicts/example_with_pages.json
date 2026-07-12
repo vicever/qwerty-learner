@@ -1,0 +1,182 @@
+[
+    {
+        "name": "apple",
+        "trans": [
+            "苹果"
+        ],
+        "usphone": "'æpl",
+        "ukphone": "'æpl",
+        "page": 1
+    },
+    {
+        "name": "banana",
+        "trans": [
+            "香蕉"
+        ],
+        "usphone": "bə'nænə",
+        "ukphone": "bə'nɑːnə",
+        "page": 1
+    },
+    {
+        "name": "orange",
+        "trans": [
+            "橙子"
+        ],
+        "usphone": "'ɔrɪndʒ",
+        "ukphone": "'ɒrɪndʒ",
+        "page": 1
+    },
+    {
+        "name": "grape",
+        "trans": [
+            "葡萄"
+        ],
+        "usphone": "ɡreɪp",
+        "ukphone": "ɡreɪp",
+        "page": 1
+    },
+    {
+        "name": "watermelon",
+        "trans": [
+            "西瓜"
+        ],
+        "usphone": "'wɔtərˌmɛlən",
+        "ukphone": "'wɔːtəˌmelən",
+        "page": 1
+    },
+    {
+        "name": "strawberry",
+        "trans": [
+            "草莓"
+        ],
+        "usphone": "'strɔˌbɛri",
+        "ukphone": "'strɔːberi",
+        "page": 2
+    },
+    {
+        "name": "cherry",
+        "trans": [
+            "樱桃"
+        ],
+        "usphone": "'tʃɛri",
+        "ukphone": "'tʃeri",
+        "page": 2
+    },
+    {
+        "name": "peach",
+        "trans": [
+            "桃子"
+        ],
+        "usphone": "pitʃ",
+        "ukphone": "piːtʃ",
+        "page": 2
+    },
+    {
+        "name": "pear",
+        "trans": [
+            "梨"
+        ],
+        "usphone": "pɛr",
+        "ukphone": "peə",
+        "page": 2
+    },
+    {
+        "name": "pineapple",
+        "trans": [
+            "菠萝"
+        ],
+        "usphone": "'paɪnˌæpl",
+        "ukphone": "'paɪnæpl",
+        "page": 2
+    },
+    {
+        "name": "mango",
+        "trans": [
+            "芒果"
+        ],
+        "usphone": "'mæŋɡo",
+        "ukphone": "'mæŋɡəʊ",
+        "page": 3
+    },
+    {
+        "name": "kiwi",
+        "trans": [
+            "猕猴桃"
+        ],
+        "usphone": "'kiwi",
+        "ukphone": "'kiːwi",
+        "page": 3
+    },
+    {
+        "name": "lemon",
+        "trans": [
+            "柠檬"
+        ],
+        "usphone": "'lɛmən",
+        "ukphone": "'lemən",
+        "page": 3
+    },
+    {
+        "name": "lime",
+        "trans": [
+            "酸橙"
+        ],
+        "usphone": "laɪm",
+        "ukphone": "laɪm",
+        "page": 3
+    },
+    {
+        "name": "coconut",
+        "trans": [
+            "椰子"
+        ],
+        "usphone": "'koʊkəˌnʌt",
+        "ukphone": "'kəʊkənʌt",
+        "page": 3
+    },
+    {
+        "name": "papaya",
+        "trans": [
+            "木瓜"
+        ],
+        "usphone": "pə'paɪə",
+        "ukphone": "pə'paɪə",
+        "page": 4
+    },
+    {
+        "name": "avocado",
+        "trans": [
+            "牛油果"
+        ],
+        "usphone": "ə'vɑkədo",
+        "ukphone": "ə'vɒkədəʊ",
+        "page": 4
+    },
+    {
+        "name": "blueberry",
+        "trans": [
+            "蓝莓"
+        ],
+        "usphone": "'blubɛri",
+        "ukphone": "'bluːberi",
+        "page": 4
+    },
+    {
+        "name": "raspberry",
+        "trans": [
+            "覆盆子"
+        ],
+        "usphone": "'ræzˌbɛri",
+        "ukphone": "'rɑːzberi",
+        "page": 4
+    },
+    {
+        "name": "blackberry",
+        "trans": [
+            "黑莓"
+        ],
+        "usphone": "'blækbɛri",
+        "ukphone": "'blækbəri",
+        "page": 4
+    }
+]

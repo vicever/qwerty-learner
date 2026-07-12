@@ -14,6 +14,8 @@ export interface IWordRecord {
   wrongCount: number
   // 每个字母被错误输入成什么, index 为字母的索引, 数组内为错误的 e.key
   mistakes: LetterMistakes
+  // 账户 ID，用于多账户隔离
+  accountId?: string
 }
 
 export interface LetterMistakes {
@@ -29,8 +31,9 @@ export class WordRecord implements IWordRecord {
   timing: number[]
   wrongCount: number
   mistakes: LetterMistakes
+  accountId?: string
 
-  constructor(word: string, dict: string, chapter: number | null, timing: number[], wrongCount: number, mistakes: LetterMistakes) {
+  constructor(word: string, dict: string, chapter: number | null, timing: number[], wrongCount: number, mistakes: LetterMistakes, accountId?: string) {
     this.word = word
     this.timeStamp = getUTCUnixTimestamp()
     this.dict = dict
@@ -38,6 +41,7 @@ export class WordRecord implements IWordRecord {
     this.timing = timing
     this.wrongCount = wrongCount
     this.mistakes = mistakes
+    this.accountId = accountId
   }
 
   get totalTime() {
@@ -65,6 +69,8 @@ export interface IChapterRecord {
   wordNumber: number
   // 单词 record 的 id 列表
   wordRecordIds: number[]
+  // 账户 ID，用于多账户隔离
+  accountId?: string
 }
 
 export class ChapterRecord implements IChapterRecord {
@@ -78,6 +84,7 @@ export class ChapterRecord implements IChapterRecord {
   correctWordIndexes: number[]
   wordNumber: number
   wordRecordIds: number[]
+  accountId?: string
 
   constructor(
     dict: string,
@@ -89,6 +96,7 @@ export class ChapterRecord implements IChapterRecord {
     correctWordIndexes: number[],
     wordNumber: number,
     wordRecordIds: number[],
+    accountId?: string,
   ) {
     this.dict = dict
     this.chapter = chapter
@@ -100,6 +108,7 @@ export class ChapterRecord implements IChapterRecord {
     this.correctWordIndexes = correctWordIndexes
     this.wordNumber = wordNumber
     this.wordRecordIds = wordRecordIds
+    this.accountId = accountId
   }
 
   get wpm() {
@@ -126,6 +135,8 @@ export interface IReviewRecord {
   isFinished: boolean
   // 单词列表, 根据复习算法生成和修改，可能会有重复值
   words: Word[]
+  // 账户 ID，用于多账户隔离
+  accountId?: string
 }
 
 export class ReviewRecord implements IReviewRecord {
@@ -135,13 +146,15 @@ export class ReviewRecord implements IReviewRecord {
   createTime: number
   isFinished: boolean
   words: Word[]
+  accountId?: string
 
-  constructor(dict: string, words: Word[]) {
+  constructor(dict: string, words: Word[], accountId?: string) {
     this.dict = dict
     this.index = 0
     this.createTime = getUTCUnixTimestamp()
     this.words = words
     this.isFinished = false
+    this.accountId = accountId
   }
 }
 
