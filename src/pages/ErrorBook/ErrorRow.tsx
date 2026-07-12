@@ -16,6 +16,10 @@ import DeleteIcon from '~icons/weui/delete-filled'
 type IErrorRowProps = {
   record: groupedWordRecords
   onDelete: () => void
+  // 是否被选中（用于批量练习）
+  isSelected: boolean
+  // 切换选中状态
+  onToggleSelect: () => void
 }
 
 // 将 UTC 时间戳格式化为日期字符串
@@ -29,7 +33,7 @@ function formatTimestamp(timestamp: number): string {
   return `${year}-${month}-${day} ${hours}:${minutes}`
 }
 
-const ErrorRow: FC<IErrorRowProps> = ({ record, onDelete }) => {
+const ErrorRow: FC<IErrorRowProps> = ({ record, onDelete, isSelected, onToggleSelect }) => {
   const setCurrentRowDetail = useSetAtom(currentRowDetailAtom)
   const setReviewModeInfo = useSetAtom(reviewModeInfoAtom)
   const setCurrentDictId = useSetAtom(currentDictIdAtom)
@@ -67,8 +71,18 @@ const ErrorRow: FC<IErrorRowProps> = ({ record, onDelete }) => {
       className="opacity-85 flex w-full cursor-pointer items-center justify-between rounded-lg bg-white px-6 py-3 text-black shadow-md dark:bg-gray-800 dark:text-white"
       onClick={onClick}
     >
+      <span
+        className="flex basis-1/12 justify-center"
+        onClick={(e) => {
+          // 阻止冒泡，避免触发行点击事件
+          e.stopPropagation()
+          onToggleSelect()
+        }}
+      >
+        <input type="checkbox" className="h-4 w-4 cursor-pointer" checked={isSelected} readOnly />
+      </span>
       <span className="basis-2/12 break-normal">{record.word}</span>
-      <span className="basis-5/12 break-normal">
+      <span className="basis-4/12 break-normal">
         {word ? word.trans.join('；') : <LoadingWordUI isLoading={isLoading} hasError={hasError} />}
       </span>
       <span className="basis-1/12 break-normal pl-8">{record.wrongCount}</span>

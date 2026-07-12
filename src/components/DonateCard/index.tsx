@@ -114,7 +114,7 @@ export const DonateCard = () => {
                   <h1 className="gradient-text w-full pt-3 text-center text-[2.4rem] font-bold">{`${chapterNumber} Chapters Achievement !`}</h1>
                   <div className="flex w-full flex-col gap-4 px-4">
                     <p className="mx-auto px-4 indent-4">
-                      Qwerty Learner 已经陪伴您走过
+                      KUKU单词 已经陪伴您走过
                       <HighlightedText> {dayFromFirstWord} </HighlightedText>天，一起完成了
                       <HighlightedText> {wordNumber} </HighlightedText>
                       个词的练习，帮您纠正了 <HighlightedText> {sumWrongCount} </HighlightedText>
@@ -125,19 +125,19 @@ export const DonateCard = () => {
                       <br />
                     </p>
                     <p className="mx-auto px-4 indent-4 font-bold">
-                      Qwerty Learner 坚持 <span className="font-medium ">开源、无广告、无商业化</span> 已经
+                      KUKU单词 坚持 <span className="font-medium ">开源、无广告、无商业化</span> 已经
                       <HighlightedText className="text-indigo-500"> {dayFromQwerty} </HighlightedText>天。
                     </p>
                     <p className="mx-auto px-4 indent-4">
                       随着越来越多的同学加入，服务器和维护成本也在不断增长，
                       <span className="font-semibold text-indigo-600 dark:text-indigo-400">
-                        目前项目的运营成本仍由开发者个人承担，Qwerty 的长期运营需要您的一份力量
+                        目前项目的运营成本仍由开发者个人承担，KUKU单词 的长期运营需要您的一份力量
                       </span>
-                      。如果 Qwerty 对您的学习有所帮助，希望您能考虑捐赠支持我们——哪怕是一杯咖啡的金额，都能帮助 Qwerty
+                      。如果 KUKU单词 对您的学习有所帮助，希望您能考虑捐赠支持我们——哪怕是一杯咖啡的金额，都能帮助 KUKU单词
                       继续陪伴更多学习者成长。
                     </p>
                     <p className="mx-auto px-4 indent-4 ">
-                      为了感谢您的慷慨，单次 50 rmb 及以上的捐赠， 我们将回赠 Qwerty 的定制贴纸 5 枚
+                      为了感谢您的慷慨，单次 50 rmb 及以上的捐赠， 我们将回赠 KUKU单词 的定制贴纸 5 枚
                       <span className="text-xs">（仅限大陆地区）</span>，希望您可以跟朋友分享您的快乐
                     </p>
                     <div className="flex items-center justify-center">

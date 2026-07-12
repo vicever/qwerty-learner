@@ -17,6 +17,7 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 
 const AnalysisPage = lazy(() => import('./pages/Analysis'))
+const CalendarPage = lazy(() => import('./pages/Calendar'))
 const DataManagerPage = lazy(() => import('./pages/DataManager'))
 const GalleryPage = lazy(() => import('./pages/Gallery-N'))
 const ReviewPage = lazy(() => import('./pages/Review'))
@@ -80,6 +81,7 @@ function Root() {
                 <Route path="/gallery" element={<GalleryPage />} />
                 <Route path="/analysis" element={<AnalysisPage />} />
                 <Route path="/review" element={<ReviewPage />} />
+                <Route path="/calendar" element={<CalendarPage />} />
                 <Route path="/data-manager" element={<DataManagerPage />} />
                 <Route path="/error-book" element={<ErrorBook />} />
                 <Route path="/friend-links" element={<FriendLinks />} />

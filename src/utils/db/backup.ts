@@ -14,7 +14,7 @@ export interface BackupData {
   localStorage: Record<string, string>
 }
 
-const APP_VERSION_KEY = 'qwerty_learner_backup_version'
+const APP_VERSION_KEY = 'kuku_backup_version'
 
 export async function exportData(): Promise<BackupData> {
   const accounts = await accountDB.accounts.toArray()
@@ -90,7 +90,7 @@ export async function autoBackupOnVersionUpgrade(): Promise<void> {
   if (lastBackupVersion !== currentVersion) {
     try {
       const backup = await exportData()
-      localStorage.setItem(`qwerty_learner_backup_${lastBackupVersion || 'pre_v1'}`, JSON.stringify(backup))
+      localStorage.setItem(`kuku_backup_${lastBackupVersion || 'pre_v1'}`, JSON.stringify(backup))
       localStorage.setItem(APP_VERSION_KEY, currentVersion)
       console.log(`版本升级自动备份完成: ${lastBackupVersion || 'pre_v1'} -> ${currentVersion}`)
     } catch (error) {
@@ -210,7 +210,7 @@ export function downloadBackup(): void {
     const url = URL.createObjectURL(blob)
     const a = document.createElement('a')
     a.href = url
-    a.download = `qwerty-learner-backup-${new Date().toISOString().split('T')[0]}.json`
+    a.download = `kuku-backup-${new Date().toISOString().split('T')[0]}.json`
     document.body.appendChild(a)
     a.click()
     document.body.removeChild(a)
@@ -226,15 +226,15 @@ export function getLocalBackupVersions(): string[] {
   const versions: string[] = []
   for (let i = 0; i < localStorage.length; i++) {
     const key = localStorage.key(i)
-    if (key && key.startsWith('qwerty_learner_backup_')) {
-      versions.push(key.replace('qwerty_learner_backup_', ''))
+    if (key && key.startsWith('kuku_backup_')) {
+      versions.push(key.replace('kuku_backup_', ''))
     }
   }
   return versions.sort()
 }
 
 export function getLocalBackup(version: string): BackupData | null {
-  const data = localStorage.getItem(`qwerty_learner_backup_${version}`)
+  const data = localStorage.getItem(`kuku_backup_${version}`)
   if (!data) return null
   try {
     return JSON.parse(data)
