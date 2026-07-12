@@ -15,9 +15,9 @@ import { DonateCard } from '@/components/DonateCard'
 import Header from '@/components/Header'
 import Tooltip from '@/components/Tooltip'
 import { idDictionaryMap } from '@/resources/dictionary'
-import { currentChapterAtom, currentDictIdAtom, isReviewModeAtom, randomConfigAtom, reviewModeInfoAtom } from '@/store'
+import { currentAccountIdAtom, currentChapterAtom, currentDictIdAtom, isReviewModeAtom, randomConfigAtom, reviewModeInfoAtom } from '@/store'
 import { IsDesktop, isLegal } from '@/utils'
-import { useSaveChapterRecord } from '@/utils/db'
+import { getFsrsCardStats, useSaveChapterRecord } from '@/utils/db'
 import { useMixPanelChapterLogUploader } from '@/utils/mixpanel'
 import { useAtom, useAtomValue, useSetAtom } from 'jotai'
 import type React from 'react'
@@ -38,6 +38,24 @@ const App: React.FC = () => {
 
   const reviewModeInfo = useAtomValue(reviewModeInfoAtom)
   const isReviewMode = useAtomValue(isReviewModeAtom)
+
+  // 待复习卡片数（用于首页提示）
+  const accountId = useAtomValue(currentAccountIdAtom)
+  const [dueCount, setDueCount] = useState(0)
+
+  useEffect(() => {
+    const loadDueCount = async () => {
+      if (!accountId) {
+        setDueCount(0)
+        return
+      }
+      const fsrsStats = await getFsrsCardStats(accountId)
+      setDueCount(fsrsStats.dueCount)
+    }
+    loadDueCount()
+    const interval = setInterval(loadDueCount, 60000)
+    return () => clearInterval(interval)
+  }, [accountId])
 
   useEffect(() => {
     // 检测用户设备
@@ -160,7 +178,7 @@ const App: React.FC = () => {
                   ></div>
                 </div>
               ) : (
-                !state.isFinished && <WordPanel />
+                !state.isFinished && <WordPanel dueCount={dueCount} />
               )}
             </div>
             {/* 未开始练习时显示"今日手感"仪表板卡片 */}

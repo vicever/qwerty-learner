@@ -29,6 +29,7 @@ import { useAtomValue } from 'jotai'
 import { useCallback, useContext, useEffect, useRef, useState } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
 import { useImmer } from 'use-immer'
+import { fontSizeConfigAtom } from '@/store'
 
 const vowelLetters = ['A', 'E', 'I', 'O', 'U']
 
@@ -52,6 +53,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
 
   const [showTipAlert, setShowTipAlert] = useState(false)
   const wordPronunciationIconRef = useRef<WordPronunciationIconRef>(null)
+  const fontSizeConfig = useAtomValue(fontSizeConfigAtom)
 
   useEffect(() => {
     // run only when word changes
@@ -352,6 +354,17 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
           }`}
           data-tip="按 Tab 快捷键显示完整单词"
         >
+          {/* 错误时在上方显示绿色正确答案 */}
+          {wordState.showCorrectAfterWrong && (
+            <div className="mb-2 flex items-center justify-center">
+              <span
+                className="font-mono text-green-500 dark:text-green-400"
+                style={{ fontSize: fontSizeConfig.foreignFont.toString() + 'px' }}
+              >
+                {wordState.displayWord.replace(new RegExp(EXPLICIT_SPACE, 'g'), ' ')}
+              </span>
+            </div>
+          )}
           <div
             onMouseEnter={() => handleHoverWord(true)}
             onMouseLeave={() => handleHoverWord(false)}

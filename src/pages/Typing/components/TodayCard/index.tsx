@@ -7,11 +7,13 @@ import IconClock from '~icons/heroicons/clock-solid'
 import IconFire from '~icons/heroicons/fire-solid'
 import IconChart from '~icons/heroicons/chart-bar-solid'
 import IconArrowRight from '~icons/heroicons/arrow-right-solid'
+import IconCheck from '~icons/heroicons/check-circle-solid'
 
 interface TodayStats {
   todayDuration: number // 秒
   todayWordCount: number
   dueCount: number
+  todayReviewCount: number // 今日已复习次数
   efficiencyDelta: number // 百分比，正为提升
 }
 
@@ -67,10 +69,14 @@ export default function TodayCard() {
       // FSRS 到期数
       const fsrsStats = await getFsrsCardStats(accountId)
 
+      // 今日已复习次数（chapter=-1 表示复习模式）
+      const todayReviewCount = todayRecords.filter((r) => r.chapter === -1).length
+
       setStats({
         todayDuration,
         todayWordCount,
         dueCount: fsrsStats.dueCount,
+        todayReviewCount,
         efficiencyDelta,
       })
     }
@@ -114,6 +120,15 @@ export default function TodayCard() {
         </div>
         <IconArrowRight className="h-4 w-4 text-gray-300" />
       </button>
+
+      {/* 今日已复习 */}
+      <div className="flex items-center gap-2 rounded-xl bg-white px-4 py-2 shadow-sm dark:bg-gray-800">
+        <IconCheck className="h-5 w-5 text-emerald-400" />
+        <div>
+          <div className="text-xs text-gray-400">今日已复习</div>
+          <div className="text-sm font-bold text-gray-700 dark:text-gray-200">{stats.todayReviewCount} 次</div>
+        </div>
+      </div>
 
       {/* 效率提升 */}
       {stats.efficiencyDelta !== 0 && (

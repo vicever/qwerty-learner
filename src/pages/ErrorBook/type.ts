@@ -5,4 +5,6 @@ export type groupedWordRecords = {
   dict: string
   records: WordRecord[]
   wrongCount: number
+  // 最近错误时间（UTC时间戳）
+  lastWrongTime: number
 }

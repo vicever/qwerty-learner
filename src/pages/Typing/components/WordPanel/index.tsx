@@ -12,10 +12,17 @@ import type { Word } from '@/typings'
 import { useAtomValue, useSetAtom } from 'jotai'
 import { useCallback, useContext, useMemo, useState } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
+import { useNavigate } from 'react-router-dom'
 
-export default function WordPanel() {
+interface WordPanelProps {
+  /** 待复习卡片数，用于显示复习提示 */
+  dueCount?: number
+}
+
+export default function WordPanel({ dueCount = 0 }: WordPanelProps) {
   // eslint-disable-next-line  @typescript-eslint/no-non-null-assertion
   const { state, dispatch } = useContext(TypingContext)!
+  const navigate = useNavigate()
   const phoneticConfig = useAtomValue(phoneticConfigAtom)
   const isShowPrevAndNextWord = useAtomValue(isShowPrevAndNextWordAtom)
   const [wordComponentKey, setWordComponentKey] = useState(0)
@@ -175,10 +182,22 @@ export default function WordPanel() {
           <div className="relative flex w-full justify-center">
             {!state.isTyping && (
               <div className="absolute flex h-full w-full justify-center">
-                <div className="z-10 flex w-full items-center backdrop-blur-sm">
+                <div className="z-10 flex w-full flex-col items-center backdrop-blur-sm">
                   <p className="w-full select-none text-center text-xl text-gray-600 dark:text-gray-50">
                     按任意键{state.timerData.time ? '继续' : '开始'}
                   </p>
+                  {dueCount > 0 && (
+                    <button
+                      type="button"
+                      onClick={(e) => {
+                        e.preventDefault()
+                        navigate('/review')
+                      }}
+                      className="mt-2 text-sm text-indigo-400 hover:text-indigo-500 dark:text-indigo-300 dark:hover:text-indigo-200"
+                    >
+                      有 {dueCount} 个单词待复习，点击前往复习 →
+                    </button>
+                  )}
                 </div>
               </div>
             )}
