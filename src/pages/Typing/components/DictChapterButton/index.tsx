@@ -43,7 +43,7 @@ export const DictChapterButton = () => {
       
       // 设置当前页码
       const currentWordIndex = currentChapter * CHAPTER_LENGTH
-      if (currentWordIndex < wordList.length && wordList[currentWordIndex].page !== undefined) {
+      if (currentWordIndex >= 0 && currentWordIndex < wordList.length && wordList[currentWordIndex].page !== undefined) {
         setCurrentPage(wordList[currentWordIndex].page!)
       }
     }

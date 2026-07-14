@@ -174,31 +174,35 @@ export function ErrorBook() {
     // ReviewRecord 只能绑定一个词典，采用第一个出现的词典作为主词典
     const firstDict = selectedRecords[0].dict
 
-    // 并发拉取所有涉及的词典词表
-    const dictWordListEntries = await Promise.all(
-      Array.from(dictToWords.keys()).map(async (dict) => {
-        const dictInfo = idDictionaryMap[dict]
-        const wordList = dictInfo ? await wordListFetcher(dictInfo.url) : []
-        return [dict, wordList] as const
-      }),
-    )
-    const dictWordListMap = new Map(dictWordListEntries)
+    try {
+      // 并发拉取所有涉及的词典词表
+      const dictWordListEntries = await Promise.all(
+        Array.from(dictToWords.keys()).map(async (dict) => {
+          const dictInfo = idDictionaryMap[dict]
+          const wordList = dictInfo ? await wordListFetcher(dictInfo.url) : []
+          return [dict, wordList] as const
+        }),
+      )
+      const dictWordListMap = new Map(dictWordListEntries)
 
-    // 按选中顺序查找对应的 Word 对象
-    const allWords: Word[] = []
-    selectedRecords.forEach((r) => {
-      const wordList = dictWordListMap.get(r.dict) ?? []
-      const w = wordList.find((item) => item.name === r.word)
-      if (w) allWords.push(w)
-    })
-    if (allWords.length === 0) return
+      // 按选中顺序查找对应的 Word 对象
+      const allWords: Word[] = []
+      selectedRecords.forEach((r) => {
+        const wordList = dictWordListMap.get(r.dict) ?? []
+        const w = wordList.find((item) => item.name === r.word)
+        if (w) allWords.push(w)
+      })
+      if (allWords.length === 0) return
 
-    // 创建复习记录并进入复习模式
-    const reviewRecord = new ReviewRecord(firstDict, allWords, accountId)
-    setReviewModeInfo({ isReviewMode: true, reviewRecord })
-    setCurrentDictId(firstDict)
-    setCurrentChapter(-1)
-    navigate('/')
+      // 创建复习记录并进入复习模式
+      const reviewRecord = new ReviewRecord(firstDict, allWords, accountId)
+      setReviewModeInfo({ isReviewMode: true, reviewRecord })
+      setCurrentDictId(firstDict)
+      setCurrentChapter(-1)
+      navigate('/')
+    } catch (e) {
+      console.error('[批量练习] 出错:', e)
+    }
   }, [selectedWords, sortedRecords, accountId, setReviewModeInfo, setCurrentDictId, setCurrentChapter, navigate])
 
   return (

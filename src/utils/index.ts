@@ -48,16 +48,20 @@ export const isChineseSymbol = (val: string): boolean =>
 
 export const IsDesktop = () => {
   const userAgentInfo = navigator.userAgent
-  const Agents = ['Android', 'iPhone', 'SymbianOS', 'Windows Phone', 'iPad', 'iPod']
+  const mobileAgents = ['Android', 'iPhone', 'SymbianOS', 'Windows Phone', 'iPod']
+  const tabletAgents = ['iPad']
 
-  let flag = true
-  for (let v = 0; v < Agents.length; v++) {
-    if (userAgentInfo.indexOf(Agents[v]) > 0) {
-      flag = false
+  let isMobile = false
+  for (let v = 0; v < mobileAgents.length; v++) {
+    if (userAgentInfo.indexOf(mobileAgents[v]) > 0) {
+      isMobile = true
       break
     }
   }
-  return flag
+
+  const isTablet = tabletAgents.some((agent) => userAgentInfo.indexOf(agent) > 0)
+
+  return !isMobile || isTablet
 }
 
 export const IS_MAC_OS = navigator.userAgent.indexOf('Macintosh') !== -1

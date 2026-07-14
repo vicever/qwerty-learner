@@ -6,6 +6,7 @@ import { db } from './index'
 export interface BackupData {
   version: string
   exportTime: number
+  appVersion: string
   accounts: IAccount[]
   wordRecords: unknown[]
   chapterRecords: unknown[]
@@ -34,6 +35,7 @@ export async function exportData(): Promise<BackupData> {
   return {
     version: getAppVersion(),
     exportTime: Date.now(),
+    appVersion: getAppVersion(),
     accounts,
     wordRecords,
     chapterRecords,
@@ -241,4 +243,80 @@ export function getLocalBackup(version: string): BackupData | null {
   } catch {
     return null
   }
+}
+
+export interface BackupComparison {
+  isNewer: boolean
+  isOlder: boolean
+  isSame: boolean
+  localTime: number
+  backupTime: number
+  timeDiff: number
+  localStats: {
+    accounts: number
+    wordRecords: number
+    chapterRecords: number
+    reviewRecords: number
+    fsrsCards: number
+  }
+  backupStats: {
+    accounts: number
+    wordRecords: number
+    chapterRecords: number
+    reviewRecords: number
+    fsrsCards: number
+  }
+  appVersionMatch: boolean
+  localAppVersion: string
+  backupAppVersion: string
+}
+
+export async function compareBackup(backup: BackupData): Promise<BackupComparison> {
+  const localStats = (await checkDataIntegrity()).stats
+  const localTime = localStorage.getItem('kuku_last_update_time')
+  const localTimeNum = localTime ? parseInt(localTime, 10) : 0
+  const backupTime = backup.exportTime || 0
+
+  const localAppVersion = getAppVersion()
+  const backupAppVersion = backup.appVersion || 'unknown'
+
+  const timeDiff = backupTime - localTimeNum
+
+  return {
+    isNewer: timeDiff > 0,
+    isOlder: timeDiff < 0,
+    isSame: timeDiff === 0,
+    localTime: localTimeNum,
+    backupTime,
+    timeDiff,
+    localStats,
+    backupStats: {
+      accounts: backup.accounts.length,
+      wordRecords: backup.wordRecords.length,
+      chapterRecords: backup.chapterRecords.length,
+      reviewRecords: backup.reviewRecords.length,
+      fsrsCards: backup.fsrsCards.length,
+    },
+    appVersionMatch: localAppVersion === backupAppVersion,
+    localAppVersion,
+    backupAppVersion,
+  }
+}
+
+export function recordLastUpdateTime(): void {
+  localStorage.setItem('kuku_last_update_time', Date.now().toString())
+}
+
+export function formatTimeAgo(timestamp: number): string {
+  const now = Date.now()
+  const diff = now - timestamp
+  const minutes = Math.floor(diff / 60000)
+  const hours = Math.floor(diff / 3600000)
+  const days = Math.floor(diff / 86400000)
+
+  if (minutes < 1) return '刚刚'
+  if (minutes < 60) return `${minutes}分钟前`
+  if (hours < 24) return `${hours}小时前`
+  if (days < 7) return `${days}天前`
+  return new Date(timestamp).toLocaleDateString()
 }

@@ -61,9 +61,8 @@ export default function DataSetting() {
           <div className={styles.section}>
             <span className={styles.sectionLabel}>数据导出</span>
             <span className={styles.sectionDescription}>
-              目前，用户的练习数据<strong>仅保存在本地</strong>。如果您需要在不同的设备、浏览器或者其他非官方部署上使用 KUKU单词，
-              您需要手动进行数据同步和保存。为了保留您的练习进度，以及使用近期即将上线的数据分析和智能训练功能，
-              我们建议您及时备份您的数据。
+              将当前设备的所有数据（账户、单词记录、复习进度、设置配置）导出为压缩文件。
+              导出的文件包含时间戳和版本信息，便于多设备同步时进行比对。
             </span>
             <span className="pl-4 text-left text-sm font-bold leading-tight text-red-500">
               为了您的数据安全，请不要修改导出的数据文件。
@@ -94,6 +93,14 @@ export default function DataSetting() {
           <div className={styles.section}>
             <span className={styles.sectionLabel}>数据导入</span>
             <span className={styles.sectionDescription}>
+              从导出的文件中恢复数据。导入前请确保：
+            </span>
+            <ul className="pl-8 text-left text-sm text-gray-600">
+              <li>• 已备份当前设备的数据</li>
+              <li>• 导入文件是从最新版本导出的</li>
+              <li>• 确认文件未被修改或损坏</li>
+            </ul>
+            <span className="pl-4 text-left text-sm font-bold leading-tight text-red-500">
               请注意，导入数据将<strong className="text-sm font-bold text-red-500"> 完全覆盖 </strong>当前数据。请谨慎操作。
             </span>
 
@@ -119,6 +126,34 @@ export default function DataSetting() {
             >
               导入数据
             </button>
+          </div>
+          <div className={styles.section}>
+            <span className={styles.sectionLabel}>多设备同步指南</span>
+            <span className={styles.sectionDescription}>
+              您可以通过以下步骤在不同设备间同步数据：
+            </span>
+            <div className="pl-6 pt-2">
+              <div className="mb-2">
+                <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-indigo-500 text-xs font-bold text-white">1</span>
+                <span className="ml-2 text-sm">在源设备上点击「导出数据」，下载备份文件</span>
+              </div>
+              <div className="mb-2">
+                <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-indigo-500 text-xs font-bold text-white">2</span>
+                <span className="ml-2 text-sm">通过 AirDrop、微信、邮件等方式将文件发送到目标设备</span>
+              </div>
+              <div className="mb-2">
+                <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-indigo-500 text-xs font-bold text-white">3</span>
+                <span className="ml-2 text-sm">在目标设备上点击「导入数据」，选择发送的备份文件</span>
+              </div>
+              <div className="mb-2">
+                <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-indigo-500 text-xs font-bold text-white">4</span>
+                <span className="ml-2 text-sm">等待导入完成，刷新页面即可使用同步后的数据</span>
+              </div>
+            </div>
+            <div className="mt-3 rounded bg-yellow-50 p-3 text-xs text-yellow-700">
+              <strong>提示：</strong>建议在使用新设备前先导出旧设备数据，避免数据丢失。
+              导出文件包含时间戳，导入时可以确认数据版本是否最新。
+            </div>
           </div>
           <div className={styles.section}>
             <span className={styles.sectionLabel}>高级数据管理</span>

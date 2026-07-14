@@ -53,11 +53,17 @@ function Root() {
     })
   }, [])
 
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 600)
+  const [isMobile, setIsMobile] = useState(() => {
+    const width = window.innerWidth
+    const isIpad = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream
+    return !isIpad && width <= 600
+  })
 
   useEffect(() => {
     const handleResize = () => {
-      const isMobile = window.innerWidth <= 600
+      const width = window.innerWidth
+      const isIpad = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream
+      const isMobile = !isIpad && width <= 600
       if (!isMobile) {
         window.location.href = '/'
       }
