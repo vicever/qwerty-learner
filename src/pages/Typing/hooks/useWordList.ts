@@ -20,8 +20,8 @@ export function useWordList(): UseWordListResult {
   const [currentChapter, setCurrentChapter] = useAtom(currentChapterAtom)
   const { isReviewMode, reviewRecord } = useAtomValue(reviewModeInfoAtom)
 
-  // Reset current chapter to 0, when currentChapter is greater than chapterCount.
-  if (currentChapter >= currentDictInfo.chapterCount) {
+  // Reset current chapter to 0, when currentChapter is out of range.
+  if (currentChapter < 0 || currentChapter >= currentDictInfo.chapterCount) {
     setCurrentChapter(0)
   }
 

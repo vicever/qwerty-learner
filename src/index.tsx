@@ -37,6 +37,8 @@ function Root() {
   }, [darkMode])
 
   useEffect(() => {
+    // 清理旧版本残留的 reviewModeInfo localStorage 缓存，避免刷新后白屏
+    localStorage.removeItem('reviewModeInfo')
     initAccount()
     autoBackupOnVersionUpgrade()
     checkDataIntegrity().then((result) => {
